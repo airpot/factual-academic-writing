@@ -1,7 +1,62 @@
-# Readability Review Reference
+# Expression Review: Removing AI-flavored Prose
 
-The historical filename is retained for continuity. This file defines readability judgments, not an AI-origin test.
-The purpose is clear academic prose with faithful evidence and relations.
+The historical filename is retained for continuity.
+The goal is natural academic expression that advances the argument and preserves author voice.
+AI-flavored prose means empty, repetitive, or mechanical expression here. It is not a judgment of who wrote the text.
+
+## Diagnose and rewrite at the right depth
+
+First identify what the passage needs to say and what the revision must preserve.
+Include its author position, terms, evidence boundaries, relations, and exact quotations.
+For a light edit, keep effective structure. For a deep rewrite, reconstruct the passage around the same supported point.
+
+| Problem | Revision that can help | Meaning to protect |
+| --- | --- | --- |
+| Broad opening or empty value statement | Start with the actual problem, observation, or question. Remove framing that contributes no argument. | A supported contribution or necessary context. |
+| Several sentences express one proposition | State it once. Use the freed space for supplied evidence or needed analysis. | Distinct conditions or meanings that only look repetitive. |
+| Abstract nouns conceal an action | Name the supplied actor and action directly. If the actor is unknown, keep that uncertainty. | The actual mechanism, agent, and technical meaning. |
+| Relations rely on stock transition words | Arrange ideas so known information leads to the next point. Choose a connector for the actual relation. | Additive, temporal, contrastive, and causal relations remain different. |
+| Unclear pronouns or shifting terms | Restore a precise referent or stable term. | A real distinction between concepts. |
+| Each sentence repeats caution or significance | Place the qualification at the claim it limits. Keep the evaluation that the evidence warrants. | Uncertainty, conditions, and conclusion strength. |
+| Mechanical summaries end each paragraph | Replace repetition with a supported consequence or omit the redundant ending. | A necessary conclusion or section connection. |
+
+Do not add concrete details merely to make prose sound human. Use only details supplied by the material.
+Do not change all noun phrases to verbs or all passive clauses to active clauses.
+Academic terms and disciplinary conventions can be the clearest expression.
+
+## Preserve author voice
+
+When a sample is available, identify its register, directness, terminology, and evaluation strength.
+Use those features to guide this passage. Do not imitate incidental sentence lengths or copy the sample's research claims.
+Without a sample, use the requested genre and the draft's effective voice. Do not invent an author persona.
+Do not replace direct prose with ornate academic framing, or turn formal prose into casual speech without a request.
+
+## Check the revised passage
+
+Compare the original and revision for quantities, conditions, modality, scope, argument, and exact quotations.
+After compression, check the state of each action and explanation against its source.
+Keep a possible explanation possible at its own clause. Keep capacity, intention, preparation, and completion distinct.
+Do not assume a leading "may" preserves every uncertainty after a sentence has been split or reordered.
+Check possible confounding factors and limitations for the same modal fidelity as principal findings.
+Read the revision as a whole for repeated propositions, unclear references, and connections that require the reader to guess.
+Compare nonadjacent sentences as well as the opening and ending. Name the contribution of each sentence privately.
+When a later clause repeats the same proposition and does no new job, delete it or combine it with the earlier occurrence.
+Changing the words does not remove a repeated meaning. Do not add an invented mechanism to make a sentence seem new.
+An explanation label, a research-question label, or "therefore" does not give a restated conclusion a new function.
+After a deep rewrite, try deleting suspected repeats and check that the evidence-to-conclusion reasoning remains complete.
+Keep the reasoning from evidence to a conclusion, and summaries that serve a distinct section function.
+Finish when the passage answers its question; do not add a closing paraphrase merely to give it an ending.
+Check whether the author voice remains appropriate.
+Keep meaningful qualifications. For each one, identify the claim it restricts before combining any repeated boundary.
+Do not remove a distinct condition or limitation merely because it uses similar caution words.
+For drafting, do not add a disclaimer for an effect, cause, population, or author intention that the prose does not assert.
+Check whether an explicit scope, conditional reading, or actual counterreading already gives the necessary boundary.
+For editing, combine duplicated limits but preserve each distinct supplied restriction and its clear relation to the affected claims.
+Repeat a necessary boundary beside separate claims or in independently readable sections when needed.
+Omit unrelated statements about checks that an expression edit did not require.
+Express preserved uncertainty through the claim's wording. Do not append a source-audit explanation when a modal and the actual counterreading suffice.
+An unchanged passage is a valid result when it already does its job.
+See [worked examples](writing-examples.md) for full passages and preservation explanations.
 
 ## Review candidates
 
@@ -43,9 +98,10 @@ Before:
 
 After:
 
-> 原型系统记录审计日志，用于回看人工修改记录。
+> 此外，原型系统还记录审计日志，用于回看人工修改记录。
 
-Claim C1 maps to F1, S1, item 1. The change removes redundant expression and retains the supplied mechanism and purpose.
+Claim C1 maps to F1, S1, item 1. The revision names the logging action directly and keeps its purpose and additive relation.
+Without the preceding paragraph, do not assume that the transition is unnecessary.
 Hash storage, XML parsing and tamper resistance are not supplied facts and must not appear in this rewrite.
 
 ## Quotation example
