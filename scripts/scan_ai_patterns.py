@@ -173,6 +173,8 @@ def scan_text(text):
 
 
 def main(argv=None):
+    if hasattr(sys.stdout, "reconfigure"):
+        sys.stdout.reconfigure(errors="backslashreplace")
     parser = argparse.ArgumentParser(
         description=__doc__,
         epilog="Exit codes: 0 = scan ran or help; 1 = explicit review gate matched; 2 = input error.",

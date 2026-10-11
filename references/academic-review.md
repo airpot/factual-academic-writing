@@ -1,193 +1,116 @@
 # Academic Argument and Manuscript Review
 
-Read only the parts relevant to the requested work. Do not impose a full audit on a sentence edit.
+Read the parts relevant to the task. Use [meaning preservation](meaning-preservation.md) for shared fidelity checks.
 
-## Argument and author decisions
+## Build an argument from supplied material
 
-For a structural draft, identify the research question, the author's main claim, and available evidence.
-Explain how the evidence supports the claim. Preserve conditions, counterexamples, and alternative explanations.
-Show the actual contribution relative to supplied prior work. Do not claim novelty from an incomplete literature search.
-A literature synthesis compares sources through meaningful dimensions, not just a sequence of summaries.
-Keep an author's supplied interpretation distinct from the agent's proposed reading.
-Qualified interpretation can enter discussion or textual analysis. It must not masquerade as an observed mechanism or established author intent.
-If the author's position is missing and essential, give an explicit proposal or question rather than inventing their decision.
-An already effective paragraph can remain unchanged. Do not force asymmetry, causal links, or a fixed paragraph count.
+Identify the author's question, main claim, intended readers and available evidence.
+Select the section's job before its wording. An essential missing author position calls for a proposal or question, not an invented decision.
+For a substantial draft, a compact plan can record:
 
-## Compose from supplied material
+| Point or paragraph job | Material and locator | Inference or assumption | Distinct boundary | Next point |
+| --- | --- | --- | --- | --- |
+| What should readers understand here? | What supports or qualifies it? | Why does that evidence support this point? | What changes its scope? | What does this point prepare? |
 
-Use these decisions when notes do not yet form an argument. They are not a fixed sentence template.
+Use only useful columns. Keep the plan private unless requested. Small edits need no formal plan.
+Arrange supplied material by comparison, sequence, contrast, explanation or another actual relation.
+Explain the inferential step when readers need it. A connector alone does not supply that step.
+If the step lacks support, narrow a draft's claim or identify the missing evidence or decision.
+For expression-only work, preserve the original claim and report the evidence issue separately.
+Definitions, methods and direct results can remain direct prose. Do not force analysis into every paragraph.
+An effective passage can remain unchanged. Do not impose a fixed sentence layout or paragraph count.
 
-1. Select the paragraph's job in the requested section. Choose a central point that advances the author's question.
-2. Select the material that supports or qualifies that point. Group related observations and omit unrelated background.
-3. Arrange the material by its actual relation: comparison, sequence, contrast, explanation, or an explicit inferential step.
-4. Explain what follows from the evidence and why. Distinguish the author's interpretation from observations and proposed readings.
-5. Attach a condition or counterexample where it changes the point. Do not append every possible limitation to every paragraph.
-6. End when the paragraph has done its job. Use a consequence or connection only when supplied material supports a further point.
+## Review the structure from the draft
 
-If an essential inferential step lacks support, narrow the paragraph's claim or identify the missing step.
-Do not fill the gap with generic significance, invented mechanisms, or another summary of the same evidence.
-Keep definitions, method descriptions, and direct results as direct prose when analysis would add no useful meaning.
+For a substantial section or manuscript, make a reverse outline of the available draft.
+Record each paragraph's topic, function, evidence and new contribution to the author's question.
+Do not assume its first sentence accurately states its job. Read the paragraph before summarizing it.
+Then ask:
 
-## Place qualifications against claims
+- Does each point have an appropriate role in this section?
+- What premise connects evidence to its conclusion? Is that premise supplied or justified?
+- Can the intended readers recover that relation without guessing?
+- Do different paragraphs do the same job with the same meaning?
+- Does a later summary orient a new section, or only paraphrase a completed point?
+- Has moving material changed a condition's attachment or an author's judgment?
 
-For each qualification, identify the exact claim or inference that it limits.
-Keep it when removing it would change that claim's scope, certainty, or logical relation.
-If several sentences state the same boundary, combine them at the affected claim.
-Different boundaries remain different, even when both use negative wording.
+Repair the argument or material arrangement before polishing its connectors.
+Compare nonadjacent passages. Preserve evidence and reasoning when combining duplicated conclusions.
+Keep necessary definitions, deliberate summaries and independently readable section boundaries.
+When a paragraph has completed its job, it needs no closing paraphrase or generic significance statement.
+Use [expression review](ai-pattern-library.md) for sentence-level functional decisions.
 
-For a draft, select limits that matter to the paragraph's point.
-A scoped description can report what occurred without listing absent experiments for outcomes that it does not claim.
-Give the required boundaries in a requested limitations section or reporting format.
-For an edit, keep supplied substantive limits. Combine their repeats without deleting a distinct meaning.
-If the central answer is missing, state that gap directly. Do not replace it with a list of unrelated studies not performed.
+## Literature synthesis
 
-When the claim already has an explicit observation scope, omit a closing disclaimer that merely repeats it.
-Repeat a qualification where a separate claim or independently readable section needs it to keep the scope clear.
-For a possible textual reading, qualified wording and an actual counterreading can give the necessary boundary.
-An additional statement that the reading is only a reading adds no analysis unless it resolves a remaining ambiguity.
-Add an access or study-design limit to manuscript prose only when it changes the requested claim or answers the task.
-Keep process records outside prose. A requested limitations section still needs its relevant limitations.
+Start with the author's question. Choose dimensions the supplied sources support, such as population, method or measured construct.
+Group sources by their relationships on those dimensions, rather than list their summaries.
+Make comparisons advance the question. Organize a study's methods and limits around what they establish for that comparison, rather than append the same caution pattern after every study.
+Check whether apparent agreement or conflict concerns comparable claims and conditions.
+Name the construct and coded actions needed to understand a result.
+Self-reports, observations and different constructs do not become interchangeable measurements.
+Develop a supported distinction or question. A few papers cannot establish a universal research gap.
+Do not manufacture agreement, novelty or a combined sample estimate.
 
-## Remove duplicate propositions without removing reasoning
+## Section and study decisions
 
-Before delivery, privately identify what each sentence adds: a claim, evidence, a reasoning step, a distinct boundary, or a section connection.
-Compare meanings across the whole passage, not just adjacent wording.
-If two clauses do the same job with the same meaning, keep the clearer occurrence or combine them.
-An opening claim, its paraphrase after the evidence, and a closing summary can repeat one conclusion three times.
-Keep the supported conclusion once and the evidence-to-conclusion reasoning it needs.
-Data and an inference from those data are different contributions; do not delete the inference merely because they concern the same point.
-
-For a paragraph whose main point is one contrast, choose where to state that contrast explicitly.
-The claim can lead and the evidence can follow, or the evidence can lead to one inference. These are options, not required sentence layouts.
-If the evidence already supports that contrast, do not add another version under "this answers the question", "therefore", or a concept label.
-Such labels give no new reasoning by themselves. A genuine further inference needs a different supported conclusion or relation.
-For a substantial draft or deep rewrite, make one separate deletion pass after composition.
-Try removing each suspected restatement. If the reader loses no evidence, reasoning, boundary, or needed connection, remove it.
-If removal breaks the reasoning, retain the needed part or combine it with the earlier claim.
-
-For example, "The groups used the same procedure but made different choices" and "This answers the question by showing different choices after the same procedure" do one job.
-Keep the supplied observations and one evidence-linked distinction; the second sentence adds no explanation of why choices differ.
-An information gap stated clearly also needs no final sentence announcing the same unanswered question again.
-
-After a revision, check whether each remaining sentence changes what the reader knows or how the reader can follow the argument.
-Do not fill the removed space with a new synonym, an unsupported cause, or generic significance.
-If the paragraph already gives its answer, finish there. A final sentence is optional.
-Keep a summary when it serves a distinct section function or the user requests it.
-For several requested sections, judge repetition against their different jobs rather than prohibit every repeated result.
-An objective followed by a broader paraphrase of the same objective adds no research purpose.
-Do not turn the author's contextual distinction into a new question that the study did not ask.
-Keep this comparison private unless the user requests an audit or change reasons.
-
-## Check meaning after compression
-
-Before a deep rewrite, identify the input's claim states and their scope privately.
-Separate observed actions, capacities, possible explanations, conditional effects, proposals, and completed results.
-After deletion, match each revised clause to its source. Preserve the state and scope at that clause.
-Check both strengthening and weakening. Adding "may" or "可能" to an asserted consequence changes the author's judgment too.
-Distinguish uncertainty about whether a condition holds from the consequence stated under that condition.
-For example, "The fall may reflect fewer invalid applications; that explanation means fewer unnecessary trips" leaves the explanation uncertain, not its stated conditional consequence.
-Preserve an asserted capacity such as "can reduce unnecessary visits"; do not turn it into a conjectural benefit merely because another outcome is uncertain.
-A possibility in one sentence does not authorize a categorical dependent explanation in another.
-If the source says an explanation may mean something, preserve that possibility where the explanation is expressed.
-Check subordinate clauses and a limitation's premise as well as its conclusion. Possible confounding factors are not observed group differences.
-A capacity, imagined action, request, preparation, or plan is not a narrated or completed act.
-For example, an object that could fit in a bag has not thereby been put in the bag.
-Keep the distinction when close reading uses physical details as evidence.
-Check abstract summaries too: preparation for a transfer does not establish completed transfer or ended possession.
-Do not strengthen a possible benefit merely because a condition has been stated.
-Do not treat similar wording as proof that two qualifications constrain the same claim.
-If compression loses a substantive boundary, restore it before delivery. Shortness does not override meaning.
-This is a private check; it does not require an evidence ledger in a small prose edit.
-In manuscript prose, use the appropriate modal wording and develop its significance. Do not narrate the checking procedure.
-For example, "The object could fit in the drawer" preserves capacity without "the text does not prove that it was hidden".
-Use an explicit evidence objection only when it advances the requested argument or audit.
-
-## Build a literature synthesis
-
-Start with the author's question, not a list of paper titles.
-Choose dimensions that the supplied sources can support, such as population, method, measured construct, or explanation.
-Group sources by the relation of their findings to those dimensions.
-Explain whether apparent agreement or disagreement concerns the same claim under comparable conditions.
-Name the measured construct and relevant coded actions before reporting their results. Do not leave the central outcome under an undefined label.
-Do not combine different constructs, self-reports, and observed behavior as if they were interchangeable measurements.
-Use the comparison to develop a supported distinction or question for the present study.
-Do not invent a universal research gap from a few supplied papers.
-
-## Section and study type
-
-| Task | Check relevant information |
+| Task | Functional decision and relevant information |
 | --- | --- |
-| Abstract | Question, design, principal results, conclusions and limits consistent with the available body. |
-| Introduction | Problem, relevant prior evidence, gap and actual objective. Do not invent a universal consensus. |
-| Quantitative methods/results | Sample selection, denominators, outcome definitions, analysis method, estimates, uncertainty, missing data and comparison basis. |
-| Qualitative methods/results | Material selection, context, analysis process, attribution, quoted evidence and limits of transfer. |
-| Literature review | Selection scope, comparable dimensions, disagreement, source methods and synthesis limits. A narrative review is not automatically a systematic review. |
-| Interpretive/theoretical work | Text or premises, analytical steps, counterreadings, assumptions and the scope of the conclusion. |
-| Computational experiments | Dataset and split, baselines, settings, repeated runs, uncertainty, reproducibility details and limits actually supplied. |
-| Discussion/conclusion | Answer to the question, warranted interpretation, conflicting evidence, contribution, limitations and future tasks. Keep future work separate from completed work. |
+| Abstract | Give the question, design, principal results and warranted answer consistent with the available body. |
+| Introduction | Establish relevant context, position this study and state its actual objective. Positioning can be extension, verification or a bounded question. |
+| Quantitative methods/results | Identify sample selection, denominators, outcome definitions, estimates, uncertainty, missing data and comparison basis. |
+| Qualitative methods/results | Identify material selection, context, analysis process, attribution, quoted evidence and transfer limits. |
+| Literature review | Compare supported dimensions, source methods and disagreements within the selection scope. A narrative review is not automatically systematic. |
+| Interpretive/theoretical work | Build the reading or inference through textual details or premises, assumptions and relevant counterreadings. |
+| Computational experiments | Give supplied datasets and splits, baselines, settings, repeated runs, uncertainty and reproducibility limits. |
+| Discussion/conclusion | Answer the question, interpret the supplied findings and explain their contribution with relevant boundaries. Keep future tasks separate from completed work. |
 
-Use these section movements when they suit the manuscript:
+Use the movements that fit the actual manuscript. They are communicative functions, not mandatory sentence slots.
+For an introduction, relevant prior work can lead to a specific unresolved question without claiming that nobody studied the topic.
+For results, organize observations around the question. Follow the destination's conventions for interpretation.
+For discussion, explain what findings mean. Reuse a result when it supports a new inference, rather than repeat the entire results list.
+For a conclusion, give the warranted answer. Add future work only when supplied or explicitly proposed.
+Textual interpretation can be supported without being uniquely proven or requiring an experimental test.
+A proposed reading is not a character's established motive or historical author intent.
+Examine a relevant counterreading for its implications. Do not add a disclaimer after every interpretive sentence.
+See [worked examples](writing-examples.md) for complete sections and editorial decisions.
 
-- Introduction: move from a bounded problem through relevant evidence to the actual question or objective.
-  State the objective once clearly. Do not manufacture a grand opening or unsupported gap.
-- Results: organize the principal observations around the question. Keep interpretation within the destination's conventions.
-- Discussion: explain what the findings mean for the question and supplied prior work.
-  Refer to results as needed, but do not repeat the entire results list or replace interpretation with a list of absent experiments.
-- Conclusion: give the warranted answer and its consequence. Add future work only when supplied or clearly proposed.
+## Reporting guidance
 
-For interpretive work, build the reading through textual details and their relations. Examine a relevant counterreading.
-Keep a possible reading distinct from established author intent. Do not demand experimental proof for textual interpretation.
-See [worked examples](writing-examples.md) for construction, synthesis, and interpretation with supplied material.
-
-Use study-specific reporting guidance only when applicable.
-For example, psychology may use APA JARS and machine-learning submissions may use a destination-specific checklist.
-Health research may use CONSORT for randomized trials, STROBE for observational studies, or PRISMA for systematic reviews.
-Inspect the actual guideline and version for a requested compliance check.
-A complete reporting checklist does not establish study quality or replace domain review.
-If information is absent, report that gap. Do not add default parameters, ethics approval, recruitment steps, or statistical tests.
+Use study-specific guidance only when applicable. Inspect its actual version for a requested compliance check.
+Examples include APA JARS, destination-specific computational checklists, CONSORT, STROBE and PRISMA for their respective study types.
+A completed reporting checklist does not establish study quality or replace domain review.
+Missing information remains missing. Do not supply default parameters, ethics approval, recruitment steps or statistical tests.
 
 ## Citation checks
 
-For a citation audit, distinguish these checks. A success in one is not a success in another.
+For a citation audit, distinguish the following checks. Success in one does not establish success in another.
 
 | Check | What it establishes |
 | --- | --- |
-| Existence | The identified publication or record can be located in an appropriate source. |
+| Existence | The publication or record can be located in an appropriate source. |
 | Metadata | Author, title, year, identifier and publication details match the inspected record. |
 | Content | The accessible passage supports the attached claim within its scope. |
 | Updates | Relevant corrections, versions, retractions or concerns were inspected through named sources. |
 
-For each applicable check, state `checked`, `not_checked`, or `unresolved` and record its finding.
-A completed check can find a mismatch or lack of support. Do not equate `checked` with `passed`.
-Keep the content support degree in the claim record.
-A resolved DOI or correct reference format does not establish content support.
-A search miss does not prove a publication is fabricated, especially for books and unindexed sources.
-Name the exact inspected material. A local excerpt or abstract is not a full-paper check.
-Do not infer an absence of corrections from an unperformed update search.
-Use actual passages and locators. Do not substitute a search snippet for unseen methods or supplementary data.
-If access is missing, keep the content check unresolved or not checked, with the reason.
-Research instructions and journal policies may change. Verify the actual destination when compliance is requested.
+Record each applicable check as checked, not_checked or unresolved, with its finding and inspected material.
+A completed check can find a mismatch. Keep support degree in the claim record.
+A resolved DOI or correct format does not establish content support.
+A search miss does not prove fabrication, especially for books or unindexed sources.
+An excerpt or abstract is not a full-paper inspection. A snippet cannot substitute for unseen methods or supplementary data.
+Do not infer no corrections from an unperformed update search.
+If access is missing, keep the content check unresolved or not checked and give the reason.
+Research instructions and journal policies can change. Verify the actual destination for requested compliance work.
 
-## Cross-part review
+## Cross-part review and continuation
 
-For an available manuscript, compare the abstract, methods, results, tables, figure captions, discussion, and conclusion.
-Check whether each section advances its own purpose. Remove accidental repetition of objectives, background, and interpretation.
-Keep deliberate summary, necessary definitions, and cross-references when they help the reader.
-Check participant counts, sample overlap, denominators, units, time, design, outcomes, data versions and conclusion strength.
-Different versions need an explicit authority decision. Do not silently prefer the latest filename or favorable result.
-Different samples can have different percentages without establishing individual change.
-A change in an accuracy measure does not itself establish clinical benefit or overall learning ability.
-If terms vary, identify the ambiguity before choosing a label. Keep a small term record for long work when useful.
-Retain claim IDs across sections. Use a compact list of scope, definition and source changes for continuation.
-After a material revision, recheck dependent claims in the available parts.
-Report checked parts, unavailable parts, and required decisions. Do not call a partial inspection a full-manuscript pass.
+Compare available abstract, methods, results, tables, captions, discussion and conclusion for their different jobs and shared meanings.
+Check counts, sample overlap, denominators, units, time, designs, outcome definitions, source versions and conclusion strength.
+Version conflicts need an explicit authority decision. A later filename or favorable result is not sufficient.
+A changed accuracy measure alone establishes neither clinical benefit nor overall learning ability.
+Keep stable claim IDs and a small term record when useful. Record scope, definition and source changes for long-work continuation.
+After a material revision, recheck dependent claims and paragraph connections.
+State inspected parts, unseen parts and required decisions. Partial coverage is not a full-manuscript pass.
 
-## Proportionate delivery
-
-Use [the default review loop](review-loop.md) before delivery. Match each round's scope to the task; a small edit does not need a full ledger.
-Keep evidence records separate from manuscript prose.
-A substantive audit needs claim-level issues and correction reasons. A small edit needs only useful changes and any material evidence issue.
-Use pending questions for actual gaps, not a universal intake form.
-Do not turn caution into a blanket refusal of justified results or interpretations.
-For submission assistance, record applicable disclosure requirements from the inspected destination policy.
-Do not invent author review, tool version, ethics approval, or institutional permission.
+Use [the review loop](review-loop.md) before delivery. Keep evidence and process records outside manuscript prose.
+Give claim-level issues and reasons for substantive audits. Use questions for actual gaps, not a universal intake form.
+For submission assistance, record the inspected disclosure requirements. Invent no review, tool version, ethics approval or institutional permission.

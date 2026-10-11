@@ -1,108 +1,59 @@
 # Mode-specific Prompt Templates
 
-Use only the selected template. Actual task data belongs in the placeholders.
+Use the selected template. Fill fields from the actual task without a universal intake form.
 Evaluator criteria and previous answers are not execution inputs.
+The linked resources define shared safeguards. Templates do not replace them.
 
 ## Draft
 
 ```text
-Task: Write {section} in {language} for {discipline and study type}.
-Inputs: {actual supplied materials and locators}
-Author position: {supplied argument or interpretation, or none}
-Terms: {relevant established terms}
-Source policy: supplied material only, unless external research is requested.
+Task: Write {section} in {language} for {discipline, study type and intended readers}.
+Purpose: {what this section should help those readers understand}
+Inputs: {supplied material and locators}
+Author position: {supplied argument or interpretation, or an essential unresolved decision}
+Terms and voice: {established terms and applicable sample, if available}
+Constraints: {requested length, structure and delivery format}
+Source policy: supplied material only unless external research is requested.
 
-Choose a central point that advances the requested section.
-Privately distinguish source observations, capacities, possible interpretations and proposals before composition.
-Select and order supplied evidence by its relation to that point. Explain the inference rather than list facts.
-Connect the question, author claim, evidence, analysis and limits as the section requires.
-For literature synthesis, compare relevant dimensions and explain how the comparison informs the author's question.
-Invent no findings, references, mechanisms, methods or author decisions.
-Keep textual observations, calculations, interpretations, synthesis and hypotheses distinct.
-Preserve direct quotation wording and internal punctuation exactly.
-Qualify proposed readings without treating every interpretation as missing empirical proof.
-Show calculation inputs, denominator, formula, units and relevant assumptions.
-Keep justified statistical conclusions. Do not infer significance or causality from arithmetic.
-Before delivery, compare sentence meanings across the passage. State each conclusion once unless another occurrence serves a distinct section function.
-For one central contrast, choose one explicit statement of the contrast and keep the evidence and needed inference.
-Make a separate deletion pass; "this answers" or "therefore" does not make a repeated conclusion a new reasoning step.
-Keep the reasoning from evidence to the conclusion. End when the paragraph has done its job.
-Omit a closing paraphrase that does no new job; keep a warranted synthesis or a requested summary.
-Use qualifications for actual claims that need them. Do not list absent studies for outcomes the prose does not assert.
-Check each final clause against the material. A capacity or prepared action is not a completed act; a possible explanation remains possible.
-Preserve commitment in both directions. Do not weaken an asserted capacity or the stated consequence of an uncertain condition by adding another possibility marker.
-Check premises, relative clauses and abstract summaries too. Name the measured construct or coded actions needed to understand the result.
-Keep the check private; use modal wording in prose rather than a report of what the source does not prove.
-
-Before delivery, complete the default review loop from SKILL.md unless the user explicitly changes its depth.
-Return the requested prose. Add key claim links and unresolved issues when relevant or requested.
-For mapped claims, give Claim_ID, Claim_kind, Support and specific evidence locators.
-Record any Derivation separately from Support.
-Link each claim to source provenance, author attestation and actual session inspection.
-Keep mapping outside the manuscript unless inline IDs are requested.
+Use meaning-preservation.md for shared safeguards and a two-direction comparison.
+Use academic-review.md to select the section's function, evidence relations and inferential steps.
+For substantial work, check the draft's paragraph functions with a private reverse outline.
+Use ai-pattern-library.md for reader progression and sample-grounded voice decisions.
+Use evidence-model.md when claim mapping is useful. Keep mappings outside manuscript prose.
+Complete review-loop.md at its default depth unless this request explicitly changes it.
+Return the requested prose and necessary unresolved matters, not the private checking procedure.
 ```
 
 ## Edit expression
 
 ```text
-Task: Improve the expression of {section} in {language}.
-Depth: {light editing or deep meaning-preserving rewriting, as requested}
+Task: Improve {section} in {language} for {intended readers}.
+Depth: {light editing or deep meaning-preserving rewriting}
 Draft: {existing text}
-Evidence: {available source material or access limits}
-Terms: {established terms}
-Author sample: {supplied sample, if any}
+Evidence: {available materials or access limits}
+Terms and voice: {established terms and applicable author sample, if any}
+Constraints: {requested length and delivery format}
 
-For light editing, keep effective wording and order. For deep rewriting, reconstruct sentences or paragraphs when needed.
-Before reconstruction, identify protected claim states, conditions and distinct limits privately.
-Diagnose empty framing, repeated propositions, unclear referents, weak connections, and voice mismatch.
-Revise around the same supported point. Do not add research content to make the expression concrete.
-Use the author sample's register and directness without importing its unrelated assertions.
-
-Preserve quantities, uncertainty, negation, conditions, exceptions, scope and logical relations.
-Preserve quotation wording and internal punctuation. Do not silently shorten quotes.
-Do not replace unsupported numbers with unsupported qualitative claims.
-Do not change a factual claim merely to clear a style finding.
-Retain already clear prose, useful transitions, genuine parallel statements and disciplinary terms.
-If evidence conflicts with the draft, preserve its status and list a separate correction proposal.
-Evidence corrections may enter the revision only when the task requests them.
-
-Compare the revision with the original for meaning, argument progression, expression, and author voice.
-Compare nonadjacent sentence meanings. Merge or remove a repeated proposition that does no new job, while keeping evidence and needed reasoning.
-Try removing suspected repeats after composition. Keep the part needed for evidence, inference, a distinct boundary, or a section connection.
-Then compare each surviving clause with the original. Restore lost possibility, condition or scope at the affected claim.
-Do not add uncertainty to a supplied assertion or conditional consequence. Keep uncertainty about a condition separate from what follows if it holds.
-Do not turn a possible explanation, capacity, prepared action or proposal into a fact or completed act.
-Keep the uncertainty of premises and limitations. Check abstract summaries for implied completion.
-Use appropriate modal wording; do not insert the private source-check procedure into manuscript prose.
-Before delivery, complete the default review loop from SKILL.md; a small edit uses proportionate checks, not an exemption.
-Preserve each distinct supplied boundary. Combine duplicated limits only when their scope stays clear.
-Repeat a boundary where separate claims or independently readable sections need it.
-Do not replace a redundant ending with another paraphrase or an unrelated disclaimer.
-Return the prose, with useful change reasons and material unresolved issues when requested or needed.
-For prose-only requests, keep the output to the prose unless a material conflict requires a separate note.
-Do not append unrelated source-check disclaimers to an expression edit.
-Do not require a full evidence ledger for a small edit.
+Use meaning-preservation.md. The original is the meaning target in expression-only work.
+Report evidence corrections separately unless applying them is requested.
+Use ai-pattern-library.md to decide whether each suspected repeat or qualification has a useful function.
+Use academic-review.md when structural reconstruction is needed.
+Keep effective unaffected prose. Check both newly asserted meanings and omitted required meanings after rewriting.
+Complete review-loop.md with proportionate checks. Small edits retain its default round count.
+Return the prose and any necessary material conflict note. Keep private records outside prose-only output.
 ```
 
-## Audit evidence and manuscript
+## Audit
 
 ```text
-Task: Audit {requested claims and available manuscript parts}.
-Inputs: {text, tables, source materials and precise locators}
-Access limits: {unavailable materials}
+Task: Audit {claims and available manuscript parts}.
+Inputs: {text, tables, materials and precise locators}
+Scope and limits: {requested checks and unavailable material}
 
-For each substantial claim, identify its type, support degree and evidence relation.
-Keep calculation or formal derivation separate from support.
-Retain every relevant conflict, version, condition and access limit.
-For citations, separate existence, metadata, content support and update checks.
-State what material was actually read. Do not claim full-paper inspection from an excerpt.
-For cross-part review, compare counts, denominators, units, design, outcomes, terms and conclusions.
-Check quotation fidelity, overgeneralization, unsupported causality and misplaced author interpretation.
-A source record or author assertion does not certify study validity.
-
-Review the audit report through the default loop from SKILL.md; retained source defects are not defects in an accurate audit report.
-Return Claim_ID, Claim_kind, Support, source locator, check limit and proposed correction.
-Give Derivation when applicable. Link source provenance, author attestation and session inspection.
-State checked parts, unseen parts and unresolved author decisions.
-Do not certify submission readiness while required checks remain open.
+Use evidence-model.md for claim type, support, provenance, author attestation and actual inspection.
+Use academic-review.md for argument, cross-part checks and separate citation checks.
+Use meaning-preservation.md to check quantities, quotations, conditions and author judgments.
+Keep derivation separate from support and a completed check separate from a successful finding.
+Return located issues, proposed corrections, inspected parts and necessary unresolved decisions.
+Review the audit report with review-loop.md. Accurate retained source defects are not defects in the report.
 ```

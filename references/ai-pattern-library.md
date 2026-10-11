@@ -1,121 +1,100 @@
-# Expression Review: Removing AI-flavored Prose
+# Expression, Readers and Author Voice
 
-The historical filename is retained for continuity.
-The goal is natural academic expression that advances the argument and preserves author voice.
-AI-flavored prose means empty, repetitive, or mechanical expression here. It is not a judgment of who wrote the text.
+The historical filename is retained. AI-flavored prose means empty, repetitive or mechanical expression, not an authorship verdict.
+Use [meaning preservation](meaning-preservation.md) for common safeguards and post-rewrite comparison.
 
-## Diagnose and rewrite at the right depth
+## Diagnose function before changing words
 
-First identify what the passage needs to say and what the revision must preserve.
-Include its author position, terms, evidence boundaries, relations, and exact quotations.
-For a light edit, keep effective structure. For a deep rewrite, reconstruct the passage around the same supported point.
+Identify the passage's point and the requested editing depth.
+For each suspected repeat, qualification, connector or summary, ask what it does for this argument and reader.
 
-| Problem | Revision that can help | Meaning to protect |
+| Candidate | Change when | Keep when |
 | --- | --- | --- |
-| Broad opening or empty value statement | Start with the actual problem, observation, or question. Remove framing that contributes no argument. | A supported contribution or necessary context. |
-| Several sentences express one proposition | State it once. Use the freed space for supplied evidence or needed analysis. | Distinct conditions or meanings that only look repetitive. |
-| Abstract nouns conceal an action | Name the supplied actor and action directly. If the actor is unknown, keep that uncertainty. | The actual mechanism, agent, and technical meaning. |
-| Relations rely on stock transition words | Arrange ideas so known information leads to the next point. Choose a connector for the actual relation. | Additive, temporal, contrastive, and causal relations remain different. |
-| Unclear pronouns or shifting terms | Restore a precise referent or stable term. | A real distinction between concepts. |
-| Each sentence repeats caution or significance | Place the qualification at the claim it limits. Keep the evaluation that the evidence warrants. | Uncertainty, conditions, and conclusion strength. |
-| Mechanical summaries end each paragraph | Replace repetition with a supported consequence or omit the redundant ending. | A necessary conclusion or section connection. |
+| Broad opening or significance | It adds no needed context or supported judgment. Start from the actual problem. | It establishes a supported contribution or necessary context. |
+| Repeated proposition | It repeats meaning and function. Combine or keep the clearer occurrence. | It adds evidence, inference, a distinct boundary or needed section orientation. |
+| Qualification | In drafts, it limits no actual claim. In edits, combine duplicated restrictions without losing meaning. | It preserves a distinct original conclusion or changes an actual claim's scope, force or relation. |
+| Stock connector | Its stated relation is absent or wrong. Repair order or relation first. | It marks a genuine additive, temporal, contrastive or causal relation. |
+| Abstract noun or passive | It obscures a supplied action or referent. | It is a stable technical term or makes the intended focus clearer. |
+| Closing summary | The paragraph already completed its job and the ending only restates it. | It supports a further inference or orients an independently readable section. |
 
-Do not add concrete details merely to make prose sound human. Use only details supplied by the material.
-Do not change all noun phrases to verbs or all passive clauses to active clauses.
-Academic terms and disciplinary conventions can be the clearest expression.
+Data and the inference from them do different jobs. Do not remove the inferential step as repeated subject matter.
+An explanation label or “therefore” does not give a restated conclusion a new function.
+For substantial rewriting, try deleting suspected repeats, then check whether evidence, reasoning, scope or orientation was lost.
+Check nonadjacent sentences and the opening and ending. Do not replace removed wording with synonyms or invented causes.
+Keep each distinct supplied limit in edits. In drafts, attach a limit to the actual claim it affects.
+Relevant limitations belong in a requested limitations section. Private checking procedures do not belong in manuscript prose.
 
-## Preserve author voice
+### Organize boundaries around the argument
 
-When a sample is available, identify its register, directness, terminology, and evaluation strength.
-Use those features to guide this passage. Do not imitate incidental sentence lengths or copy the sample's research claims.
-Without a sample, use the requested genre and the draft's effective voice. Do not invent an author persona.
-Do not replace direct prose with ornate academic framing, or turn formal prose into casual speech without a request.
+Put a boundary beside the inference it changes. Several adjacent negatives can interrupt the argument even when each is true.
+State the supported question and result first, then organize distinct boundaries by their role: measurement, comparison or applicability.
+Where the same scope can be expressed in the claim, use it there rather than repeat a defensive closing sentence. Keep every distinct substantive limit in expression edits; reduce the scaffolding, not the meaning.
+Do not replace a chain of negatives with a vague umbrella such as “further validation is needed”. It can hide different missing comparisons or measurements.
+Write manuscript prose for its scholarly readers. Phrases such as “the supplied material” belong in access or audit notes when they refer to the assistant's inputs; identify the actual studies or evidence in prose.
+Such phrases remain valid when supplied material is itself the study's object or their use has a reader function. This is a context decision, not a prohibited-word list.
+See [the boundary example](writing-examples.md#12-boundaries-without-an-editorial-ending).
 
-## Check the revised passage
+## Reader progression
 
-Compare the original and revision for quantities, conditions, modality, scope, argument, and exact quotations.
-After compression, check the state of each action and explanation against its source.
-Keep a possible explanation possible at its own clause. Keep capacity, intention, preparation, and completion distinct.
-Do not assume a leading "may" preserves every uncertainty after a sentence has been split or reordered.
-Check possible confounding factors and limitations for the same modal fidelity as principal findings.
-Read the revision as a whole for repeated propositions, unclear references, and connections that require the reader to guess.
-Compare nonadjacent sentences as well as the opening and ending. Name the contribution of each sentence privately.
-When a later clause repeats the same proposition and does no new job, delete it or combine it with the earlier occurrence.
-Changing the words does not remove a repeated meaning. Do not add an invented mechanism to make a sentence seem new.
-An explanation label, a research-question label, or "therefore" does not give a restated conclusion a new function.
-After a deep rewrite, try deleting suspected repeats and check that the evidence-to-conclusion reasoning remains complete.
-Keep the reasoning from evidence to a conclusion, and summaries that serve a distinct section function.
-Finish when the passage answers its question; do not add a closing paraphrase merely to give it an ending.
-Check whether the author voice remains appropriate.
-Keep meaningful qualifications. For each one, identify the claim it restricts before combining any repeated boundary.
-Do not remove a distinct condition or limitation merely because it uses similar caution words.
-For drafting, do not add a disclaimer for an effect, cause, population, or author intention that the prose does not assert.
-Check whether an explicit scope, conditional reading, or actual counterreading already gives the necessary boundary.
-For editing, combine duplicated limits but preserve each distinct supplied restriction and its clear relation to the affected claims.
-Repeat a necessary boundary beside separate claims or in independently readable sections when needed.
-Omit unrelated statements about checks that an expression edit did not require.
-Express preserved uncertainty through the claim's wording. Do not append a source-audit explanation when a modal and the actual counterreading suffice.
-An unchanged passage is a valid result when it already does its job.
-See [worked examples](writing-examples.md) for full passages and preservation explanations.
+Check what the intended reader knows, what each sentence adds and what the next sentence takes up.
+Repair unclear pronouns, missing inferential links and unexplained changes of topic.
+Use context and emphasis to make the author's intended relation recoverable.
+Sentence length alone is not a reason to rewrite. Do not add rhythmic variation for its own sake.
+Do not replace stable terms with synonyms merely to avoid repetition.
 
-## Review candidates
+For Chinese prose, check topic continuity and omitted actors across clauses.
+A reader must be able to identify who acts, what “这” refers to and which claim a condition restricts.
+Repeated technical nouns can clarify a topic change. A long sentence can remain when its relations and scope are clear.
+Do not mechanically apply English subject-verb proximity or sentence-final emphasis rules to Chinese syntax.
 
-| Observation | Review question | Valid disposition |
-| --- | --- | --- |
-| Empty promotion, such as 全面赋能 or 颠覆性创新 | Does evidence support this evaluation? Does it add necessary meaning? | Remove empty evaluation or retain a supported, attributed usage. |
-| Broad attribution, such as 大量研究表明 | Which accessible sources support the exact claim and scope? | Give real source details or mark missing support. |
-| A transition, such as 此外 | Does it express an actual additive or contrasting relation? | Retain the relation when useful. No automatic replacement is required. |
-| Parallel clauses or a numbered sequence | Are the underlying statements parallel or sequential? | Preserve genuine parallel facts and necessary process steps. |
-| A technical term, such as 城市空间格局 | Is it the established term for this field? | Keep the accepted term. Do not replace it to avoid a keyword. |
-| An exact quotation | Does its wording come from the cited speaker or source? | Preserve wording and attribution. Audit its factual claim separately. |
-| A short or uniform sentence sequence | Is the text clear and logically connected? | Leave clear prose alone. Do not manufacture variance. |
-| A rhetorical question | Does it obscure the actual research question, mechanism, or evidence? | Prefer a direct statement when it improves the requested section. |
+Synthetic example:
 
-Do not turn parallel, sequential, or correlational facts into a causal narrative.
-Do not hide a real baseline comparison to make a contribution appear more novel.
-No sentence-length threshold, perplexity measure, or paragraph-symmetry score establishes writing quality or AI authorship here.
+> 线下窗口核对原件，预约页面则提前列出材料要求。申请者可以据此准备材料，但原件是否符合要求仍由窗口判断。
 
-## Same-fact revision example
+“据此” refers to the listed requirements. “原件” restores the object after the topic changes back to the window.
+Replacing both with “这” would blur the information and review roles. No extra closing claim about “important implications” is needed.
 
-Synthetic teaching fixture; no actual system or study is asserted.
+## Author voice from actual samples
 
-Input evidence:
+Use an available sample as evidence of applicable choices, not as a source of research facts or a fixed imitation template.
+For a substantial task, a short profile can record:
 
-```yaml
-Source_ID: S1
-Reference: "Supplied fictional functionality note"
-Locator: "item 1"
-Author_attestation: reported_by_author
-Session_verification: not_checked
-Fact_ID: F1
-Statement: "The prototype records audit logs to review manual changes."
-Scope: "prototype system"
-```
+| Choice | Evidence and application |
+| --- | --- |
+| Register and terms | Which wording fits this discipline and reader? Keep stable terms. |
+| Stance | How does the author express supported judgments and uncertainty? Preserve their actual commitment. |
+| Self-reference and reader guidance | Are first-person claims, questions or explicit signposts part of the useful voice? |
+| Sources and argument | How does the author connect citations, observations and interpretation? |
+| Information rhythm | How are complex relations unpacked? Use functional patterns, not incidental sentence lengths. |
 
-Before:
+Record only useful features and their sample basis. Mark uncertain features rather than invent an author persona.
+Do not require extra samples for a small edit. Without samples, use the effective draft voice and requested genre.
+Do not turn formal prose casual or direct prose ornate without a request.
+The same facts can support several good voices. No single short, direct register is the required academic style.
+See [the voice alternatives](writing-examples.md#10-same-facts-different-valid-voices).
 
-> 此外，原型系统还构建了审计日志，用于回看人工修改记录。
+## Legitimate academic conventions
 
-After:
+Generic academic expressions can fulfill real functions. Diagnose their use here rather than their appearance in a phrase list.
+Do not copy a source's distinctive formulation or viewpoint to make the prose sound academic.
 
-> 此外，原型系统还记录审计日志，用于回看人工修改记录。
+| Observation | Review question |
+| --- | --- |
+| 全面赋能 or another strong evaluation | Is the evaluation supported or attributed, and useful here? |
+| 大量研究表明 | Which accessible sources support the exact claim and scope? |
+| 此外 or another transition | What actual relation does it mark? |
+| Parallel clauses or a numbered sequence | Are the facts parallel, or are these genuine process steps? |
+| A technical phrase | Is it the established term? Would replacement change its meaning? |
+| An exact quotation | Are wording and attribution preserved? Audit its claim separately. |
+| A rhetorical question | Does it help this genre and reader or obscure the actual research question? |
 
-Claim C1 maps to F1, S1, item 1. The revision names the logging action directly and keeps its purpose and additive relation.
-Without the preceding paragraph, do not assume that the transition is unnecessary.
-Hash storage, XML parsing and tamper resistance are not supplied facts and must not appear in this rewrite.
+Keep clear prose unchanged when it already serves the task.
+Do not turn parallel or correlational facts into causes, or hide a baseline to exaggerate novelty.
+Perplexity, sentence symmetry, keyword absence and detector scores establish neither writing quality nor AI authorship.
 
-## Quotation example
+## Scanner findings
 
-Synthetic teaching fixture:
-
-> 受访者甲将该政策称为“全面赋能的里程碑”。
-
-The attributed words remain verbatim. They support the participant's stated opinion.
-They do not establish that the policy achieved a measured improvement.
-The scanner can exclude common quotation spans. Human review must still check attribution and source fidelity.
-
-## Resolve a finding
-
-Record its disposition as `revise`, `retain with reason`, or `needs author decision`.
-The scanner only identifies configured text patterns. It cannot judge all discourse, evidence, or disciplinary terms.
-After a justified edit, one rescan can confirm the match changed. Repeated matches do not justify distortion of the source.
+The optional scanner marks configured patterns, not all discourse or evidence problems.
+Resolve a finding as revise, retain with reason, or needs author decision.
+One justified edit and rescan can check whether that match changed. End this scanner subprocess, not the manuscript review loop.
+Repeated matches do not justify distorting source meaning. Review attribution and quoted wording separately from heuristic span protection.
