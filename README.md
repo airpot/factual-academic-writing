@@ -30,8 +30,8 @@
 复制整个目录到所用代理的技能目录，命名为 `factual-academic-writing`。
 若已有同名安装，先备份旧目录。
 
-从 [0.2.3 发布页](https://github.com/airpot/factual-academic-writing/releases/tag/v0.2.3)下载安装 ZIP，完整解压其中的 `factual-academic-writing/`，复制到 `%USERPROFILE%\.codex\skills\`。
-安装前对照随包的 SHA-256 记录核验 ZIP。也可使用 [v0.2.3 标签](https://github.com/airpot/factual-academic-writing/tree/v0.2.3)的完整技能目录。
+从 [0.3.0 发布页](https://github.com/airpot/factual-academic-writing/releases/tag/v0.3.0)下载安装 ZIP，完整解压其中的 `factual-academic-writing/`，复制到 `%USERPROFILE%\.codex\skills\`。
+安装前对照随包的 SHA-256 记录核验 ZIP。也可使用 [v0.3.0 标签](https://github.com/airpot/factual-academic-writing/tree/v0.3.0)的完整技能目录。
 在新会话中调用 `$factual-academic-writing`，提供所需模式、材料和输出范围。
 
 ## 使用示例
