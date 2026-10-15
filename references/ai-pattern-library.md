@@ -3,6 +3,26 @@
 The historical filename is retained. AI-flavored prose means empty, repetitive or mechanical expression, not an authorship verdict.
 Use [meaning preservation](meaning-preservation.md) for common safeguards and post-rewrite comparison.
 
+## Select the edit intent
+
+An intent identifies the requested outcome. Editing depth identifies how much wording or structure can change.
+Use the actual request, reader and source to select the intent. These choices are not additional modes or mandatory intake fields.
+
+| Intent | Appropriate change | Acceptance check |
+| --- | --- | --- |
+| Polish expression | Correct or clarify wording that needs work. Keep effective phrasing. | Grammar and references are clear, with no unsolicited expansion or change of argument. |
+| Compress | Combine duplicated meanings and remove empty scaffolding within the requested scope. | The text meets the requested size, with required meanings, distinct limits and inferential connections retained. |
+| Expand | Develop supplied observations, definitions or inferential connections for the identified reader. | New substantive assertions have a material basis. Added length advances the explanation without invented cases, data or author decisions. |
+| Change register | Explain terms or adjust presentation for the requested reader and genre. | Essential unfamiliar terms have brief, accurate explanations. Quantities, terms, commitment and author judgment remain accurate. |
+| Reorganize | Change order or paragraph boundaries to clarify the argument. | Conditions, attribution and quotations remain attached to the claims they govern. Transitions express actual relations. |
+
+Use the shared preservation comparison for every intent. A longer or shorter output alone does not establish success.
+Check that actual changes match the requested outcome, not only the heading of a copied instruction card.
+For combined goals, apply compatible checks. Do not silently change a compression request into expansion or an edit into research.
+If essential constraints conflict, identify the conflict and retain useful faithful work with its actual status.
+Do not lose required meanings only to satisfy a length cap. Do not add unsupported material only to reach a target.
+Infer routine choices without requiring another user decision. Ask only when an unresolved choice materially affects the result.
+
 ## Diagnose function before changing words
 
 Identify the passage's point and the requested editing depth.

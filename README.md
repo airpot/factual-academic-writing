@@ -1,6 +1,6 @@
 # Factual Academic Writing · 事实驱动学术写作
 
-**版本：0.3.0。**
+**版本：0.3.1。**
 据所给研究材料组织学术论证，并在保义前提下减少套话、重复与机械表达。
 保留作者立场、数字、条件、否定、结论强度和直接引文；不补造数据、来源、方法或作者决定。
 
@@ -16,6 +16,7 @@
 文献核查分为存在性、元数据、内容支持和更新情况；读取节选不等于核验全文或底层数据。
 可按量化、质性、综述、解释/理论和计算研究选择章节要点，不强制所有论文采用同一结构。
 小型润色无需完整事实台账；文学解释可据文本有条件成立。
+编辑意图与深度分别选择；压缩、扩写、语域转换、结构整理及润色各有相应检查，组合任务须同时满足所需目标。
 去 AI 味会检查空泛开场、语义重复、句段承接和文体，不以禁词清零或检测分数衡量质量。
 限定逐项对应其约束的论断，合并重复而保留必要边界；概念区分不扩展所给研究目标。
 重写前识别事实、可能解释、条件与完成状态；删重后逐句核对，并保留理解结果所需的测量对象和具体行为。
@@ -30,8 +31,9 @@
 复制整个目录到所用代理的技能目录，命名为 `factual-academic-writing`。
 若已有同名安装，先备份旧目录。
 
-从 [0.3.0 发布页](https://github.com/airpot/factual-academic-writing/releases/tag/v0.3.0)下载安装 ZIP，完整解压其中的 `factual-academic-writing/`，复制到 `%USERPROFILE%\.codex\skills\`。
-安装前对照随包的 SHA-256 记录核验 ZIP。也可使用 [v0.3.0 标签](https://github.com/airpot/factual-academic-writing/tree/v0.3.0)的完整技能目录。
+从 [v0.3.1 标签](https://github.com/airpot/factual-academic-writing/tree/v0.3.1)取得完整目录，或下载[该标签的源码 ZIP](https://github.com/airpot/factual-academic-writing/archive/refs/tags/v0.3.1.zip)。
+解压后将含 `SKILL.md` 的目录命名为 `factual-academic-writing`，复制到 `%USERPROFILE%\.codex\skills\`。
+源码 ZIP 还含 README 与 CHANGELOG；保持运行文件和参考资料完整。
 在新会话中调用 `$factual-academic-writing`，提供所需模式、材料和输出范围。
 
 ## 使用示例

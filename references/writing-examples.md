@@ -54,12 +54,15 @@ Summary stack, quoted as an ineffective organization:
 
 Synthesis:
 
-> 信任态度与核对行为涉及不同层面的证据，不能直接用自报信任代表核对行为。S2的问卷记录了城市教师的信任态度，未观察实际核对；S3中的五名教师均自报高信任，核对情况却不同。S1关于核对耗时的访谈涉及时间负担，不能替代效率或信任测量。因此，讨论信任与核对的关系时，需要分别说明态度报告与核对记录的依据。
+> 信任态度与核对行为涉及不同层面的证据，不能直接用自报信任代表核对行为。S2的问卷记录了城市教师的信任态度，未观察实际核对；S3报告五名教师均自报高信任，核对情况却不同，但这一差异的证据类型尚不明确，不能直接视为已观察的行为差异。S1关于核对耗时的访谈涉及时间负担，不能替代效率或信任测量。因此，讨论信任与核对的关系时，需要分别说明态度报告与核对记录的依据。
 
 The paragraph groups the sources by what their evidence can establish.
 It explains how S2 and S3 relate to the question, then places S1 in its distinct role.
 It adds no combined sample estimate, universal consensus, or causal account.
-S3 uses observation and interviews. Its supplied summary does not identify which records establish checking differences. Keep this access limit outside manuscript prose and leave the difference unattributed. Do not equate a high-trust category with equal attitudes.
+S3 uses observation and interviews. Its summary does not identify which records establish checking differences.
+Attribute the difference to S3's report. Keep this evidence-type boundary beside the behavioral inference it limits.
+Keep general access records outside manuscript prose. Do not hide a missing premise needed for the argument.
+Do not equate a high-trust category with equal attitudes.
 Source IDs stand for supplied materials. Use the manuscript's real citation form when available.
 
 ## 3. Deep rewriting with author voice
@@ -122,7 +125,7 @@ Author position: completed checking and adoption decisions should be reported se
 
 Discussion:
 
-> 本次观察中，12名编辑核对引文时，均先查看版本日期，再对照原始页面；随后，7人采用原始表述，5人暂缓并登记疑义。相同的核对步骤对应不同的采用决定，说明完成核对与决定采用应分开报告。
+> 本次观察中，12名编辑核对引文时，均先查看版本日期，再对照原始页面；7人采用原始表述，5人暂缓并登记疑义。相同的核对步骤对应不同的采用决定，说明完成核对与决定采用应分开报告。
 
 The observation scope is explicit. The evidence supports the supplied author distinction.
 The paragraph does not claim an effect or a cause, so it needs no added catalogue of absent effect experiments.
@@ -155,11 +158,11 @@ Synthetic materials:
 
 Complete introduction:
 
-> 核对记录与决定采用记录，是服务人员处理争议材料时的两个环节。前者涉及对版本和原始页面的检查，后者涉及检查之后如何处置材料。将两者分开报告，才能看清工作人员完成了哪些检查，又作出了什么决定。
+> 核对记录与决定采用记录，是服务人员处理争议材料时的两个环节。前者涉及对版本和原始页面的检查，后者涉及是否采用原始表述。将两者分开报告，才能看清工作人员完成了哪些检查，又作出了什么决定。
 >
 > 既有研究分别涉及工作人员自报的完整性核对和对线上指引清晰程度的评价。A中的12名工作人员报告会检查表格是否完整，但访谈未观察采用决定；B中的25名工作人员评价线上指引，问卷未观察核对行为。这些研究说明了各自记录的对象，不能合并为工作人员从核对到采用的完整过程。
 >
-> 本研究观察16名工作人员各处理一项有争议的记录，考察这些个案中发生的核对步骤及随后采用决定。研究问题限定于已观察的处理过程，不以清晰程度评价代替实际行为，也不将完成核对等同于决定采用。
+> 本研究观察16名工作人员各处理一项有争议的记录，考察这些个案中发生的核对步骤及采用决定。研究问题限定于已观察的处理过程，不以清晰程度评价代替实际行为，也不将完成核对等同于决定采用。
 
 Paragraph functions: define the supplied distinction, compare prior evidence, then position the actual observation question.
 The last paragraph states the question without inventing a new causal objective or universal literature gap.
@@ -171,9 +174,9 @@ Use the present-study materials in example 8. No follow-up, quality comparison o
 
 Complete discussion:
 
-> 16名工作人员处理争议记录时，都先查看版本，再对照原始页面；随后9人采用原始表述，7人暂缓并登记疑义。相同的核对步骤对应不同的采用决定，支持将核对过程与处置结果分开报告。核对步骤说明工作人员检查了什么，采用记录说明其后的决定，两类信息共同呈现了本次观察的处理过程。
+> 16名工作人员处理争议记录时，都先查看版本，再对照原始页面；9人采用原始表述，7人暂缓并登记疑义。相同的核对步骤对应不同的采用决定，支持将核对过程与处置结果分开报告。核对步骤说明工作人员检查了什么，采用记录说明作出的决定，两类信息共同呈现了本次观察的处理过程。
 >
-> 这种区分也限定了对结果的解释。现有记录没有说明9人与7人作出不同决定的原因，不能将差异解释为信任程度或能力差异。暂缓并登记疑义是已观察的处置，不是内容错误的证据；同样，采用原始表述也不等于其内容正确。这些记录描述了处置决定，却未给出内容正确性的评价，因此两种决定都应按其实际含义报告。
+> 这种区分也限定了对结果的解释。现有记录没有说明9人与7人作出不同决定的原因，不能将差异解释为信任程度或能力差异。暂缓并登记疑义是已观察的处置，不是内容错误的证据；同样，采用原始表述也不等于其内容正确。
 >
 > 对服务过程的记录而言，本次观察的价值在于同时保留检查步骤和采用决定。工作人员已经完成核对这一事实，可以与尚未采用材料的状态并存。记录这两类信息，有助于避免用“已核对”概括整个处置结果；现有材料未提供处理质量的比较结果，尚不能据此认定这一记录方式已经提高质量。
 
@@ -203,7 +206,7 @@ Profile: first-person author judgment, direct separation of observations. No inc
 Sample B, voice only: “这一区分使流程中的两个环节各得其位，并为理解后续记录提供了必要前提。”
 Profile: formal relation-oriented exposition. The sample provides no new study results.
 
-> 到访前展示材料要求与提供协助，分别构成信息告知和辅助办理的安排。48名使用者中的13人接受协助，其中8人完成预约。这些记录支持作者保留协助渠道的主张，其余预约结果仍须按未记录的状态处理。
+> 到访前展示材料要求与提供协助，分别构成信息告知和辅助办理的安排。48名使用者中的13人接受协助，其中8人完成预约。这些记录支持作者保留协助渠道的主张；其余预约结果未记录。
 
 Both versions preserve the same supplied counts, overlap, outcome limit and positive author position.
 They make no claim about reduced travel, so an appended catalogue of absent travel studies would add no needed boundary.

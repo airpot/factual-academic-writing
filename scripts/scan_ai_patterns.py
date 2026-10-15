@@ -143,8 +143,11 @@ def scan_text(text):
     citation_periods = {offset for citation in CITATION.finditer(masked)
                         for offset in range(citation.start(), citation.end())
                         if masked[offset] == '.'}
+    # A leading-dot number needs a delimiter, not an adjacent word or period.
+    decimal_periods = {match.start() for match in
+                       re.finditer(r'(?:(?<=\d)|(?<![\w.]))\.(?=\d)', masked)}
     boundaries = [m.start() for m in SENTENCE_BOUNDARY.finditer(masked)
-                  if m.start() not in citation_periods]
+                  if m.start() not in citation_periods and m.start() not in decimal_periods]
 
     def location(offset):
         line = bisect_right(line_starts, offset)
