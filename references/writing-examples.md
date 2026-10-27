@@ -240,3 +240,72 @@ Revised passage:
 > 本文据此建议在同一组学员中结合理解测验与模拟核查，并将检验范围限定于上述两种培训情境。这个具体问题不构成对整个领域研究空白的判断。
 
 The revision keeps both unmeasured constructs, the separate groups, the proposal and the field-wide-gap boundary. It changes their organization, not their strength. The last sentence remains because this expression edit must preserve the original distinct conclusion; in a draft, a clearly bounded question may need no such additional sentence. Do not require a two-paragraph layout for other tasks.
+
+## 13. Unpack relations without changing the construct
+
+Synthetic material: an author defines archive retrieval reliability through result relevance, version consistency and traceable provenance.
+The author plans to compare two assurance workflows. No comparison result is supplied.
+
+Title to edit:
+
+> 档案检索可靠性保障流程比较分析
+
+Revision:
+
+> 比较两套保障档案检索可靠性的流程
+
+An accompanying sentence can state the definition:
+
+> 本文以结果相关性、版本一致性和出处可追溯性界定检索可靠性，拟比较两套保障流程，尚无比较结果。
+
+“怎样让档案更容易找” is not an equivalent title. Ease of finding an archive does not retain the defined reliability construct.
+The revision unpacks the comparison and its object. It does not claim that either workflow improved reliability.
+Where the material does not establish the relations within a noun chain, do not select a convenient interpretation only for fluency.
+
+## 14. Keep conditions with the claim they restrict
+
+Synthetic material: a coefficient applies only to instruments with zero calibration. Its scope excludes high-temperature measurements.
+The data sheet recommends separate validation for high-temperature conditions.
+
+Faithful Chinese prose:
+
+> 该系数仅适用于经过零点校准的仪器，不适用于高温测量。数据说明书建议另行验证高温条件。
+
+“仪器经过零点校准。该系数可用于测量。” loses the restricted scope and the high-temperature exclusion.
+Short sentences do not repair that loss. Keep the recommendation too when it belongs to the requested passage.
+“该系数适用于” and “说明书建议” are normal abstract-subject uses in this technical context.
+Do not add an unknown researcher or intention to make either subject human.
+
+## 15. Unpack English dependencies without claiming completion
+
+Synthetic material: a laboratory plans a test of covariance-estimate stability across repeated model fits.
+The model uses measurements from a second sensor. The fits have not been run.
+The planned test addresses repeatability, not external validity.
+
+Edit target:
+
+> The laboratory plans a second-sensor-measurement model repeated-fit covariance-estimate stability test, addressing repeatability rather than external validity; the fits have not been run.
+
+Revision:
+
+> The laboratory plans to test whether covariance estimates remain stable across repeated fits. The model uses measurements from the second sensor. The fits have not been run. The test concerns repeatability, not external validity.
+
+The revision names the test and gives the model's measurement source separately. It keeps the technical constructs and the planned action.
+“The laboratory confirmed stable estimates” would invent completion and a result.
+“The test shows the model works” would replace repeatability with an unspecified broader judgment.
+Added relation words are useful here. The target's length or semicolon alone does not establish the defect.
+
+## 16. Keep effective professional prose and identify the actual check
+
+Synthetic material and acceptable English prose:
+
+> The report recommends a sensitivity analysis. The analysis addresses parameter uncertainty, not measurement error.
+
+The recommendation, object and boundary are clear. Preserve the terms for the intended technical reader.
+“The authors want to understand what went wrong” would add a person, intention and failure that the material does not supply.
+No rewrite is needed only because “report” is inanimate or the terms are unusual in conversation.
+
+A text-only review may record that the recommendation and its boundary remain easy to identify.
+It must not claim “I listened to the passage” without audio use.
+An actual audio check can find awkward phrasing, but smooth delivery does not verify the claim or the reader's understanding.
+Keep such checking notes outside a prose-only response.

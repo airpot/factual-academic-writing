@@ -22,6 +22,7 @@ A review of one repaired sentence cannot establish whole-section or whole-manusc
 
 1. Review the current artifact against the raw material and task. Check meaning and support relations, argument and author voice, repeated propositions, qualifications, exact quotations, terminology and output constraints.
    For edits, also check the requested outcome with the intent checks in [expression review](ai-pattern-library.md).
+   Locate any reading obstacle in its phrase or relation. Recheck meanings after unpacking, splitting or compressing it.
 2. When available and authorized, use a fresh independent reviewer with only the current artifact, raw material and requested scope. Give no preferred answer or previous review opinions. Otherwise make a separate self-review using the same checks; do not call it independent.
 3. Locate each issue and compare it with the material. Classify it as accepted for correction, rejected with a source-grounded reason, or pending evidence/author decision. Keep real boundary distinctions and evidence-to-inference steps.
 4. Correct accepted issues within the user's mode and recheck affected claims and connections. Keep effective unaffected wording. In expression-only work, restore meanings lost by rewriting; corrections to unsupported original assertions remain separate proposals.

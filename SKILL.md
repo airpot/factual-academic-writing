@@ -2,7 +2,7 @@
 name: factual-academic-writing
 description: Use when drafting, editing, or auditing academic prose from supplied research material, or rewriting academic text to reduce AI-flavored, formulaic, repetitive, or mechanical expression, including Chinese requests to 去 AI 味.
 metadata:
-  version: "0.3.1"
+  version: "0.3.2"
 ---
 
 # Factual Academic Writing
@@ -34,6 +34,7 @@ Do not expand an expression edit into research. Do not manipulate an AI-detectio
   Build the argument before polishing sentences. Use the paragraph-function outline for substantial work.
 - For expression and author voice, use [expression review](references/ai-pattern-library.md).
   Select the edit intent and its acceptance checks. Diagnose repetition and qualifications by their function.
+  Locate actual reader obstacles in wording, noun relations, reference and syntax before changing effective prose.
   Preserve effective academic conventions.
 - For claim mapping or evidence audits, use [the evidence model](references/evidence-model.md).
   Keep claim type, support, source provenance, author attestation and actual inspection separate.

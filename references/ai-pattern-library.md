@@ -74,6 +74,36 @@ Synthetic example:
 “据此” refers to the listed requirements. “原件” restores the object after the topic changes back to the window.
 Replacing both with “这” would blur the information and review roles. No extra closing claim about “important implications” is needed.
 
+### Locate reading obstacles
+
+Judge familiarity for the intended readers and genre. Everyday conversation is not the required register for academic prose.
+A rare combination can need repair when its intended relation is hard to recover. An established technical term can remain unfamiliar to other readers.
+Explain a necessary term when the requested readers need help. Keep its construct and use the same term for the same meaning.
+
+| Candidate obstacle | Check and proportionate repair | Preservation control |
+| --- | --- | --- |
+| An unusual word combination | Identify the intended relation. Use a conventional combination with the same meaning. | Do not replace a broad construct with an easier but narrower concept. |
+| An odd subject-action combination | Check what action the predicate attributes to the subject in this genre. Repair unfamiliar personification that obscures the supplied action. | Abstract subjects and conventional uses such as “the report recommends” can be valid. Do not invent a person, intention or mental state to restore an actor. |
+| A long insertion or nested modifier | Find the main claim and the words its conditions or modifiers govern. Move or unpack material when readers must reconstruct those links. | Keep negation, conditions, attribution and action state attached to the same claim. A comma count does not require division. |
+| A dense noun chain | State the relations between its parts, such as object, purpose, source or responsibility. | Resolve only relations supported by the material. Keep an ambiguous relation unresolved or ask when it changes the result. |
+| Omitted relation words | Restore a necessary reference, article or connector when the link is hard to follow. | Do not invent a cause, sequence or shared group. In English, an explicit “that” can help mark a clause. |
+
+Reduce empty scaffolding before compressing substantive relations. Extra words can make the same content easier to follow.
+One sentence can state a clear main relation with its necessary conditions or comparison. Do not replace this with a one-fact-per-sentence rule.
+Consider a compact inline list when readers must apply several conditions together. Keep each condition's force, AND/OR grouping, negation and consequence.
+Retain a clear integrated sentence when the list adds no value.
+After division or expansion, compare the linked clauses again. Eligibility, an intended action and an action that occurred remain different meanings.
+
+For Chinese, check topic changes, omitted actors, reference and the scope of long modifiers. Do not infer a missing actor merely from an omitted subject.
+For English, check distant dependencies, nested relative clauses and noun modifiers whose relation is unclear.
+These are contextual checks, not universal sentence limits or a cross-language score.
+
+A text review can locate a phrase that needs rereading. Call it a text review when no audio was used.
+If an actual reading aloud or text-to-speech check occurs, record only that action. It does not establish correct understanding.
+A model's answers to comprehension questions are proxies. Attribute human understanding only to actual human responses.
+For a small edit, keep these checks proportionate and private. Do not append a checklist or comprehension test to prose-only output.
+See [the burden examples](writing-examples.md#13-unpack-relations-without-changing-the-construct).
+
 ## Author voice from actual samples
 
 Use an available sample as evidence of applicable choices, not as a source of research facts or a fixed imitation template.

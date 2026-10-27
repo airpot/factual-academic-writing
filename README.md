@@ -1,6 +1,6 @@
 # Factual Academic Writing · 事实驱动学术写作
 
-**版本：0.3.1。**
+**版本：0.3.2。**
 据所给研究材料组织学术论证，并在保义前提下减少套话、重复与机械表达。
 保留作者立场、数字、条件、否定、结论强度和直接引文；不补造数据、来源、方法或作者决定。
 
@@ -18,6 +18,9 @@
 小型润色无需完整事实台账；文学解释可据文本有条件成立。
 编辑意图与深度分别选择；压缩、扩写、语域转换、结构整理及润色各有相应检查，组合任务须同时满足所需目标。
 去 AI 味会检查空泛开场、语义重复、句段承接和文体，不以禁词清零或检测分数衡量质量。
+按目标读者和学术语域检查搭配、主谓关系、嵌套修饰、指代及名词串；保留术语、作者立场、有效长句和正常专业表达。必要时展开关系或拆句，不按逗号数量判错。
+读者需要逐项应用联合条件时，可用紧凑的句内列举，保留条件力度、“且／或”、否定与后果。
+文本复读、实际朗读或语音检查、真人理解结果分别记录。
 限定逐项对应其约束的论断，合并重复而保留必要边界；概念区分不扩展所给研究目标。
 重写前识别事实、可能解释、条件与完成状态；删重后逐句核对，并保留理解结果所需的测量对象和具体行为。
 双向保持作者判断，既不把可能性写成事实，也不无故削弱明确能力及条件成立后的结论。
@@ -31,7 +34,9 @@
 复制整个目录到所用代理的技能目录，命名为 `factual-academic-writing`。
 若已有同名安装，先备份旧目录。
 
-从 [v0.3.1 标签](https://github.com/airpot/factual-academic-writing/tree/v0.3.1)取得完整目录，或下载[该标签的源码 ZIP](https://github.com/airpot/factual-academic-writing/archive/refs/tags/v0.3.1.zip)。
+可从 [v0.3.2 发布页](https://github.com/airpot/factual-academic-writing/releases/tag/v0.3.2)下载技能 ZIP，并核对同页 SHA-256。完整解压其中的 `factual-academic-writing/` 目录。
+
+从 [v0.3.2 标签](https://github.com/airpot/factual-academic-writing/tree/v0.3.2)取得完整目录，或下载[该标签的源码 ZIP](https://github.com/airpot/factual-academic-writing/archive/refs/tags/v0.3.2.zip)。
 解压后将含 `SKILL.md` 的目录命名为 `factual-academic-writing`，复制到 `%USERPROFILE%\.codex\skills\`。
 源码 ZIP 还含 README 与 CHANGELOG；保持运行文件和参考资料完整。
 在新会话中调用 `$factual-academic-writing`，提供所需模式、材料和输出范围。
@@ -64,7 +69,8 @@ python scripts/scan_ai_patterns.py --help
 扫描器采用有限语法规则，可能误判复杂引号、公式及 Markdown。
 它不能判断 AI 作者身份、引用真伪或论文是否可提交。
 Windows 文本输出保留当前编码，不可表示的字符转为转义；UTF-8 和 JSON 保留原文。
-历史开发保留有限案例、真实论文全文文本审计和一组真人偏好记录。本版新增两项合成材料任务，初稿、自审与接收后修订分别保留。
+历史开发保留真实论文文本审计与真人偏好。本版开发使用中英文合成材料对照，初稿、自审、接收后修订及反馈后的定向执行分别留档；新增四组教学示例，共十六组。
+本版对照未显示稳定整体优势；一位读者只提供中文样稿偏好，没有理解题答案。模型理解题与真人反馈分开记录。
 这些记录尚未证明普遍写作提效或全文审计的普遍可靠性；多轮复核也不保证零错误。
 完整构文与修订示例见 [案例](references/writing-examples.md)。
 
