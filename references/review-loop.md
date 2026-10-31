@@ -1,13 +1,13 @@
 # Default Review Loop
 
-Use for draft, expression-edit and audit delivery unless the user explicitly changes the review depth.
+Use for all generated prose, expression edits and audit delivery unless the user explicitly changes the review depth.
 At least three complete rounds within five attempts are practical defaults, not a proven optimal count or a guarantee of error-free prose.
 The coordinating assistant owns this one loop for the requested artifact. A reviewer invoked for a round performs one complete review and returns its findings; it does not start a nested loop or recruit more reviewers.
 Use only reviewer facilities authorized for this task. If the approved facility is unavailable, use the self-review fallback; review permission does not authorize creating separate application tasks or messaging other conversations as a substitute.
 
 ## Start from the actual task
 
-Keep the requested mode, current raw material, author decisions and output constraints as the review scope.
+Keep the requested mode, current raw material, relevant context, task decisions and output constraints as the review scope.
 Record the current input/scope and artifact identities privately. For saved work, hashes or immutable versioned files are useful; a small edit can keep the same record in working context.
 Keep three separate counts: attempts used, completed full rounds, and consecutive clean reviews. Starting a review uses one attempt. Count a completed round only after its full coverage and completion are confirmed.
 For a delegated round, confirm that the reviewer finished its assigned review; a saved partial result or a still-running reviewer is not completion. For self-review, record the actual end of the separate full pass. It does not require the coordinating assistant to stop running. Use the same three counts.
@@ -17,15 +17,23 @@ Do not replace an author judgment with only its evidence or only its limitation.
 An initial generation is a draft, not a completed review round.
 Review the whole requested available artifact. For long work, cover its parts and their connections; mark unseen parts.
 A review of one repaired sentence cannot establish whole-section or whole-manuscript coverage.
+For a short answer, use the same default counts with checks proportionate to the actual text.
+No formal ledger, tool call, forced rewrite or visible review report is required merely because the standard applies.
+For general composition, check the answer against its factual basis, context and task. For fiction, check the requested frame and creative constraints.
+Do not impose supplied-material-only limits on general answers that require verification.
 
 ## Perform each round
 
 1. Review the current artifact against the raw material and task. Check meaning and support relations, argument and author voice, repeated propositions, qualifications, exact quotations, terminology and output constraints.
+   Check all four clarity levels: sentence meaning, sentence relations, paragraph purpose and whole-document structure.
+   Confirm that necessary concepts and inferential steps are available to the intended reader.
+   In technical answers, check relevant access and execution reporting against actual actions and outcomes.
    For edits, also check the requested outcome with the intent checks in [expression review](ai-pattern-library.md).
    Locate any reading obstacle in its phrase or relation. Recheck meanings after unpacking, splitting or compressing it.
 2. When available and authorized, use a fresh independent reviewer with only the current artifact, raw material and requested scope. Give no preferred answer or previous review opinions. Otherwise make a separate self-review using the same checks; do not call it independent.
 3. Locate each issue and compare it with the material. Classify it as accepted for correction, rejected with a source-grounded reason, or pending evidence/author decision. Keep real boundary distinctions and evidence-to-inference steps.
 4. Correct accepted issues within the user's mode and recheck affected claims and connections. Keep effective unaffected wording. In expression-only work, restore meanings lost by rewriting; corrections to unsupported original assertions remain separate proposals.
+   In new composition, correct the assistant's own errors instead of preserving them as source assertions.
 5. Record coverage, reviewed artifact/input identity, findings, dispositions, changed spans and the next action privately. Save files for substantial work or when requested; a small edit needs no formal log.
 
 Each complete round checks all dimensions. Its main focus can change, but meaning, argument, voice and expression still need coverage.

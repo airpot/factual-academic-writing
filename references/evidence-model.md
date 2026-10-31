@@ -3,6 +3,19 @@
 Use the smallest record that makes the requested work auditable. Existing author records are acceptable.
 Keep IDs stable. They locate evidence and do not certify truth.
 
+## Proportionate evidence and status reporting
+
+Apply these distinctions to general answers as well as manuscripts. A short explanation needs no formal claim ledger.
+Distinguish facts, inferences, assumptions, recommendations and hypothetical examples in wording appropriate to the task.
+Use the records below when traceability or an audit needs them. Do not force research fields into every reply.
+Keep bounded source work within its agreed materials. General answers use sources as required by the task and governing verification rules.
+
+In technical answers, state relevant access, execution and validation status. A proposed command is not an executed command.
+A file read does not establish that the described system ran. A successful local check establishes only its actual checked scope.
+Keep `not run`, `blocked`, `failed` and `passed` distinct. Name an important uninspected dependency or missing check when it limits the result.
+Report only actions and outcomes that occurred. Keep useful status in the answer while private editorial records remain private.
+In creative work, a fictional event needs no empirical source. A real-world factual assertion outside that frame still needs an appropriate basis.
+
 ## Source record
 
 ```yaml

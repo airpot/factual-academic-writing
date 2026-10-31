@@ -2,6 +2,38 @@
 
 The historical filename is retained. AI-flavored prose means empty, repetitive or mechanical expression, not an authorship verdict.
 Use [meaning preservation](meaning-preservation.md) for common safeguards and post-rewrite comparison.
+Apply the shared clarity checks to all prose. Select the edit intents below only when the task includes editing.
+
+## Four clarity levels
+
+| Level | Editorial check |
+| --- | --- |
+| Sentence meaning | Recover the topic, main predicate, participants, reference, conditions and negation. Inspect unclear noun relations, modifier attachment and comparisons. Repair the located obstacle without changing the claim. |
+| Sentence relations | Identify what each substantive addition does: explain, support, exemplify, contrast, qualify, sequence or intentionally change the topic. Supply a warranted missing link. A connective cannot establish an absent premise or cause. |
+| Paragraph purpose | Identify the paragraph's contribution to the developing answer. Keep its evidence, explanation and distinct boundaries together. Combine duplicate functions without losing necessary reasoning or orientation. |
+| Whole-document structure | Reconstruct the order from the actual content. Check task coverage, prerequisite order, connections between parts and the warranted ending. Repair missing steps and disconnected sections. |
+
+Use reader knowledge and the requested genre to judge clarity. Explain necessary unfamiliar concepts before relying on them.
+Do not impose a beginner register, one sentence length or a fixed paragraph pattern on every task.
+For Chinese, preserve natural topic progression and recoverable omissions. Restore a noun when competing referents make the intended meaning unclear.
+Keep stable terms instead of substituting synonyms for variation. Preserve effective long sentences, necessary repetition and intentional artistic effects.
+An editorial check can identify a reading obstacle. It does not establish human comprehension without actual human evidence.
+
+## Select relevant information
+
+For new composition, select relevant detail before expanding it. Do not carry every input sentence into the answer merely because it was supplied.
+Keep every fact the task requires and every condition that changes the result. Expression-only editing still preserves all required source meanings.
+
+### Make results and actions easy to find
+
+Give the requested decision or next action in a direct sentence, step or table cell. Do not bury it inside background, repeated warnings or status explanations.
+Introduce a batch identifier, person or other unfamiliar label with its role before asking the reader to track it.
+A status detail at the end does not repair an identifier that had no context earlier. Add the necessary orientation without inventing what the identifier means.
+Group shared criteria once, then compare cases against them. A table can carry values and eligibility without a paragraph repeating every row.
+Attach a condition or limit to the claim it changes. Do not restate the same boundary as a separate negative, conclusion and closing summary.
+Keep distinct exceptions and decision-changing limits; remove duplicated explanation, not required meaning.
+After drafting, locate each requested answer or action in the text. Then test deletion of suspected repeats and check whether any required fact or reasoning is lost.
+Reader failure to find an action is a clarity finding even when the words occur somewhere. Literal inclusion alone does not establish useful communication.
 
 ## Select the edit intent
 
@@ -76,7 +108,7 @@ Replacing both with “这” would blur the information and review roles. No ex
 
 ### Locate reading obstacles
 
-Judge familiarity for the intended readers and genre. Everyday conversation is not the required register for academic prose.
+Judge familiarity for the intended readers and genre. Use the task's register. Everyday conversation is not the required register for academic prose.
 A rare combination can need repair when its intended relation is hard to recover. An established technical term can remain unfamiliar to other readers.
 Explain a necessary term when the requested readers need help. Keep its construct and use the same term for the same meaning.
 

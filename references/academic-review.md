@@ -2,6 +2,25 @@
 
 Read the parts relevant to the task. Use [meaning preservation](meaning-preservation.md) for shared fidelity checks.
 
+## Structure across prose tasks
+
+Start from the user's question, intended readers and useful result. Select each part's purpose before its wording.
+For explanations, place necessary concepts before dependent claims. For procedures, establish conditions before actions and results.
+For analysis, connect observations to the reasoning and decision they support. For narrative, check event order, perspective and intended reader knowledge.
+These are task choices, not mandatory section layouts.
+
+For substantial prose, reconstruct a private outline from the actual paragraph content after drafting.
+Identify each paragraph's topic, purpose and new contribution. Read the whole paragraph before assigning that purpose.
+Check whether the order fulfills the request, whether prerequisites are available and whether the ending follows from the text.
+Repair missing steps, disconnected parts and duplicated functions before polishing connectors.
+Check whether the requested answer or action is easy to locate. Introduce unfamiliar identifiers before using them in instructions or conclusions.
+Select facts by their role in the requested result; do not reproduce all material as a new-answer completeness ritual.
+Group shared criteria and execution limits where they govern the result. Preserve distinct meaning without repeating the same warning across paragraphs.
+Preserve useful repetition, independently readable section boundaries and intentional artistic structure.
+A short answer needs no formal outline. Use headings, lists, tables or summaries only when they help the task.
+
+The argument and reverse-outline methods below also apply outside manuscripts. Select scholarly details only for relevant evidence work.
+
 ## Build an argument from supplied material
 
 Identify the author's question, main claim, intended readers and available evidence.
@@ -22,7 +41,7 @@ An effective passage can remain unchanged. Do not impose a fixed sentence layout
 
 ## Review the structure from the draft
 
-For a substantial section or manuscript, make a reverse outline of the available draft.
+For a substantial section or manuscript, apply the reverse-outline method above to the available draft.
 Record each paragraph's topic, function, evidence and new contribution to the author's question.
 Do not assume its first sentence accurately states its job. Read the paragraph before summarizing it.
 Then ask:

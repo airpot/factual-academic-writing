@@ -3,9 +3,23 @@
 Use these shared safeguards in all modes. A light edit can keep the comparison in working context.
 For a substantial rewrite, keep a compact record of high-risk meanings. Reuse existing author or claim records.
 
+## New composition and source fidelity
+
+In a new answer, correct the assistant's own errors, including an error carried from earlier conversation.
+Do not preserve an incorrect assertion merely for continuity. Explain a material correction when the user needs it to understand the result.
+Distinguish established facts, interpretations, assumptions and recommendations. Keep verification appropriate to the task and its source limits.
+
+In expression-only editing, the source remains the meaning target. Preserve its assertions and report proposed evidence corrections separately.
+Apply substantive corrections only when the task authorizes them. Do not add an unprovided premise to make the source argument appear complete.
+In an audit, assess support and propose corrections without treating that assessment as permission to rewrite the source.
+
+A clearly hypothetical teaching example can introduce invented participants or values to explain a concept.
+Requested fiction can introduce imagined events. Keep the fictional frame and supplied creative constraints clear.
+Do not present either as observed evidence, a real source or a completed execution. Hypothetical content does not authorize invented nonfiction claims.
+
 ## Shared safeguards
 
-- Invent no facts, findings, references, mechanisms, methods or author decisions.
+- Invent no factual evidence, findings, references, mechanisms, methods or author decisions. Keep hypothetical and fictional content within its stated frame.
 - Keep actors, quantities, units, dates, negation, conditions, exceptions, scope and logical relations.
 - Preserve direct quotations, including internal punctuation. Do not silently shorten them or move punctuation.
 - Keep source identifiers, code, formulas and established terms unless their correction is requested.

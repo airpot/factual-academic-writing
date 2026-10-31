@@ -309,3 +309,58 @@ A text-only review may record that the recommendation and its boundary remain ea
 It must not claim “I listened to the passage” without audio use.
 An actual audio check can find awkward phrasing, but smooth delivery does not verify the claim or the reader's understanding.
 Keep such checking notes outside a prose-only response.
+
+## 17. Explain a prerequisite before using it
+
+Synthetic teaching request: explain why a recipe with equal proportions can produce different amounts. The learner does not know the term ratio.
+
+Weak explanation, quoted as an example of a missing prerequisite:
+
+> 两份配方的比例相同，所以可以等比缩放。
+
+Useful explanation:
+
+> 比例说明两种原料的用量关系。例如，假设一份配方用1杯米和2杯水，另一份用2杯米和4杯水：两份配方中，水的用量都是米的两倍，所以比例相同。第二份的米和水都更多，做出的总量也更多。比例相同，并不要求总量相同。
+
+The example introduces the relation before relying on the term. The quantities are hypothetical teaching content.
+The final distinction answers the learner's question. A shorter answer that only names scaling would leave the prerequisite unexplained.
+
+## 18. Report a conditional procedure and actual execution
+
+Synthetic technical material: a local validator returned exit code 0 for a configuration file.
+No service restart or live request occurred. The procedure permits a restart only after validation succeeds and the operator authorizes it.
+
+Useful answer:
+
+> The local validator returned exit code 0 for the configuration file. No service restart or live request occurred.
+> If validation succeeds and the operator authorizes the restart, restart the service. Then send a live request to check the result.
+
+False fix, quoted as an example of an unsupported status claim:
+
+> The configuration works in production. Restart the service.
+
+The false fix loses the authorization condition and invents a production result.
+The useful answer keeps the observation, conditions and proposed actions distinct. Execution reporting serves this technical task and stays in the answer.
+
+## 19. Correct an answer without changing a source-edit boundary
+
+Synthetic conversation: the assistant previously called a rise from 20% to 25% a five-percent relative increase.
+The user asks for the correct calculation.
+
+Useful answer:
+
+> My earlier calculation was wrong. The rise is 5 percentage points. Relative to 20%, the increase is 5/20 = 25%.
+
+Keeping the earlier error for continuity would fail this new-answer task.
+If the user instead requests expression-only editing of a supplied sentence with that assertion, preserve its claim and report the calculation correction separately.
+Do not silently apply an evidence correction under an expression-only instruction.
+
+## 20. Preserve a deliberate narrative choice
+
+Synthetic creative request: retain uncertainty about who opened a door. Supplied passage:
+
+> 门开了。她没有回头，只把桌上的第二只杯子往里推了推。
+
+The passage can remain unchanged. The visible actions are recoverable, and the unknown arrival serves the requested uncertainty.
+A rewrite that names the visitor would invent a decision the request reserves. A causal connector would not establish why the door opened.
+Clarity does not require resolving every intentional ambiguity or replacing narrative rhythm with explanatory prose.
