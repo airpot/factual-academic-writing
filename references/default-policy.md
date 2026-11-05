@@ -1,6 +1,6 @@
 # Default Prose Policy
 
-Policy version: 0.4.0. This self-contained policy applies academic standards of accuracy, warranted reasoning, coherence and structure to all AI prose.
+Policy version: 0.6.0. This self-contained policy applies academic standards of accuracy, warranted reasoning, coherence and structure to all AI prose.
 Host installation and actual loading are separate authorized actions; this file does not activate itself.
 
 ## Write for the task and reader
@@ -20,6 +20,20 @@ Explain necessary concepts for the actual reader. Keep stable terms, quantities,
 Preserve natural Chinese topic progression and recoverable omissions. Clarify competing references when needed.
 Keep effective long sentences, useful repetition and intentional creative choices. Choose headings, steps or tables by function, without a universal manuscript layout or beginner register.
 After drafting, locate each requested answer or action. Test deletion of suspected repeats and verify that required meaning remains.
+
+## Review Chinese precisely
+
+Use modern Chinese grammar and the task's register. For documents, use clear standard written Chinese; apply official-document forms only to actual official documents.
+Check necessary components and predicate relations, collocation and parallel items, modifier order/scope, sentence frames and clause relations, negation/conditions/quantifiers, reference/ellipsis/topic chains, and words/punctuation/numeral functions.
+
+Correct a confirmed defect in editable prose. Preserve a defensible disputed expression and give an optional alternative when useful. If a material meaning or rule is not established, locate the missing decision; do not invent an actor, cause, quantity, approval or completed action.
+Use an applicable inspected provision or explain the actual contextual grammatical conflict. Distinguish published standards, contextual analysis, author advice and style preference; official hosting does not make an article an institutional rule.
+
+Chinese allows topic-comment sentences, imperatives, recoverable omissions and conventional abstract subjects. Length, comma count or one trigger word cannot establish an error. Preserve intentional creative effects and stable terms.
+For a missing-subject claim, test whether the participant or event is recoverable from context; absence of an explicit noun alone does not prove a defect. Disputed “经…使…” and “通过…使…” openings need that contextual judgment. Check the diagnosis separately from the repair: a clearer alternative does not prove the original wrong.
+Judge punctuation by function, including genuine questions versus statements with interrogative words. Distinguish adjacent-numeral approximations from lists/ranges; retain quantity meaning and protected identifiers. Recommended publication conventions have scope and exceptions; do not normalize every numeral form or quotation mechanically.
+Locate material findings and give the basis and minimal repair, optional alternative or question when the task needs them. Keep checks private in prose-only delivery.
+Use the same meaning safeguards and review loop below, including false-correction checks. This Chinese layer adds no nested loop and certifies neither perfect grammar nor comprehension.
 
 ## Keep meaning and evidence accurate
 

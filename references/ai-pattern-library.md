@@ -16,6 +16,8 @@ Apply the shared clarity checks to all prose. Select the edit intents below only
 Use reader knowledge and the requested genre to judge clarity. Explain necessary unfamiliar concepts before relying on them.
 Do not impose a beginner register, one sentence length or a fixed paragraph pattern on every task.
 For Chinese, preserve natural topic progression and recoverable omissions. Restore a noun when competing referents make the intended meaning unclear.
+Use [Chinese review](chinese-review.md) for source-backed written forms and contextual grammar decisions.
+Distinguish a confirmed defect from an optional improvement or a decision the source does not establish.
 Keep stable terms instead of substituting synonyms for variation. Preserve effective long sentences, necessary repetition and intentional artistic effects.
 An editorial check can identify a reading obstacle. It does not establish human comprehension without actual human evidence.
 
@@ -127,6 +129,7 @@ Retain a clear integrated sentence when the list adds no value.
 After division or expansion, compare the linked clauses again. Eligibility, an intended action and an action that occurred remain different meanings.
 
 For Chinese, check topic changes, omitted actors, reference and the scope of long modifiers. Do not infer a missing actor merely from an omitted subject.
+Use the C1-C7 checks without treating their trigger phrases as automatic errors. Chinese punctuation and numeral choices also depend on function and genre.
 For English, check distant dependencies, nested relative clauses and noun modifiers whose relation is unclear.
 These are contextual checks, not universal sentence limits or a cross-language score.
 

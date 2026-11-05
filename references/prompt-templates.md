@@ -3,6 +3,7 @@
 Use the selected template. Fill fields from the actual task without a universal intake form.
 Evaluator criteria and previous answers are not execution inputs.
 The linked resources define shared safeguards. Templates do not replace them.
+For Chinese tasks, also use chinese-review.md and its source authority/examples. Separate confirmed errors, optional improvements and unresolved meanings. Keep each mode's source boundary and protected content.
 
 ## General answer
 

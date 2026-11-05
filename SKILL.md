@@ -2,7 +2,7 @@
 name: factual-academic-writing
 description: Use for all AI prose, including conversation, explanations, teaching, procedures, technical analysis, recommendations, academic writing and creative work, or when editing or auditing prose, including Chinese requests to 去 AI 味.
 metadata:
-  version: "0.4.0"
+  version: "0.6.0"
 ---
 
 # Factual Academic Writing
@@ -64,6 +64,17 @@ Do not expand an expression edit into research. Do not manipulate an AI-detectio
   Select the edit intent and its acceptance checks. Diagnose repetition and qualifications by their function.
   Locate actual reader obstacles in wording, noun relations, reference and syntax before changing effective prose.
   Preserve effective academic conventions.
+- For Chinese prose, also use [Chinese review](references/chinese-review.md).
+  Correct confirmed errors in editable text; preserve defensible disputed forms and offer optional improvements.
+  Keep unknown meanings open. Use [source authority](references/chinese-sources.md) for inspected provisions and their limits,
+  and [Chinese examples](references/chinese-examples.md) for repairs, valid constructions and unresolved cases.
+  The ordinary mode, meaning-preservation and complete review-loop rules still apply; do not start another loop.
+- When the task concerns an official document, use [official-document review](references/official-document-review.md)
+  for drafting, language review or final-copy collation.
+  Establish purpose, genre, addressee and editable-draft or designated-baseline stage before making changes.
+  Distinguish preserved wording, internal consistency, actual source comparison and missing material.
+  Use [official-document examples](references/official-document-examples.md) when a worked decision helps.
+  This conditional route uses the same modes and review loop; it does not impose official style on other prose.
 - For claim mapping or evidence audits, use [the evidence model](references/evidence-model.md).
   Keep claim type, support, source provenance, author attestation and actual inspection separate.
 - Use [worked examples](references/writing-examples.md) when a concrete construction or editorial decision would help.
