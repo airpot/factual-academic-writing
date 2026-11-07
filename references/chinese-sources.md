@@ -15,7 +15,7 @@ The GB/T documents below are recommended national standards. This skill adopts a
 
 ### S03. GB/T 15834-2011: 标点符号用法
 
-Published 2011-12-30; effective 2012-06-01. The [official status record](https://openstd.samr.gov.cn/bzgk/std/newGbInfo?hcno=22EA6D162E4110E752259661E1A0D0A8) marked it current at adoption. The [Ministry of Education reproduction](https://www.moe.gov.cn/ewebeditor/uploadfile/2015/01/13/20150113091548267.pdf) supplied the inspected scan. Printed pages 2-3, for example, are PDF pages 5-6.
+Published 2011-12-30; effective 2012-06-01. The [official status record](https://openstd.samr.gov.cn/bzgk/std/newGbInfo?hcno=22EA6D162E4110E752259661E1A0D0A8) marked it current at adoption. The [registered Ministry of Education reproduction](punctuation-review.md#check-a-registered-link) supplied the inspected scan. Printed pages 2-3, for example, are PDF pages 5-6.
 
 | Guide application | Inspected location | Adopted scope |
 | --- | --- | --- |

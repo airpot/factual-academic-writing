@@ -26,6 +26,8 @@ Do not impose supplied-material-only limits on general answers that require veri
 
 1. Review the current artifact against the raw material and task. Check meaning and support relations, argument and author voice, repeated propositions, qualifications, exact quotations, terminology and output constraints.
    Check all four clarity levels: sentence meaning, sentence relations, paragraph purpose and whole-document structure.
+   Check punctuation function and meaning, then character form and width, spacing, pairing, nesting and style. Use [punctuation review](punctuation-review.md) for doubtful marks, mixed text or destination-sensitive work.
+   In edits, compare affected meaning both ways and verify exact spans. In audits, locate defects and decisions in the source as findings, and check the report itself as prose.
    Confirm that necessary concepts and inferential steps are available to the intended reader.
    In technical answers, check relevant access and execution reporting against actual actions and outcomes.
    For edits, also check the requested outcome with the intent checks in [expression review](ai-pattern-library.md).

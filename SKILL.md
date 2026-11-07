@@ -2,7 +2,7 @@
 name: factual-academic-writing
 description: Use for all AI prose, including conversation, explanations, teaching, procedures, technical analysis, recommendations, academic writing and creative work, or when editing or auditing prose, including Chinese requests to 去 AI 味.
 metadata:
-  version: "0.6.0"
+  version: "0.7.1"
 ---
 
 # Factual Academic Writing
@@ -90,6 +90,12 @@ Return useful supported work rather than fill gaps with invented content.
 ## Review before delivery
 
 Use [the review loop](references/review-loop.md) for all generated prose, expression edits and audits.
+In each mode, check punctuation function and meaning, then character form and width, spacing, pairing, nesting and style consistency.
+Do a quick private check even for a short reply. Use [punctuation review and examples](references/punctuation-review.md) when a mark, mixed-language boundary, destination style or layout needs a closer decision.
+Keep exact spans intact; distinguish a confirmed defect from a valid style choice or a decision that needs meaning or authority.
+Before the first submission, check that any required punctuation diagnosis names the original mark, its location and the defect before or with a query or repair. Keep the check private for routine output-only edits.
+For a named authority link, match the title and edition, exact provision, verified destination and supported claim. Use a verified document link plus a plain locator if no deep link is verified. If the match cannot be established, state the evidence limit and give the supported judgment.
+For a registered authority, copy the exact URL from the [registered destination checker](scripts/check_registered_citation.py), then compare the actual link staged for submission as described in [punctuation review](references/punctuation-review.md#check-a-registered-link). Do not substitute an indexed or cached URL.
 Default: at least three complete rounds within five attempts. An interrupted attempt uses the budget but is not complete.
 Require two consecutive complete reviews of the same unchanged artifact and input scope with no accepted or pending issue.
 Corrections and incomplete coverage reset that streak. Do not invent rounds or force edits of effective prose.
@@ -104,7 +110,7 @@ Do not restart the loop under a new name. Further review after the cap needs an 
 
 Run `python scripts/scan_ai_patterns.py manuscript.txt` from this skill, or use its resolved script path.
 Use `--text "待检查文本" --format json` for inline text and `--help` for options.
-It identifies limited patterns. It verifies neither evidence nor AI authorship. Zero matches are not a quality gate.
+It identifies limited readability patterns. It does not validate punctuation, evidence or AI authorship. Zero matches are not a quality gate.
 Text output keeps the selected encoding and escapes characters it cannot represent; UTF-8 and JSON preserve the original text.
 Resolve hits as revise, retain with reason, or needs author decision.
 After one justified revision and rescan, stop this scanner subprocess. Continue the manuscript review loop to its own gate.
