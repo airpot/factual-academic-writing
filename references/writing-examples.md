@@ -104,16 +104,18 @@ It keeps the author's reading conditional and examines the supplied alternative.
 It does not require an empirical experiment to permit textual interpretation.
 The prose keeps both readings possible without introducing an unclaimed motive or a source-checking disclaimer.
 
-## 5. Keep a paragraph that already works
+## 5. Keep effective prose and correct a duplicate host stop
 
 Supplied paragraph:
 
-> 我们先核对表格编号，再检查单位，最后登记疑义。此外，直接引文保持原样，如“这里还要核对。不能省略。”。
+> 我们先核对表格编号，再检查单位，最后登记疑义。此外，直接引文保持原样：“这里还要核对。不能省略。”。
 
-For a light expression edit, the returned paragraph can remain exactly the same.
-The order describes a real sequence. The additive transition has a distinct purpose.
-Uniform sentence lengths and quotation-internal periods need no repair.
-If the user requests prose only, return this paragraph without an unrelated report of unperformed source checks.
+For a light expression edit, return:
+
+> 我们先核对表格编号，再检查单位，最后登记疑义。此外，直接引文保持原样：“这里还要核对。不能省略。”
+
+The order describes a real sequence. The additive transition has a distinct purpose. The quotation is complete and independent at the end of the host sentence. Keep its exact text and internal stops; remove only the duplicate host stop after the closing quote. See [GB/T 15834-2011](https://www.moe.gov.cn/ewebeditor/uploadfile/2015/01/13/20150113091548267.pdf), Annex B.2.1.
+If the user requests prose only, return the repaired paragraph without an unrelated report of unperformed source checks.
 
 ## 6. Affirmative discussion from adequate results
 
@@ -333,14 +335,14 @@ No service restart or live request occurred. The procedure permits a restart onl
 Useful answer:
 
 > The local validator returned exit code 0 for the configuration file. No service restart or live request occurred.
-> If validation succeeds and the operator authorizes the restart, restart the service. Then send a live request to check the result.
+> You may restart the service only after validation succeeds and the operator authorizes the restart. If you restart it, send a live request afterward to check the result.
 
 False fix, quoted as an example of an unsupported status claim:
 
 > The configuration works in production. Restart the service.
 
 The false fix loses the authorization condition and invents a production result.
-The useful answer keeps the observation, conditions and proposed actions distinct. Execution reporting serves this technical task and stays in the answer.
+The useful answer keeps the observation, both prerequisites, permission to restart and the follow-up check distinct. Execution reporting serves this technical task and stays in the answer.
 
 ## 19. Correct an answer without changing a source-edit boundary
 
@@ -364,3 +366,77 @@ Synthetic creative request: retain uncertainty about who opened a door. Supplied
 The passage can remain unchanged. The visible actions are recoverable, and the unknown arrival serves the requested uncertainty.
 A rewrite that names the visitor would invent a decision the request reserves. A causal connector would not establish why the door opened.
 Clarity does not require resolving every intentional ambiguity or replacing narrative rhythm with explanatory prose.
+
+## 21. Test the premise before keeping a connector
+
+**Edit (English).** The draft says:
+
+> The branch added a drop box in May.
+>
+> Therefore, fewer patrons needed help returning books.
+
+The notes establish installation only. In Draft, report “The branch added a drop box in May.” To support the conclusion, the writer would need evidence that fewer patrons required help and that the change explains the reduction. In expression-only Edit, flag the missing support separately; deleting “therefore” alone leaves the unsupported outcome in place.
+
+**Keep (English).** The procedure says:
+
+> The branch closes at 6 p.m. The old box locks at closing. The new box stays open until 9 p.m.
+>
+> Therefore, someone arriving at 7 p.m. can use the new box, but the old one is locked.
+
+The closing times and the arrival time support the practical inference. The connector helps the reader follow it.
+
+## 22. Give an assessment a concrete function
+
+**Edit (Chinese).** The draft introduction says:
+
+> 旧索引按交接日期排列，新索引可按批次号查询。
+>
+> 这项工作具有重要意义，为后续工作打下了坚实基础。
+
+The second paragraph offers no concrete consequence. In expression-only Edit, preserve the author’s significance judgment and claim about future work. If the supplied material establishes that the judgment rests on lookup by batch number, explain that use alongside the judgment; do not replace the judgment with the lookup fact alone. If the basis or intended future work is unclear, keep the assessment and flag the gap separately. In Draft, omit generic praise if no use is supplied.
+
+**Keep (Chinese).** A handover memo with the same index facts says:
+
+> 旧索引按交接日期排列，新索引可按批次号查询。
+>
+> 这项变化对夜班交接很重要：交接单上只记批次号，接班人可以直接查找对应记录。
+
+The supplied handover practice explains why the change matters to a specific reader. The evaluative language introduces that consequence.
+
+## 23. Remove a repeated claim or give it a second job
+
+**Edit (English).** Two adjacent paragraphs of a handover note read:
+
+> Keep the original receipt until the reimbursement appears in your account.
+>
+> In summary, retain the original receipt until reimbursement appears in your account.
+
+Keep the first paragraph. The second repeats the same action and endpoint in the same place in the procedure.
+
+**Keep (English).** A form and its separate, printable handover page read:
+
+> Keep the original receipt until the reimbursement appears in your account.
+>
+> [On the handover page] Before discarding the receipt, check your account. If the reimbursement has not appeared, keep the original.
+
+The recap gives a disposal decision to someone reading only the handover page. It preserves the same endpoint.
+
+**Keep (Chinese).** Two paragraphs of an index comparison read:
+
+> 按日期查找时，旧索引和新索引都能定位记录。
+>
+> 但只知道批次号时，只有新索引支持直接查询。
+
+The second paragraph repeats the query topic to change the condition and the result. Removing it would hide the reason to choose the new index.
+
+## 24. Preserve a deliberate voice across paragraphs
+
+**Edit (Chinese).** In neutral meeting minutes, the supplied decision is to postpone a vote until the cost estimate arrives. A draft closes with “我们等。没有估算，就不表决。” Write “会议决定，在收到成本估算前暂不表决。” The minutes need the decision and its condition without assigning an individual viewpoint.
+
+**Keep (English).** A board member's signed account of their own vote ends:
+
+> We had the bids. We still had no cost estimate for the repairs.
+>
+> So I voted to wait.
+
+The supplied author wants to explain a personal vote, and the record supports both the missing estimate and the vote. The short ending carries the author's stance and does not attribute that stance to the board as a whole.

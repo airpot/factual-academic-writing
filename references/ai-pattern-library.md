@@ -15,7 +15,7 @@ Apply the shared clarity checks to all prose. Select the edit intents below only
 
 Use reader knowledge and the requested genre to judge clarity. Explain necessary unfamiliar concepts before relying on them.
 Do not impose a beginner register, one sentence length or a fixed paragraph pattern on every task.
-For Chinese, preserve natural topic progression and recoverable omissions. Restore a noun when competing referents make the intended meaning unclear.
+For Chinese, preserve natural topic progression and recoverable omissions. Restore a noun when context establishes its referent. If competing referents remain plausible, locate the ambiguity and ask or give conditional alternatives when the distinction matters.
 Use [Chinese review](chinese-review.md) for source-backed written forms and contextual grammar decisions.
 Distinguish a confirmed defect from an optional improvement or a decision the source does not establish.
 Keep stable terms instead of substituting synonyms for variation. Preserve effective long sentences, necessary repetition and intentional artistic effects.
@@ -78,6 +78,8 @@ Check nonadjacent sentences and the opening and ending. Do not replace removed w
 Keep each distinct supplied limit in edits. In drafts, attach a limit to the actual claim it affects.
 Relevant limitations belong in a requested limitations section. Private checking procedures do not belong in manuscript prose.
 
+Locate the problem across the actual sentences or paragraphs. If a causal premise is missing, identify it; revise only from supplied support, or flag the evidence gap separately in expression-only work. Generic praise needs a demonstrated use or consequence to earn its place. A repeated claim can still orient a reader at a new action point, and an unusual cadence can carry an author's deliberate position. See [discourse edit and keep pairs](writing-examples.md#21-test-the-premise-before-keeping-a-connector). Use them within the existing expression review.
+
 ### Organize boundaries around the argument
 
 Put a boundary beside the inference it changes. Several adjacent negatives can interrupt the argument even when each is true.
@@ -91,7 +93,7 @@ See [the boundary example](writing-examples.md#12-boundaries-without-an-editoria
 ## Reader progression
 
 Check what the intended reader knows, what each sentence adds and what the next sentence takes up.
-Repair unclear pronouns, missing inferential links and unexplained changes of topic.
+Repair unclear pronouns, missing inferential links and unexplained changes of topic when the intended meaning is supported. Do not choose an unknown pronoun referent.
 Use context and emphasis to make the author's intended relation recoverable.
 Sentence length alone is not a reason to rewrite. Do not add rhythmic variation for its own sake.
 Do not replace stable terms with synonyms merely to avoid repetition.
@@ -155,6 +157,7 @@ For a substantial task, a short profile can record:
 Record only useful features and their sample basis. Mark uncertain features rather than invent an author persona.
 Do not require extra samples for a small edit. Without samples, use the effective draft voice and requested genre.
 Do not turn formal prose casual or direct prose ornate without a request.
+In a requested review of wording or reader impact, diagnose a promise or guarantee separately from the factual statement it builds on. For example, “The case contains two volumes” reports an inventory; “You can count on finding every insert” assures completeness. A finding can name that assurance and then explain what verification is missing. Keep ordinary courtesy when it does not add certainty.
 The same facts can support several good voices. No single short, direct register is the required academic style.
 See [the voice alternatives](writing-examples.md#10-same-facts-different-valid-voices).
 

@@ -7,7 +7,7 @@ Use only reviewer facilities authorized for this task. If the approved facility 
 
 ## Start from the actual task
 
-Keep the requested mode, current raw material, relevant context, task decisions and output constraints as the review scope.
+Keep the requested mode, current raw material, relevant context, task decisions and output constraints as the review scope. For a manuscript with applicable format requirements, include the confirmed [format basis](manuscript-format.md) and the actual delivery medium.
 Record the current input/scope and artifact identities privately. For saved work, hashes or immutable versioned files are useful; a small edit can keep the same record in working context.
 Keep three separate counts: attempts used, completed full rounds, and consecutive clean reviews. Starting a review uses one attempt. Count a completed round only after its full coverage and completion are confirmed.
 For a delegated round, confirm that the reviewer finished its assigned review; a saved partial result or a still-running reviewer is not completion. For self-review, record the actual end of the separate full pass. It does not require the coordinating assistant to stop running. Use the same three counts.
@@ -26,9 +26,10 @@ Do not impose supplied-material-only limits on general answers that require veri
 
 1. Review the current artifact against the raw material and task. Check meaning and support relations, argument and author voice, repeated propositions, qualifications, exact quotations, terminology and output constraints.
    Check all four clarity levels: sentence meaning, sentence relations, paragraph purpose and whole-document structure.
+   When a format basis applies, verify the actual delivery against the same confirmed requirements one by one. Check visual requirements in the file or rendering. Locate any unresolved requirement or unverified property that affects readiness.
    Check punctuation function and meaning, then character form and width, spacing, pairing, nesting and style. Use [punctuation review](punctuation-review.md) for doubtful marks, mixed text or destination-sensitive work.
    In edits, compare affected meaning both ways and verify exact spans. In audits, locate defects and decisions in the source as findings, and check the report itself as prose.
-   Confirm that necessary concepts and inferential steps are available to the intended reader.
+   Confirm that necessary concepts and inferential steps are available to the intended reader. Apply the reader check below in this same round.
    In technical answers, check relevant access and execution reporting against actual actions and outcomes.
    For edits, also check the requested outcome with the intent checks in [expression review](ai-pattern-library.md).
    Locate any reading obstacle in its phrase or relation. Recheck meanings after unpacking, splitting or compressing it.
@@ -54,6 +55,26 @@ For a substantial finding, keep these useful fields:
 “Make it more natural” alone supplies no demonstrated defect and cannot compel a rewrite.
 An expression finding can use an explained rhetorical basis. It need not pretend to be an externally measured fact.
 Fresh reviewers can share model preferences and blind spots. Fresh context does not establish statistical independence or human validation.
+
+### Reader check
+
+For a substantial explanation or any procedure or decision whose missing detail could change use, use the intended reader's knowledge and the text they will receive:
+
+1. **Locate.** State a question the reader needs answered. Point to the passage that answers it.
+2. **Understand.** Restate the answer from that passage and its context, including any condition, exception or consequence that changes the result.
+3. **Act or decide.** Use the stated information to choose the next action or judgment, or explain what follows if the task calls for explanation only.
+
+Before trimming a handover or reference text, look for source-supplied lookup labels, locations or verification steps readers need outside the main action sequence. Retain them with their role in a usable place. For a variable cap, deadline or eligibility rule, test whether a reader can find the applicable value. If the source leaves that access unclear, report the gap or ask the decision owner as the task permits; do not invent a route.
+
+If a step fails, record the obstructing wording or the place where information is needed. Repair the text within the mode, or flag the missing evidence or author decision. Do not use background known only to the writer to make the draft pass. For a short reply or small edit, keep the check private and brief.
+
+In a consequential action or decision card, test the priority exception, the ordinary success route, and the next action when each necessary condition fails on its own. Include any source-defined action for a pending or unknown state. For example, when checkout needs both a verified permit and a matching seal, and either failure sends the item to the counter, a sentence only about a missing permit leaves the mismatched-seal path out. State “If either check fails, return the item to the counter,” subject to any overriding rule. Group only cases with the same action; never infer an action for an unprovided state.
+
+For a branch with multiple people or roles, read each condition and action separately and identify who holds the relevant item, who decides and who acts. “If the trainees are seated and have the demonstration sheet” points both conditions at the trainees. If the trainer must hold it, say “If the trainees are seated and the trainer has the demonstration sheet.” Omit a role when it stays recoverable; keep an unspecified role open.
+
+Where provision locators are requested or needed for lookup, check both directions after writing: each locator must support the exact action or restriction beside it, and each such action must retain its own applicable locator. If §2 requires isolating a damaged cable and §5 prohibits accepting it at the ordinary counter, write each clause with its own locator. A heading for §2 does not also cover the §5 prohibition. Use the exact title or identifier at the required granularity; do not manufacture source pointers.
+
+For substantial work, an optional blind reader check can probe a consequential passage during the round. If authorized, give a fresh reader only the prose as delivered and neutral reader questions. Withhold sources not available to the intended reader, answer keys, criteria and earlier feedback. Record what the reader actually locates, restates and chooses, and compare each response separately with the task and evidence. If no fresh reader is available, test the same tasks privately and describe the result as self-review if reporting it. This probe is neither a separate round nor a substitute for whole-artifact review. A model reader's response does not establish human comprehension.
 
 ### Supported feedback example
 

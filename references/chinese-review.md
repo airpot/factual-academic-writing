@@ -20,6 +20,8 @@ Keep the distinction between correct audit output and unresolved source content.
 
 For a material finding, retain its location or exact span, category, reason/basis and minimal repair, optional alternative or question. Use a private record unless the requested delivery needs those details. A short prose-only edit needs no visible table.
 
+Use the [same wording in different contexts](chinese-examples.md#16-recover-an-actor-only-when-the-context-assigns-one) to test a proposed correction: identify what the context supplies, what it contradicts and what it leaves undecided. Apply the same distinction to negation and quantity. For mixed text, decide separately which marks belong to the editable sentence and which belong to protected data or quotation.
+
 ## Inspect the construction
 
 The following are local diagnostic checks. They are not clauses of a national grammar standard. Use [source authority](chinese-sources.md) for actual provisions and their limits.
@@ -48,6 +50,8 @@ These applications use the inspected source scope in [S03 and S04](chinese-sourc
 - N3. Preserve quantity values, denominators, units, scales, ranges, dates and precision. Treat identifiers, versions, code and exact strings as protected data, not ordinary quantities to normalize. The identifier safeguard comes from task fidelity, not an invented standard clause.
 
 Consult the applicable inspected provision when a finding depends on an exception or a requested clause citation. If the bundled summary does not settle the case, mark that limit. Research further only when the task authorizes it or governing verification rules require it; do not present memory as an inspected source.
+
+Distinguish [statutory scope and software prompts](chinese-sources.md#scoped-authority-additions) from individual editorial decisions. A [recommended word form](chinese-sources.md#s10-gf-1001-2001-recommended-word-forms) can guide editable prose in its scope, and an applicable house style can settle a local choice. Neither is a syntax diagnosis. Verify the relevant entry and leave protected wording intact.
 
 ## Repair without changing meaning
 

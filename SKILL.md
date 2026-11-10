@@ -2,7 +2,7 @@
 name: factual-academic-writing
 description: Use for all AI prose, including conversation, explanations, teaching, procedures, technical analysis, recommendations, academic writing and creative work, or when editing or auditing prose, including Chinese requests to 去 AI 味.
 metadata:
-  version: "0.7.1"
+  version: "0.8.0"
 ---
 
 # Factual Academic Writing
@@ -16,19 +16,24 @@ Keep intentional artistic choices when they serve the requested work. Repair acc
 
 1. Identify the actual question, relevant context, reader knowledge and useful result. Infer routine choices.
    Select the information needed for that result. Put the requested action or judgment where the reader can find it.
+   Keep source-supplied labels, locations and other references the intended reader needs for lookup, handover or verification, even when they are not part of an action sequence.
    Introduce an unfamiliar identifier and its role before relying on it. Do not append unexplained case facts as closing disclaimers.
-2. Select the mode and task emphasis below. Establish the answer and necessary concepts before polishing expression.
+2. Select the mode and task emphasis below. When preparing a formal submission, continuing an established document format or auditing manuscript format, use [manuscript format](references/manuscript-format.md) to confirm the governing requirements, template or specimen. Reuse known requirements; ask only for a missing basis or unresolved conflict that could affect acceptance. Ordinary answers and small edits without a submission requirement have no added intake. Establish the answer and necessary concepts before polishing expression.
 3. Draft from available knowledge and appropriate sources. Distinguish fact, inference, assumption, recommendation and hypothetical example.
+   Keep separate what an identified source reports and what is established independently or remains unmeasured. In source-bound writing, credit only the documented role and action: making, recording or presenting something does not establish who conceived or authored it. A warmer voice does not change who gets credit. An invitation can also imply a fact: for an unseen work, point to a supplied or inherent feature, or make an uncertain detail conditional.
+   When sources conflict in a decision or handover, apply established precedence. Otherwise state the best-supported provisional judgment and its basis if warranted; leave only the unsupported determination open. For each material condition, say what to do now, what can be skipped on that basis, or what must wait, as applicable. Name the verifier if known. If a hold ends with a decision, state what to do once it arrives: give the supported next step, or say to follow the ruling when its outcome is unknown. Ending a hold does not itself authorize release. Do not make every step wait for final reconciliation. Keep issued, approved or released status separate from completion in the case at hand. See [conflicting evidence and action](references/evidence-model.md#give-a-usable-decision-under-conflict).
    Correct errors in the assistant's own new answer, including errors carried from an earlier answer. Source editing has a different fidelity boundary.
+   If you give steps for an optional or recommended action, state who needs those steps and when. Do not present them as a universal requirement.
 4. Review four clarity levels: sentence meaning, sentence relations, paragraph purpose and whole-document structure.
    Use [expression review](references/ai-pattern-library.md#four-clarity-levels) for the checks and the review loop below before delivery.
    Check information selection and findability too. State each condition or limit where it governs the result; repeat it only for a distinct reader function.
+   For substantial explanations and any procedure or decision whose missing detail could change use, privately test whether readers can find the answer, recover its conditions and consequences, and use it. Use the reader check in the existing review loop.
 
 | Task | Emphasis |
 | --- | --- |
 | Conversation and explanation | Answer the actual question, maintain context and explain necessary relations. |
 | Teaching | Establish prerequisites, examples and conceptual distinctions for the actual learner. Use understanding checks when helpful. |
-| Procedure | Give conditions, ordered actions, applicable branches and expected results. Preserve exact commands and actual state. |
+| Procedure | Map each supplied decision state to its actor, next action and applicable rule. Include failed prerequisites, unknowns and priority exceptions. Preserve exact commands and actual state. |
 | Technical analysis or recommendation | Separate observations, causal hypotheses, constraints and judgments. Connect advice to criteria and trade-offs. Report relevant access and execution limits. |
 | Academic or evidence work | Use the applicable study sections, source mapping, citation checks and evidence records. |
 | Narrative or creative work | Control reference, events, perspective and thematic organization. Preserve requested ambiguity, rhythm and other intentional artistic choices. |
@@ -45,6 +50,7 @@ Read only the applicable resources. No other skill or repository is a runtime de
 | Audit | Locate support problems, conflicts and correction proposals. State inspected and unseen material. |
 
 For light editing, keep effective wording and order. For deep rewriting, change structure when it helps the same meaning.
+If the request permits only repairs of confirmed defects and none is present, return the editable text verbatim in the requested format.
 For edits, identify the requested outcome separately from editing depth.
 Infer routine choices from the request. Use the intent checks in expression review for individual or compatible combined goals.
 Use the requested language, readers, scope, length and format. Apply discipline and study-section requirements when relevant.
@@ -64,6 +70,8 @@ Do not expand an expression edit into research. Do not manipulate an AI-detectio
   Select the edit intent and its acceptance checks. Diagnose repetition and qualifications by their function.
   Locate actual reader obstacles in wording, noun relations, reference and syntax before changing effective prose.
   Preserve effective academic conventions.
+- For English prose, including editable English passages in mixed text, use [English review](references/english-review.md).
+  Distinguish confirmed sentence defects, valid variants and unresolved meaning. Apply the same mode and review loop.
 - For Chinese prose, also use [Chinese review](references/chinese-review.md).
   Correct confirmed errors in editable text; preserve defensible disputed forms and offer optional improvements.
   Keep unknown meanings open. Use [source authority](references/chinese-sources.md) for inspected provisions and their limits,
@@ -85,17 +93,20 @@ Do not expand an expression edit into research. Do not manipulate an AI-detectio
 Keep private editorial plans, source comparisons and review records outside requested prose.
 In technical answers, retain access, execution and validation reporting when it helps the user assess the result.
 Missing evidence or author decisions remain visible when they affect the requested result.
+In Audit, locate material ambiguity and name the decision the author must make. If proposed wording is in scope, give an interim local repair using only confirmed content, with the unsettled attribution or scope left open. Keep it separate from the final wording; if no safe partial repair exists, say what must be confirmed before changing that span. For an unresolved deadline, test the exact boundary under each proposed schedule. Do not grant or deny a disputed case in the draft or its explanation. Preserve settled cases and ask the author about the exact unresolved instant.
+Read each complete proposed replacement in place. Preserve the source's facts, time and evidence status, and the author's person and stance unless the task authorizes a change. Name the actual action and any condition that changes its consequence in the replacement itself. A setting, tool or result does not by itself state the action. In an audit, tie each unsupported claim to a proposed repair or a decision to withhold it. If voice or reader impact matters, name a phrase’s distinct function (for example, a guarantee) separately from its evidence problem. When the text must express a governing rule, keep its limits in the revised text too: “if” does not express “only if.” A detail in the diagnosis does not make up for its absence from the proposed text.
 Return useful supported work rather than fill gaps with invented content.
 
 ## Review before delivery
 
 Use [the review loop](references/review-loop.md) for all generated prose, expression edits and audits.
 In each mode, check punctuation function and meaning, then character form and width, spacing, pairing, nesting and style consistency.
-Do a quick private check even for a short reply. Use [punctuation review and examples](references/punctuation-review.md) when a mark, mixed-language boundary, destination style or layout needs a closer decision.
-Keep exact spans intact; distinguish a confirmed defect from a valid style choice or a decision that needs meaning or authority.
+Do a quick private check even for a short reply. For consequential instructions, read the delivered text as the user would. Try the priority exception and each failed or unknown prerequisite the source distinguishes. Recheck who holds, decides and acts; name the new subject if an omitted one could inherit the wrong actor. If notes will be sent separately, review each as if the other notes were removed. Include the applicable decision authority, the actor and the fact and source that make the rule apply within each note that needs them. Repeat only information that must travel with the note. Distinguish the person who signed, the disposition authorized for the item and who will carry it out. A destination or roster does not make a decision record a personal grant. Address supported steps to the recipient without attributing an appointment or authorization to a record that did not make it. Keep an optional action optional in every occurrence, especially the opening line or bullet; a later statement of permission does not undo an earlier command. When a named role has a duty and the following ban applies more broadly, state the ban separately with its actual scope. Where source locators are needed, put the exact applicable provision next to each distinct action or prohibition, even when you combine branches. If the choice of rule depends on its edition or effective date or time, give those identifiers with the relevant provision and show which cases it governs. Do not invent a route or an actor if the source is silent.
+For a requested syntax diagnosis, name the actual structural conflict or missing element and why the context can or cannot supply it. Explain the distinct readings of an ambiguity that changes use. Use [punctuation review and examples](references/punctuation-review.md) when a mark, mixed-language boundary, destination style or layout needs a closer decision.
+Keep exact spans intact; distinguish a confirmed defect from a valid style choice or a decision that needs meaning or authority. When several references are independently unresolved, ask what each refers to; one question can name them all if it requests each answer. Keep a material fact that the source states, including a stated absence within its scope. Inconclusive evidence alone does not establish absence.
 Before the first submission, check that any required punctuation diagnosis names the original mark, its location and the defect before or with a query or repair. Keep the check private for routine output-only edits.
 For a named authority link, match the title and edition, exact provision, verified destination and supported claim. Use a verified document link plus a plain locator if no deep link is verified. If the match cannot be established, state the evidence limit and give the supported judgment.
-For a registered authority, copy the exact URL from the [registered destination checker](scripts/check_registered_citation.py), then compare the actual link staged for submission as described in [punctuation review](references/punctuation-review.md#check-a-registered-link). Do not substitute an indexed or cached URL.
+For a registered authority, copy the exact URL from the [registered destination checker](scripts/check_registered_citation.py), then compare the actual destination of each authored occurrence staged for submission as described in [punctuation review](references/punctuation-review.md#check-a-registered-link). Do not substitute an indexed or cached URL.
 Default: at least three complete rounds within five attempts. An interrupted attempt uses the budget but is not complete.
 Require two consecutive complete reviews of the same unchanged artifact and input scope with no accepted or pending issue.
 Corrections and incomplete coverage reset that streak. Do not invent rounds or force edits of effective prose.

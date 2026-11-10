@@ -62,6 +62,18 @@ The [党政机关公文处理工作条例](https://www.gov.cn/gongbao/content/20
 
 [以创新型校对机制防范采编数字化的技术性差错](https://www.xinhuanet.com/zgjx/2017-06/15/c_136362026_2.htm), hosted 2017-06-15, credits 重庆记协. Both hosted pages and relevant body sections were inspected. The authors discuss source comparison, contextual semantic judgment and human/software proofreading. It is an author paper, not an internal Xinhua grammar manual. Its recommendation form reports an earlier 中国记者 origin; that original issue was not inspected. The first author's spelling was not verified and is omitted.
 
+## Scoped authority additions
+
+### S09. National Common Language and Script Law, 2025 revision
+
+The [State Administration for Market Regulation reproduction](https://www.samr.gov.cn/zw/zfxxgk/fdzdgknr/bgt/art/2023/art_9609977550394ce59646b2aa74759083.html) contains the text revised on 2025-12-27. Article 32 sets commencement on 2026-01-01. Article 2 defines the national common language and script. Articles 10 and 12 address official use by state organs (subject to statutory exceptions) and Chinese publications. Article 17 requires conformity with national norms and standards when the national common language and script is used in information processing, information technology products, and the specified government-run or public-service internet platforms. Articles 18 and 19 provide qualified uses of dialect and traditional or variant characters in the settings they specify. Use these provisions to identify the applicable setting. They do not decide a disputed construction or establish that a particular variant word form is a grammatical error.
+
+**S01 supplement.** Articles 7 and 8 are in the [Ministry of Education text of Order 54](https://www.moe.gov.cn/jyb_xxgk/xxgk/zhengce/guizhang/202301/t20230113_1039280.html). Article 7 addresses standards and grammar for intelligent language processing software and integrated products. Article 8 concerns prompts as needed in office suites, intelligent proofreading software and similar products; its list distinguishes nonrecommended variant word forms from wrong characters and symbols. A prompt does not establish a sentence-level error or require automatic replacement.
+
+### S10. GF 1001-2001: Recommended word forms
+
+The Ministry of Education and State Language Commission issued [第一批异形词整理表](https://www.moe.gov.cn/ewebeditor/uploadfile/2015/01/12/20150112165927212.pdf) on 2001-12-19 for trial use from 2002-03-31. The foreword and section 1 describe a recommended trial specification for written Putonghua. Section 3.1 defines the variants by shared pronunciation and meaning; section 5.2 identifies the first form in each main-table entry as recommended. Section 5.4 describes the separate appendix of nonstandard forms. Verify the actual entry and any note before advising a change. A main-table recommendation does not make the alternative a syntax error, extend to unlike senses or authorize changing exact quotations, names or data. The text and edition were inspected; current status was not independently established.
+
 ## Use and access limits
 
 These bounded offline summaries do not reproduce complete licensed standards or require a network call for every ordinary edit. The adoption audit used official PDFs/the Gazette where some original HTML routes failed; it did not certify every route or every clause.

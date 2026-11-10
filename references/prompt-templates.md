@@ -3,6 +3,7 @@
 Use the selected template. Fill fields from the actual task without a universal intake form.
 Evaluator criteria and previous answers are not execution inputs.
 The linked resources define shared safeguards. Templates do not replace them.
+For a formal manuscript or established document format, use [manuscript format](manuscript-format.md) before preparing the deliverable. Reuse confirmed requirements and limit any question to an unresolved material issue. For a format audit, use the same basis without editing. Ordinary answers and small edits without a submission requirement need no added intake.
 For Chinese tasks, also use chinese-review.md and its source authority/examples. Separate confirmed errors, optional improvements and unresolved meanings. Keep each mode's source boundary and protected content.
 
 ## General answer
@@ -22,6 +23,7 @@ Distinguish facts, inferences, assumptions, recommendations and hypothetical exa
 Correct the assistant's own answer errors. Do not apply expression-only source preservation to new composition.
 Use sources as required by this task and governing verification rules. Keep explicit source limits.
 Use evidence-model.md when traceability is useful. Retain relevant access and execution status in technical answers.
+For a brief procedure or decision card whose missing detail could change use, privately locate the answer, restate its conditions and consequences, and try the next action or judgment using the delivered text and what the reader will have.
 Complete review-loop.md at its default depth unless the user explicitly changes it.
 Return the useful answer and necessary limits. Keep private editorial records outside it.
 ```

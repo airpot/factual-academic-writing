@@ -2,6 +2,7 @@
 
 Use the smallest record that makes the requested work auditable. Existing author records are acceptable.
 Keep IDs stable. They locate evidence and do not certify truth.
+In an audit, copy each quoted locator exactly, including limiting words or quantities within it. If you shorten it by restating the idea, present that wording as an unquoted paraphrase. For parallel language versions that express the same item, compare their scope, quantities and status with each other as well as with their cited support.
 
 ## Proportionate evidence and status reporting
 
@@ -104,6 +105,14 @@ Do not infer a paired change from different aggregate samples.
 Do not infer significance, causation, or practical importance from a difference alone.
 If valid statistical evidence is supplied, preserve it with its method, scope, and uncertainty.
 Formal derivations require their assumptions and reasoning. A category label alone does not establish a proof.
+
+## Give a usable decision under conflict
+
+- Locate the disagreement and its scope. Check authority, version, date and applicability. Use established precedence; recency, format or confidence alone does not create it. When applicability turns on edition or effective date or time, carry the relevant edition and exact effective boundary (with any supplied time zone) into the delivered locator, alongside the action it supports. For overlapping sources, make the date or time visibly apply to each source it governs. Use one shared locator when its coverage is clear; omit metadata that has no role in the decision.
+- If one record better supports a provisional operational judgment, state which record and why. Keep the contrary evidence and the confirmation that could change the decision. When the evidence does not support a judgment, state what is unresolved and any supported hold or verification step. Do not invent a hold, permission or owner.
+- Give the action for each material condition the evidence supports. Distinguish the status of a release, permit or instruction from proof that a person or site has met its conditions. An unknown local state does not erase a supported conditional decision, and a conflict in one branch does not suspend independent actions. Test what the reader does both while a decision is pending and once it arrives. Give the next step if the record supports it. If the designated decision-maker will set it, instruct the reader to follow that decision without assuming an outcome or granting release. When messages are forwarded separately, include the applicable decision authority and the record that makes the rule apply in each message that relies on them. For example, an accession sheet may establish both the box count for dispatch and a restricted status for reading-room use. Citing it only for the count in the dispatch note does not give the reading-room recipient a basis for the restriction. A title or heading can identify the recipient’s own duties, but it cannot identify a different decision-maker unless it names that role. When a signed entry approves delivery to the front desk and a separate schedule names the desk attendant, cite the entry for approval and destination and the schedule for coverage. The heading may address the attendant without implying that the signed entry appoints them. If the documents leave the actual mover open, keep it open.
+
+Example: A measurement report lists a passed routine recheck for unit T8; a summary note says the recheck is pending without identifying a unit. If the local identifier is T8, the itemized report supports treating that routine recheck as already done for planning; it does not support repeating it just because of the summary. Ask the record owner to reconcile the status before closing the discrepancy. If the unit cannot be matched, verify the identifier and the applicable result. Neither record establishes permission to operate the unit.
 
 ## Interpretations and synthesis
 

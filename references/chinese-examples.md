@@ -158,4 +158,49 @@ Optional alternative when the editing task calls for a clearer frame:
 
 The editor and checking event are recoverable. The overlapping opening can motivate a clarity suggestion; the pattern alone does not establish an unrecoverable subject or an uncontested hard error. Do not declare every such opening valid either: inspect the actual predicate and context. Keep the asserted relation, two rounds, this catalogue and the naming outcome. In Audit, retain the source and offer the alternative separately.
 
+## 16. Recover an actor only when the context assigns one
+
+Same instruction: “核对件数后，签收。”
+
+- **Keep:** “以下由收货员办理。货物到达后先查验外包装。核对件数后，签收。” The heading sentence assigns both actions; the imperative needs no repeated subject.
+- **Clarify:** “仓管员和采购员均在场。核对件数后，签收。” Presence assigns neither action. Ask who checks and who signs, including whether they are the same person.
+- **Correct:** The approved duty sheet assigns counting to the warehouse clerk and signing to the buyer, but the draft reads “仓管员负责收货。核对件数后，签收。” The first sentence cues a single actor for both steps. Write “仓管员核对件数后，由采购员签收。” This repairs the responsibility implied by the draft; it does not diagnose omission in general.
+
+## 17. Check what the negative quantifier denies
+
+Same sentence: “三份申请不都符合条件。”
+
+- **Keep:** Two applications qualify and one does not. “不都” denies that all qualify; changing it to “都不” would make all three fail.
+- **Correct the account if authorized:** The confirmed decision sheet says all three fail and the sentence is meant to report that decision. Write “三份申请都不符合条件。” The original is grammatical but fails to convey the established decision. In expression-only work, report this discrepancy separately.
+- **Clarify:** The notes say only “至少一份不符合条件”. Keep “不都” if that is the intended claim. If the document must tell staff which applications to return, ask for the individual decisions; the quantifier does not supply them.
+
+## 18. Distinguish an estimate from two specified options
+
+Same sentence: “请预留两三天。”
+
+- **Keep:** A delivery estimate is approximate, with no scheduling choices implied. Retain “两三天” without an enumeration comma under [S04](chinese-sources.md#inspected-written-form-rules).
+- **Correct:** The scheduling form requires an explicit choice between two fixed buffers. “请预留两三天” obscures that choice. Write “请在预留两天和预留三天之间选择一项。” The issue is the meaning of the instruction, not a missing comma in the approximation.
+- **Clarify:** If the notes do not say whether this is an estimate or a required choice, ask before turning it into a selection or deadline.
+
+## 19. Apply the host mark without normalizing a literal
+
+Same characters: “参数为 `window=2,3`,请重试。”
+
+- **Correct:** In editable Chinese instructions, the comma after the code span joins Chinese clauses. Write “参数为 `window=2,3`，请重试。” The comma in the parameter is part of the literal.
+- **Keep:** In a screenshot transcript that must reproduce the same line verbatim, retain both commas. Flag the outer comma separately if reviewing the interface copy; the transcript records what appeared.
+
+## 20. Separate a recommended word form from a quotation
+
+Same wording: “欢迎参预讨论。”
+
+- **Suggest or apply house style:** In an editable notice adopting the table's recommended forms, write “欢迎参与讨论。” The entry under C in [S10](chinese-sources.md#s10-gf-1001-2001-recommended-word-forms) supports that word-form choice. The original syntax does not fail.
+- **Keep:** If an archive quotes a notice reading “欢迎参预讨论。” verbatim, retain its word form and punctuation. Apply the house choice only to the surrounding editable prose.
+
+## 21. Distinguish a noun phrase from an instruction
+
+Same span: “仔细的核对”。
+
+- **Keep:** “仔细的核对花了十分钟。” Here “核对” names the activity that took ten minutes; “仔细的” modifies that activity.
+- **Correct:** “请仔细的核对编号。” Here “核对” is the instructed action and takes “编号” as its object. Write “请仔细核对编号。” In this sentence “仔细” describes how to perform the action; dropping “的” repairs the relation without changing the instruction.
+
 These examples illustrate decisions. They do not supply the answers to an unrelated evaluation task or prove that every future output will be correct.

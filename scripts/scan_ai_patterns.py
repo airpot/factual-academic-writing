@@ -31,11 +31,23 @@ RULES = (
      "Review the rhetorical question in context; a direct statement may be clearer."),
 )
 SENTENCE_BOUNDARY = re.compile(r"[。.!?！？；;\r\n]")
+# A parenthetical year needs a source-like prefix. Numeric dates and common
+# English month names do not supply one.
 CITATION = re.compile(
-    r"[（(][^（）()。！？；\r\n\x00]*(?:19|20)\d{2}[a-z]?[^（）()。！？；\r\n\x00]*[）)]"
+    r"[（(][ \t]*(?!(?i:Jan(?:uary)?|Feb(?:ruary)?|Mar(?:ch)?|Apr(?:il)?|May|"
+    r"Jun(?:e)?|Jul(?:y)?|Aug(?:ust)?|Sep(?:t(?:ember)?)?|Oct(?:ober)?|Nov(?:ember)?|"
+    r"Dec(?:ember)?|as of|since|in|circa)\b)"
+    r"[^\W\d_](?:(?:[^\W\d_]|[.·’'&，, \t-])*(?:[^\W\d_]|\.))?"
+    r"(?:[ \t]*[，,][ \t]*|[ \t]+)(?:19|20)\d{2}[a-z]?[ \t]*[）)]"
     r"|\[\d+(?:\s*[-–,，]\s*\d+)*\]"
 )
 QUOTE_PAIRS = {"“": "”", "‘": "’", "「": "」", "『": "』", '"': '"', "'": "'"}
+QUOTE_STOP = re.compile(r"""[。.!?！？][”’」』"']*\Z""")
+AFTER_QUOTE = re.compile(
+    r"[ \t]*(?!(?:的|地|得|了|着|过|并|且|和|与|或|及|而|也|亦|所|后|时|中|这一(?:说法|表述|引文)))"
+    r"[\u3400-\u9fff]|[ \t]+(?![A-Z][\w'-]*(?:[ \t]+[A-Z][\w'-]*)*[ \t]+"
+    r"(?:said|says|wrote|writes|asked|asks|replied|replies)\b)[A-Z]"
+)
 SPAN_TOKEN = re.compile(r"`+|\$+|[“‘「『\"']")
 FENCE_OPEN = re.compile(r" {0,3}(`{3,}|~{3,})([^\r\n]*)")
 
@@ -65,7 +77,7 @@ def _plural_possessive(text, offset):
                  or not (text[offset + 1].isascii() and text[offset + 1].isalnum())))
 
 
-def _protected_text(text):
+def _protected_text(text, quote_boundaries):
     """Mask spans without deleting characters or changing line endings."""
     chars = list(text)
 
@@ -122,6 +134,11 @@ def _protected_text(text):
                 continue
             if delimiter == "$" and any(masked.find(c, token.end(), start) != -1 for c in "\r\n"):
                 break
+            if (delimiter in QUOTE_PAIRS and AFTER_QUOTE.match(masked, end)
+                    and QUOTE_STOP.search(masked, token.end(), start)):
+                # Record the host boundary separately. Quoted characters stay
+                # masked, even when a final stop also closes the host sentence.
+                quote_boundaries.append(end - 1)
             protect(token.start(), end)
             position = end
             break
@@ -136,7 +153,8 @@ def scan_text(text):
     """
     if not isinstance(text, str) or not text.lstrip("\ufeff").strip():
         raise ValueError("Input must be a nonblank text string.")
-    masked = _protected_text(text)
+    quote_boundaries = []
+    masked = _protected_text(text, quote_boundaries)
     line_starts = [0] + [m.end() for m in re.finditer(r"\r\n|[\r\n]", text)]
     # Citation recognition stays syntactic. Periods inside a recognized span
     # (initials or et al.) do not end its attribution sentence.
@@ -146,8 +164,10 @@ def scan_text(text):
     # A leading-dot number needs a delimiter, not an adjacent word or period.
     decimal_periods = {match.start() for match in
                        re.finditer(r'(?:(?<=\d)|(?<![\w.]))\.(?=\d)', masked)}
-    boundaries = [m.start() for m in SENTENCE_BOUNDARY.finditer(masked)
-                  if m.start() not in citation_periods and m.start() not in decimal_periods]
+    boundaries = sorted(quote_boundaries + [
+        m.start() for m in SENTENCE_BOUNDARY.finditer(masked)
+        if m.start() not in citation_periods and m.start() not in decimal_periods
+    ])
 
     def location(offset):
         line = bisect_right(line_starts, offset)
