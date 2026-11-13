@@ -2,7 +2,7 @@
 name: factual-academic-writing
 description: Use for all AI prose, including conversation, explanations, teaching, procedures, technical analysis, recommendations, academic writing and creative work, or when editing or auditing prose, including Chinese requests to 去 AI 味.
 metadata:
-  version: "0.8.1"
+  version: "0.8.2"
 ---
 
 # Factual Academic Writing
@@ -85,6 +85,7 @@ Do not expand an expression edit into research. Do not manipulate an AI-detectio
   This conditional route uses the same modes and review loop; it does not impose official style on other prose.
 - For claim mapping or evidence audits, use [the evidence model](references/evidence-model.md).
   Keep claim type, support, source provenance, author attestation and actual inspection separate.
+- When a draft, edit or audit relies on material numbers from a table, use [table-to-prose numerical verification](references/meaning-preservation.md#verify-table-numbers-before-delivery). Prefer the applicable original table. Check each number's row, column, unit and category, then use a tool to recompute material totals from verified inputs in comparable units.
 - Use [worked examples](references/writing-examples.md) when a concrete construction or editorial decision would help.
   Use [mode templates](references/prompt-templates.md) only when useful.
 - For a self-contained host-policy export, use [the default policy](references/default-policy.md).
@@ -100,6 +101,7 @@ Return useful supported work rather than fill gaps with invented content.
 ## Review before delivery
 
 Use [the review loop](references/review-loop.md) for all generated prose, expression edits and audits.
+After the last edit, trace each material table-derived number and conclusion back to its source cells and verified calculation. For a governing calculation rule, check the recorded rule and source, the facts and sources that make it apply, any basis for precedence over a conflicting rule, and the actual order of operations. Mark any unreadable or unconfirmed item pending and withhold dependent conclusions from confirmed findings. In expression-only edits, preserve the author's assertion in the edited copy and flag the evidence gap separately; do not present that assertion as verified.
 In each mode, check punctuation function and meaning, then character form and width, spacing, pairing, nesting and style consistency.
 Do a quick private check even for a short reply. For consequential instructions, read the delivered text as the user would. Try the priority exception and each failed or unknown prerequisite the source distinguishes. Recheck who holds, decides and acts; name the new subject if an omitted one could inherit the wrong actor. If notes will be sent separately, review each as if the other notes were removed. Include the applicable decision authority, the actor and the fact and source that make the rule apply within each note that needs them. Repeat only information that must travel with the note. Distinguish the person who signed, the disposition authorized for the item and who will carry it out. A destination or roster does not make a decision record a personal grant. Address supported steps to the recipient without attributing an appointment or authorization to a record that did not make it. Keep an optional action optional in every occurrence, especially the opening line or bullet; a later statement of permission does not undo an earlier command. When a named role has a duty and the following ban applies more broadly, state the ban separately with its actual scope. Where source locators are needed, put the exact applicable provision next to each distinct action or prohibition, even when you combine branches. If the choice of rule depends on its edition or effective date or time, give those identifiers with the relevant provision and show which cases it governs. Do not invent a route or an actor if the source is silent.
 For a requested syntax diagnosis, name the actual structural conflict or missing element and why the context can or cannot supply it. Explain the distinct readings of an ambiguity that changes use. Use [punctuation review and examples](references/punctuation-review.md) when a mark, mixed-language boundary, destination style or layout needs a closer decision.
