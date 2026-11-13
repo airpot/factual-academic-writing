@@ -182,7 +182,11 @@ Perplexity, sentence symmetry, keyword absence and detector scores establish nei
 
 ## Scanner findings
 
-The optional scanner marks configured patterns, not all discourse or evidence problems.
-Resolve a finding as revise, retain with reason, or needs author decision.
+The optional scanner locates a small set of promotional and rhetorical patterns. Attribution and citation checks belong to prose review.
+
+Protected spans cover common bounded syntax. Fences, blank paragraphs and recognized structural lines delimit Markdown inline scanning. Uncertain quote or dollar boundaries leave disputed text visible and generate a separate diagnostic; review the span before editing. This is not a Markdown or TeX renderer.
+
+In prose review, locate the claim and determine which text the marker actually modifies. Then verify source identity and support against the supplied or accessible source. For example, if a cited test report explicitly records the same result, population and conditions, retain the supported statement and mark the review item resolved. If the only marker belongs to the next speaker, or two notes are presented as alternatives, retain the attribution issue. An exact registered URL match only compares addresses.
+
 One justified edit and rescan can check whether that match changed. End this scanner subprocess, not the manuscript review loop.
 Repeated matches do not justify distorting source meaning. Review attribution and quoted wording separately from heuristic span protection.

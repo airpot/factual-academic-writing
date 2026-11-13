@@ -2,7 +2,7 @@
 name: factual-academic-writing
 description: Use for all AI prose, including conversation, explanations, teaching, procedures, technical analysis, recommendations, academic writing and creative work, or when editing or auditing prose, including Chinese requests to 去 AI 味.
 metadata:
-  version: "0.8.0"
+  version: "0.8.1"
 ---
 
 # Factual Academic Writing
@@ -120,12 +120,13 @@ Do not restart the loop under a new name. Further review after the cap needs an 
 ## Optional Chinese scanner
 
 Run `python scripts/scan_ai_patterns.py manuscript.txt` from this skill, or use its resolved script path.
+For `.md` and `.markdown` files, the scanner recognizes common structural line boundaries for span protection. Use `--input-format text` or `--input-format markdown` to select the interpretation.
 Use `--text "待检查文本" --format json` for inline text and `--help` for options.
-It identifies limited readability patterns. It does not validate punctuation, evidence or AI authorship. Zero matches are not a quality gate.
+The scanner checks selected promotional and rhetorical patterns. It does not scan attribution or citations, validate punctuation or determine AI authorship. Zero matches are not a quality gate.
+In prose review, identify the exact claim, determine which claim each citation modifies, then inspect source identity and whether the source supports that claim. Mark a supported attribution resolved in the editorial assessment. Keep uncertain attachment or unsupported claims open and locate the gap. The registered destination checker compares only the address; check title, edition, provision and support separately.
 Text output keeps the selected encoding and escapes characters it cannot represent; UTF-8 and JSON preserve the original text.
-Resolve hits as revise, retain with reason, or needs author decision.
 After one justified revision and rescan, stop this scanner subprocess. Continue the manuscript review loop to its own gate.
-Exit 0 means execution completed. Optional `--fail-on review` gates pattern matches, not evidence quality.
+Exit 0 means execution completed. Optional `--fail-on review` gates pattern matches, including review items that may prove valid in prose review.
 
 ## Deliver proportionately
 

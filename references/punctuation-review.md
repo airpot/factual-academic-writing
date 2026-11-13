@@ -34,6 +34,14 @@ For a link you add to the GB/T 15834-2011 standard text, use authority ID `gbt-1
 
 Resolve the one visible link in the actual authored occurrence, including any reference definition it uses. Compare its exact href with `python scripts/check_registered_citation.py gbt-15834-2011 --destination URL` and require exit 0. Pass only the resolved href. If no active link is visible or more than one link could be the citation, fix the occurrence and check again. Do not check a substring taken from a comment, code example or protected quotation. If Python is unavailable, compare the resolved href literally with the registered URL.
 
+Treat exit 0 from a comparison as an address match only. Lookup without a comparison operand also returns 0 and prints the registered URL alone. Separately inspect the visible title and edition, the cited provision, whether it supports the claim, and whether the destination was accessible. If any of those checks fails or remains open, do not report the citation as verified.
+
+| Visible citation and resolved address | Address comparison | Citation decision |
+| --- | --- | --- |
+| GB/T 15834-2011, at the registered address | Match | Still inspect the provision and its support for the claim. |
+| GB/T 15835-2011, at that same address | Match | The label names a different standard. Confirm the intended source and repair the citation. |
+| GB/T 15834-2011, at an unrelated address | Mismatch | Resolve the correct document before citing it. |
+
 The optional inline shortcut accepts one complete active inline link as the whole argument, with no CR or LF. Keep the label closing bracket and the destination opening parenthesis adjacent. Only spaces or tabs may surround the destination and title inside the outer parentheses; a title must be separated from the destination by at least one space or tab.
 
 | Part | Shortcut requirements |

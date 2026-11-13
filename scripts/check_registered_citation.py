@@ -1,4 +1,4 @@
-"""Resolve one registered authority, or compare one authored destination to it."""
+"""Look up one registered URL or compare one authored destination literally."""
 
 import argparse
 from html import unescape
@@ -54,7 +54,8 @@ def main(args):
     if actual != expected:
         print("The authored link does not match the exact registered destination.", file=sys.stderr)
         return 1
-    print("Exact registered destination matched.")
+    print("Exact registered destination matched. Title or edition, provision, "
+          "claim support and link availability were not checked.")
     return 0
 
 
