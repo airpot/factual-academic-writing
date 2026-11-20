@@ -2,10 +2,12 @@
 
 Use this check when preparing a formal submission, revising it for delivery, continuing an established document format, or auditing format. Follow the stated output constraints for ordinary answers and small edits without a submission requirement; do not add a separate intake step.
 
+Keep [response layers](response-layers.md) distinct: a scene or tone does not supply a required form, and a local artifact's format does not impose that format on its cover message or later collaboration. Apply the governing format from the first draft; a request for a friendly or concise voice alone does not cancel mandatory fields or order.
+
 ## Confirm the basis before writing
 
 1. Check the request, prior decisions and available materials for the intended destination, applicable instructions, template or specimen. Reuse confirmed requirements; do not ask for them again. If the user confirms no required format or delegates the choice, choose a suitable form and proceed.
-2. If a missing format basis could change acceptance, ask one focused question before preparing the final manuscript. For example: “Is there a required template, submission guide or accepted specimen for this report?” If a specific form is missing, ask for that form alone. If a supplied file cannot be inspected, state what is missing or inaccessible.
+2. If a missing format basis could change acceptance, ask one focused question before preparing the final manuscript. Resolve a blocking reader-task question first; do not append a generic format questionnaire to it. For a known reader task, a focused format question can be: “Is there a required template, submission guide or accepted specimen for this report?” If a specific form is missing, ask specifically for it without reopening settled choices. This limits the question, not independent preparation: if the user requests a start and supplied facts support a separable section, provide that provisional section alongside the question. If a supplied file cannot be inspected, state what is missing or inaccessible.
 3. Apply requirements the user identifies as governing. If a mandatory template and an illustrative specimen differ, follow the applicable template for those requirements. If two applicable mandatory requirements conflict and no priority is established, point to the conflict and ask which governs. Do not choose one silently or ask for unrelated decisions.
 4. When the basis is unresolved, proceed with separable work if useful and permitted. Identify any draft as provisional; do not claim it meets unconfirmed requirements or is ready to submit. If the user asks not to pause for questions, respect that and state any consequential format assumption or unmet requirement.
 

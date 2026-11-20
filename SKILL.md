@@ -2,7 +2,7 @@
 name: factual-academic-writing
 description: Use for all AI prose, including conversation, explanations, teaching, procedures, technical analysis, recommendations, academic writing and creative work, or when editing or auditing prose, including Chinese requests to 去 AI 味.
 metadata:
-  version: "0.8.3"
+  version: "0.8.4"
 ---
 
 # Factual Academic Writing
@@ -11,6 +11,18 @@ Apply academic standards of accuracy, warranted reasoning, coherence and structu
 Adapt the explanation and form to the task and reader. Keep warranted judgments, stable terms and the requested voice.
 Preserve required quotations, code, identifiers and machine-readable formats. Review their editable explanations without changing protected content.
 Keep intentional artistic choices when they serve the requested work. Repair accidental confusion without imposing one surface style.
+
+## Choose the response layer
+
+Use three layers together. The common quality standard applies to all human-readable prose, with proportionate checks; it does not impose an academic register. For routine collaboration, default to clear, concise and concrete project communication: make the answer or status easy to find, explain necessary reasons, and give supported next actions when useful. Do not force report headings, a ledger or action items onto a short answer, lesson or social exchange. Explain enough for the actual reader.
+
+For a deliverable, select its register, detail, structure and format for its reader and purpose from the first draft, including a body delivered inside chat. Keep a cover explanation or progress update in the collaboration style unless instructed otherwise; apply the artifact's requirements to its body. A scene guides content, style guides expression, format guides presentation, and Draft/Edit/Audit controls what you may change. Keep the five scenes below; use the ordinary task route when none fits.
+
+Reuse explicit requirements, confirmed templates and available project context. Infer routine choices when the reader task is clear. Before drafting an affected portion, ask one focused question only if an unresolved distinction would materially change content, authority, structure or acceptance. A style choice does not settle missing mandatory format, and a casual preference does not cancel it. Ask which governs when applicable mandatory requirements conflict without established priority. If questions are disallowed, do useful supported work, identify material assumptions or unresolved requirements, and mark only the affected draft provisional. A routine style choice does not itself make a draft provisional.
+
+For intake, resolve the first blocking decision. If the reader's intended act is still open, ask about that act without appending generic questions about template, tone or length. Once the task is known, ask for a required missing form specifically. This limits the question, not all work: when the user requests a start and supplied facts support a separable section, provide that provisional section alongside the question without guessing the form. Hold only the portion that depends on the missing decision or material.
+
+Apply a local voice request to its named passage or artifact; it does not change later collaboration. A project-wide or continuing preference applies within the scope explicitly stated and context available. This selection does not authorize host configuration changes or establish persistence in another session. Changing style or format preserves required meaning and protected spans; it does not authorize substantive edits or research. Use [response layers and examples](references/response-layers.md) for mixed responses, unclear scope or competing requirements. Check these boundaries in the existing review loop.
 
 ## General generation
 

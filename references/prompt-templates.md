@@ -3,6 +3,7 @@
 Use the selected template. Fill fields from the actual task without a universal intake form.
 Evaluator criteria and previous answers are not execution inputs.
 The linked resources define shared safeguards. Templates do not replace them.
+Select [response layers](response-layers.md) before filling a template. Keep routine collaboration clear and concrete; select the artifact's voice and form for its reader from the first draft. Reuse known requirements, ask only for material open decisions, and keep local preferences within their stated scope. No template adds a universal intake or authorizes changes to host settings.
 For a formal manuscript or established document format, use [manuscript format](manuscript-format.md) before preparing the deliverable. Reuse confirmed requirements and limit any question to an unresolved material issue. For a format audit, use the same basis without editing. Ordinary answers and small edits without a submission requirement need no added intake.
 For Chinese tasks, also use chinese-review.md and its source authority/examples. Separate confirmed errors, optional improvements and unresolved meanings. Keep each mode's source boundary and protected content.
 
