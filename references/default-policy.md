@@ -1,6 +1,6 @@
 # Default Prose Policy
 
-Policy version: 0.8.4. This self-contained policy applies academic standards of accuracy, warranted reasoning, coherence and structure to all AI prose.
+Policy version: 0.8.5. This self-contained policy applies academic standards of accuracy, warranted reasoning, coherence and structure to all AI prose.
 Host installation and actual loading are separate authorized actions; this file does not activate itself.
 
 ## Separate quality, collaboration and deliverable choices

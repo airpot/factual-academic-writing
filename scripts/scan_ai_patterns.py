@@ -19,7 +19,11 @@ LIMITATIONS = [
     "Protection covers common syntactic spans, not a full Markdown/TeX parser: "
     "paired quotes, matching backtick runs, backtick/tilde fences, and paired $/$$ math. "
     "Unclosed fences protect to EOF; unclosed quotes, inline code, and math do not.",
-    "This scanner does not check attribution, citation attachment, or evidence.",
+    "Explicit http/https/ftp/file URLs and drive, UNC, /, ./ or ../ paths are protected "
+    "up to whitespace or host punctuation. Markdown additionally protects supported flat-label "
+    "inline destinations and reference definitions. This is bounded lexical protection, not link "
+    "resolution; unsupported syntax and ambiguous unseparated prose need manual review.",
+    "This scanner does not check attribution, citation attachment, factual support, or evidence.",
     "Results cannot determine AI origin, certify prose correctness, or predict detector scores.",
 ]
 
@@ -74,6 +78,15 @@ DOLLAR_OR_BARRIER = re.compile(r"\$+|\x00+|[\r\n]")
 PRIME_RUN = re.compile(r"'+")
 SPAN_TOKEN = re.compile(r"\x60+|\$+|[“”‘’「」『』\"']")
 FENCE_OPEN = re.compile(r" {0,3}(`{3,}|~{3,})([^\r\n]*)")
+LOCATION_START = re.compile(
+    r"(?<![A-Za-z0-9_])(?:https?|ftp|file)://"
+    r"|(?<![\w/\\])(?:[A-Za-z]:[/\\]|\\\\(?=[^\\\s]+\\)|\.\.?[/\\]|/(?=[^/\s]))",
+    re.I,
+)
+LITERAL_STOP = set('\x00<>`\"\'，。；！？、：‘’“”「」『』【】《》,;!')
+LINK_OPEN = re.compile(r"\]\([ \t]*")
+REFERENCE_OPEN = re.compile(r"(?m)^ {0,3}\[(?P<label>[^\[\]\r\n]+)\]:[ \t]*")
+DESTINATION_TAIL = re.compile(r'''[ \t]+(?:"[^"\r\n]*"|'[^'\r\n]*'|\([^()\r\n]*\))[ \t]*''')
 
 
 def _escaped(text, offset):
@@ -593,6 +606,129 @@ def _prose_regions(text, fenced, line_endings, starts, markdown):
         yield region, stop
 
 
+def _destination_end(text, start):
+    """Read one bounded Markdown destination without decoding or resolving it."""
+    if start >= len(text):
+        return None
+    if text[start] == '<':
+        end = text.find('>', start + 1)
+        if end <= start + 1 or any(c in '<\r\n\x00' for c in text[start + 1:end]):
+            return None
+        return end + 1
+    depth = 0
+    pos = start
+    while pos < len(text):
+        ch = text[pos]
+        if ch.isspace() or ch in '<>\x00':
+            break
+        if ch == '\\':
+            if pos + 1 >= len(text) or text[pos + 1].isspace():
+                return None
+            pos += 2
+            continue
+        if ch == '(':
+            depth += 1
+        elif ch == ')':
+            if not depth:
+                break
+            depth -= 1
+        pos += 1
+    return pos if pos > start and depth == 0 else None
+
+
+def _literal_text(text, masked, markdown):
+    """Exclude explicit locations after existing quote/code/math decisions.
+
+    This pass preserves offsets and cannot alter earlier delimiter pairing.
+    Unmarked relative filenames and unresolved Markdown are left to prose review.
+    """
+    chars = list(masked)
+    if markdown:
+        labels = {}
+        opened = []
+        for pos, ch in enumerate(text):
+            if ch in '\r\n':
+                opened.clear()
+            elif masked[pos] != '\x00' and not _escaped(text, pos):
+                if ch == '[':
+                    opened.append(pos)
+                elif ch == ']' and opened:
+                    labels[pos] = opened.pop()
+        definitions = set()
+        normalize_label = lambda value: ' '.join(value.split()).casefold()
+        for opener in REFERENCE_OPEN.finditer(text):
+            bracket = text.find('[', opener.start(), opener.end())
+            if (masked[bracket] == '\x00' or '\\' in opener['label']
+                    or not normalize_label(opener['label']) or len(opener['label']) > 999):
+                continue
+            end = _destination_end(text, opener.end())
+            if end is None:
+                continue
+            tail = DESTINATION_TAIL.match(text, end)
+            close = tail.end() if tail else end
+            stop = close
+            while stop < len(text) and text[stop] in ' \t':
+                stop += 1
+            if stop == len(text) or text[stop] in '\r\n':
+                _mask(chars, opener.start(), end)
+                definitions.add(normalize_label(opener['label']))
+        # Only a resolved full-reference use has an invisible second bracket
+        # group. A missing definition leaves the source text visible.
+        closing = {start: end for end, start in labels.items()}
+        consumed = -1
+        for end, start in sorted(labels.items()):
+            second = end + 1
+            second_end = closing.get(second)
+            if start < consumed or second_end is None or not text[start + 1:end].strip():
+                continue
+            identifier = text[second + 1:second_end]
+            key = text[start + 1:end] if identifier == '' else identifier
+            if ('\\' not in key and 0 < len(key) <= 999
+                    and normalize_label(key) in definitions):
+                _mask(chars, second, second_end + 1)
+                consumed = second_end + 1
+        # A resolved reference identifier cannot also act as an inline-link
+        # label. Only simple flat labels license this bounded destination pass;
+        # nested or unresolved structures leave their following prose visible.
+        for opener in LINK_OPEN.finditer(text):
+            label = labels.get(opener.start())
+            if label is None or chars[opener.start()] == '\x00':
+                continue
+            if any(ch in '[]' for ch in text[label + 1:opener.start()]):
+                continue
+            end = _destination_end(text, opener.end())
+            if end is None:
+                continue
+            tail = DESTINATION_TAIL.match(text, end)
+            close = tail.end() if tail else end
+            while close < len(text) and text[close] in ' \t':
+                close += 1
+            if text[close:close + 1] == ')':
+                _mask(chars, opener.end(), end)
+
+    for opener in LOCATION_START.finditer(text):
+        start, end = opener.span()
+        # A colon belongs to the explicit prefix, not the following body.
+        pos = end
+        stack = []
+        while pos < len(text):
+            ch = text[pos]
+            if ch.isspace() or ch in LITERAL_STOP:
+                break
+            if ch in '([':
+                stack.append(')' if ch == '(' else ']')
+            elif ch in ')]':
+                if not stack or stack[-1] != ch:
+                    break
+                stack.pop()
+            pos += 1
+        # Keep malformed unmatched groups visible. Do not consume the rest of
+        # the paragraph to guess whether it belongs to a URL or path.
+        if pos > end and not stack:
+            _mask(chars, start, pos)
+    return ''.join(chars)
+
+
 def scan_text(text, *, input_format="text", diagnostics=None):
     """Return advisory findings with one-based Unicode, exclusive-end locations.
 
@@ -618,7 +754,7 @@ def scan_text(text, *, input_format="text", diagnostics=None):
             for left, right in _dollar_pairs(block, opaque, bounds).items():
                 _mask(chars, start + left, start + right)
         uncertain.extend((kind, start + a, start + b) for kind, a, b in bounds)
-    masked = "".join(chars)
+    masked = _literal_text(text, "".join(chars), input_format == "markdown")
     def location(offset):
         line = bisect_right(line_starts, offset)
         return line, offset - line_starts[line - 1] + 1
