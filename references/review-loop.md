@@ -1,49 +1,76 @@
 # Default Review Loop
 
-Use for all generated prose, expression edits and audit delivery unless the user explicitly changes the review depth.
-At least three complete rounds within five attempts are practical defaults, not a proven optimal count or a guarantee of error-free prose.
-The coordinating assistant owns this one loop for the requested artifact. A reviewer invoked for a round performs one complete review and returns its findings; it does not start a nested loop or recruit more reviewers.
-Use only reviewer facilities authorized for this task. If the approved facility is unavailable, use the self-review fallback; review permission does not authorize creating separate application tasks or messaging other conversations as a substitute.
+Use [punctuation review](punctuation-review.md) for the punctuation check referenced by the common contract.
+
+<!-- faw-policy:review:start -->
+## Review and stop honestly
+
+Unless the user explicitly changes depth, complete at least three full reviews within five attempts. One coordinator owns the loop; a delegated reviewer performs one round without a nested loop or delegation.
+Use authorized fresh review without preferred answers or earlier opinions when available; otherwise make a separate self-review and identify it accurately.
+
+Keep attempts, completed rounds and consecutive clean rounds distinct. Initial generation is not review.
+Identify the artifact, inputs and constraints privately. Confirm actual completion and full coverage before counting a round.
+Before selecting the artifact for final review, verify the current requested work and adopted next step: actual computations or actions and every required new result dimension, or accurately located incomplete work and blockers. A polished document, prior accepted results or truthful completion of a different task do not fulfill this task. Then check the resulting prose and support in the same loop, without a nested loop or renewed budget.
+For conversation, check each full outgoing message before delivery, proportionately and privately when short. Include a cumulative check against relevant earlier claims, confirmed decisions and actual evidence. Keep the current message and its relevant trajectory within the existing review scope. These checks add no nested loop, automatic extra round or renewed budget. A message-local repair is not a clean full review of a larger artifact. Preserve the same minimum rounds, attempt cap and final unchanged-input clean streak.
+Each round checks the whole artifact's meaning, support, four clarity levels, voice, repetition, distinct limits, quotations, terms and task constraints.
+Include the punctuation check above. Check edit fidelity, creative intent and actual execution claims as applicable. Locate findings and their basis; accept, reject with a verified reason, or leave pending.
+
+Correct accepted issues within the mode. A correction or local recheck is not a clean full review of the changed artifact.
+A clean round makes no change and leaves no accepted or pending issue. Further clean rounds require unchanged text and inputs.
+Changes, open issues, incomplete coverage, new inputs or changed decisions reset the streak; verified rejected findings do not.
+Interrupted or failed attempts use the budget; replacements use another attempt. Input changes never refresh the budget.
+
+Stop in this order:
+1. After at least three full rounds, finish with two consecutive clean rounds on unchanged text/inputs and no required decision or check open; freeze the wording.
+2. Otherwise, at five attempts stop with useful provisional work and located unresolved items, even if fewer than three rounds completed. Do not restart under another name; further review needs an explicit new user instruction.
+3. Otherwise, if necessary material or a decision prevents meaningful correction, return useful provisional work and identify the gap.
+4. Otherwise continue within the remaining budget.
+
+Short work needs no formal log, tool call, forced rewrite or visible review report. Honor reduced-depth requests and state when the default loop was not completed.
+Disclosed source-evidence defects outside an expression edit do not block expression convergence; defects in the edit do. A clean edit or audit does not make the source true.
+Never fabricate review, independence, access or human understanding. Scanner results and convergence certify neither truth nor comprehension.
+<!-- faw-policy:review:end -->
+
+Apply [the common review contract](#review-and-stop-honestly) to generation, expression edits and audit delivery.
+The canonical defaults are practical choices, not a proven optimal count or a guarantee of error-free prose.
+Use only reviewer facilities authorized for this task.
+If the approved facility is unavailable, use the self-review fallback; review permission does not authorize creating separate application tasks or messaging other conversations as a substitute.
 
 ## Start from the actual task
 
-Keep the requested mode, current raw material, relevant context, task decisions and output constraints as the review scope. For a manuscript with applicable format requirements, include the confirmed [format basis](manuscript-format.md) and the actual delivery medium.
-Record the current input/scope and artifact identities privately. For saved work, hashes or immutable versioned files are useful; a small edit can keep the same record in working context.
-Keep three separate counts: attempts used, completed full rounds, and consecutive clean reviews. Starting a review uses one attempt. Count a completed round only after its full coverage and completion are confirmed.
-For a delegated round, confirm that the reviewer finished its assigned review; a saved partial result or a still-running reviewer is not completion. For self-review, record the actual end of the separate full pass. It does not require the coordinating assistant to stop running. Use the same three counts.
+Keep the requested mode, current raw material, relevant context, task decisions and output constraints as the review scope.
+For a manuscript with applicable format requirements, include the confirmed [format basis](manuscript-format.md) and the actual delivery medium.
+For saved work, hashes or immutable versioned files are useful; a small edit can keep the same record in working context.
+Starting a review uses one attempt.
+For a delegated round, confirm that the reviewer finished its assigned review; a saved partial result or a still-running reviewer is not completion.
+For self-review, record the actual end of the separate full pass.
+It does not require the coordinating assistant to stop running.
 Identify protected quantities, quotations, conditions, modality, capacities, completed actions and author judgments before writing.
 Do not replace an author judgment with only its evidence or only its limitation.
 
-An initial generation is a draft, not a completed review round.
-Review the whole requested available artifact. For long work, cover its parts and their connections; mark unseen parts.
+For long work, cover its parts and their connections; mark unseen parts.
 A review of one repaired sentence cannot establish whole-section or whole-manuscript coverage.
-For a short answer, use the same default counts with checks proportionate to the actual text.
-No formal ledger, tool call, forced rewrite or visible review report is required merely because the standard applies.
-For general composition, check the answer against its factual basis, context and task. For fiction, check the requested frame and creative constraints.
+Keep short-answer checks proportionate to the actual text.
+For general composition, check the answer against its factual basis, context and task.
+For fiction, check the requested frame and creative constraints.
 Do not impose supplied-material-only limits on general answers that require verification.
 
 ## Perform each round
 
-1. Review the current artifact against the raw material and task. Check meaning and support relations, argument and author voice, repeated propositions, qualifications, exact quotations, terminology and output constraints.
-   Check all four clarity levels: sentence meaning, sentence relations, paragraph purpose and whole-document structure.
+1. Apply [the common review contract](#review-and-stop-honestly) to the current artifact, raw material and task.
    When a format basis applies, verify the actual delivery against the same confirmed requirements one by one. Check visual requirements in the file or rendering. Locate any unresolved requirement or unverified property that affects readiness.
    When a [writing scene](writing-scenes.md) applies, check the delivered artifact against its reader task and the selected card's acceptance check. For supplied-material writing, use the [source-to-delivery check](writing-scenes.md#check-the-delivered-text-against-the-source), including the status of each date/action. For a standalone card, verify each row's executor, action and applicability against the source, including any prerequisite implied by the row label. Use the card privately unless the requested deliverable calls for its fields.
-   In any scene, check the force, actor, exact activity and scope of each restated operational rule, including background summaries. Verify that a permission, duty, prohibition or waiver keeps its force. Read each approval condition beside neighboring activities: check which action it actually modifies and whether that matches the source. Check that no omitted condition changes the meaning of what remains.
+   For operational force, approval scope and fidelity, use [the common fidelity contract](meaning-preservation.md#keep-meaning-and-evidence-accurate).
    Check punctuation function and meaning, then character form and width, spacing, pairing, nesting and style. Use [punctuation review](punctuation-review.md) for doubtful marks, mixed text or destination-sensitive work.
-   In edits, compare affected meaning both ways and verify exact spans. In audits, locate defects and decisions in the source as findings, and check the report itself as prose.
-   For material table-derived numbers, [trace the delivered wording back](meaning-preservation.md#verify-table-numbers-before-delivery) to the inspected cells, applicable units, inclusion criteria and tool results. If a rule governs rounding or exact amounts, verify its source, the decisive facts and their source locators, any precedence basis and its source, and the actual order of operations. Repeat the check after a change affects the figure, its scope or calculation basis. Keep unresolved items and dependent conclusions out of confirmed findings. In expression-only edits, preserve author assertions in the copy and flag any evidence gap separately.
-   Confirm that necessary concepts and inferential steps are available to the intended reader. Apply the reader check below in this same round.
-   In technical answers, check relevant access and execution reporting against actual actions and outcomes.
+   In audits, locate defects and decisions in the source as findings, and check the report itself as prose.
+   For material table-derived numbers, [trace the delivered wording back](meaning-preservation.md#verify-table-numbers-before-delivery) to the inspected cells, applicable units, inclusion criteria and tool results. Repeat the check after a change affects the figure, its scope or calculation basis.
+   Apply the reader check below in this same round.
    For edits, also check the requested outcome with the intent checks in [expression review](ai-pattern-library.md).
    Locate any reading obstacle in its phrase or relation. Recheck meanings after unpacking, splitting or compressing it.
-2. When available and authorized, use a fresh independent reviewer with only the current artifact, raw material and requested scope. Give no preferred answer or previous review opinions. Otherwise make a separate self-review using the same checks; do not call it independent.
-3. Locate each issue and compare it with the material. Classify it as accepted for correction, rejected with a source-grounded reason, or pending evidence/author decision. Keep real boundary distinctions and evidence-to-inference steps.
-4. Correct accepted issues within the user's mode and recheck affected claims and connections. Keep effective unaffected wording. In expression-only work, restore meanings lost by rewriting; corrections to unsupported original assertions remain separate proposals.
-   In new composition, correct the assistant's own errors instead of preserving them as source assertions.
+2. Use [the common reviewer-selection rule](#review-and-stop-honestly). Provide only the current artifact, raw material and requested scope to that reviewer.
+3. Locate each issue and compare it with the material. Apply [the common issue dispositions](#review-and-stop-honestly). Keep real boundary distinctions and evidence-to-inference steps.
+4. After the common correction step, recheck affected claims and connections. Keep effective unaffected wording.
 5. Record coverage, reviewed artifact/input identity, findings, dispositions, changed spans and the next action privately. Save files for substantial work or when requested; a small edit needs no formal log.
-
-Each complete round checks all dimensions. Its main focus can change, but meaning, argument, voice and expression still need coverage.
-Do not divide three rounds into isolated checks that never re-examine the whole final artifact.
 
 For a substantial finding, keep these useful fields:
 
@@ -94,44 +121,26 @@ Retain it unless another located problem makes revision useful.
 
 ### Self-review fallback
 
-When no authorized reviewer facility is available, perform the same full checks in a separate pass.
-Start from the current text and raw material. Reconstruct claim relations rather than merely reread an earlier quality judgment.
-Record actual issues and decisions. An unchanged artifact can be valid, but only after its required checks occur.
-Do not describe self-review as independent. Do not fabricate tool use, completed rounds or a clean result from a policy explanation.
+Start from the current text and raw material.
+Reconstruct claim relations rather than merely reread an earlier quality judgment.
 
-Do not equate a reviewer opinion with a verified fact. Rejecting a finding requires its actual source or reasoning basis.
-In expression-only work, separately reported problems in the original assertions belong to an evidence-correction status outside the editing scope. They do not block the expression artifact's clean streak when the required meaning is preserved and the problem is accurately disclosed; unresolved defects in the edit or decisions needed to preserve its meaning still block it.
-Distinguish expression-review convergence from factual validation of those assertions. Do not call the source manuscript factually clean because its expression loop converged.
-If a review or required check cannot be completed, retain the incomplete status; an execution failure is not a completed round.
-Repair a recoverable execution problem. If it remains unavailable, return the affected provisional work and validation limit rather than fabricate completion or retry indefinitely.
-An interrupted or failed attempt stays in the five-attempt budget and does not increase completed rounds. Starting its replacement uses another attempt. A local correction check is part of its current attempt, not a new full review.
+Do not equate a reviewer opinion with a verified fact.
+Repair a recoverable execution problem.
+If it remains unavailable, return the affected provisional work and validation limit rather than fabricate completion or retry indefinitely.
+A local correction check is part of its current attempt, not a new full review.
 
 ## Decide whether to continue
 
-The clean streak increases only when a complete review of the current full scope has no accepted or pending issue, makes no artifact change, and checks the same artifact and input scope as the preceding clean round.
+Use [the canonical gate and ordered stop decisions](#review-and-stop-honestly).
 The first such round starts the streak at one.
-Any accepted or pending issue, incomplete coverage, correction, new input, changed author decision or later style rewrite resets it to zero.
-Rejected findings with verified reasons do not themselves reset the streak.
-Changing inputs never refreshes the five-attempt budget automatically; record the changed scope and any resulting incomplete validation.
+Record the changed scope and any resulting incomplete validation.
 
-| State after a round | Next action |
-| --- | --- |
-| Gate met: at least three completed full rounds, two consecutive clean complete reviews, no open required decision/check | Deliver the reviewed artifact; freeze its wording. |
-| Gate not met and five attempts used | Stop. Deliver provisional work with located unresolved items or incomplete convergence status, even if fewer than three full rounds completed. |
-| Gate not met and required material or an author decision prevents meaningful correction | Preserve the uncertainty, return useful provisional work and name the required decision. |
-| Gate not met, fewer than five attempts used, correction/review remains possible | Continue with the current artifact. Count a replacement review as a new attempt. |
+Preserve the previous provisional result.
 
-Apply the rows in order. At the cap, do not continue to satisfy the minimum, relabel an interrupted attempt as complete, or restart the same loop under a new cycle name. Further review needs an explicit new user instruction; preserve the previous provisional result.
-
-A round with a correction never counts as a clean full review of the corrected artifact, even if its changed spans pass a local check.
 Do not shorten the loop merely because the task is small, the final wording looks polished, or a scanner has zero matches.
-Do not add a rewrite to fill the round count. Several reviewers can agree while missing an issue; convergence is a bounded review result, not proof of correctness.
-For an audit, review the audit report as the artifact. It may accurately retain defects in the source manuscript; a converged audit does not make that manuscript clean.
+Several reviewers can agree while missing an issue; convergence is a bounded review result, not proof of correctness.
 
 ## Deliver with the right status
 
-Return the requested prose or audit. Keep process records outside prose-only output.
 If the default gate is met, report the actual scope and review type only when useful or requested.
-If the gate is not met, provide a brief provisional-status note and located remaining issues; do not label the output clean or submission-ready.
-For an explicit single-draft or reduced-round request, honor that depth and state that the default loop was not completed.
-Do not claim source access, factual verification, human review or independent review that did not occur.
+Do not label the output clean or submission-ready when the common gate is not met.

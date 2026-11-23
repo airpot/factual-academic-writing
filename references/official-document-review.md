@@ -31,7 +31,7 @@ If genre and body conflict, locate the conflict and the required author decision
 
 Apply C1-C7 to the whole passage, then check its paragraph sequence and execution requirements. In particular:
 
-- Trace who requests, decides, executes, coordinates, receives and reports. Recoverable omissions can remain; supply an actor only when the material establishes it. A coordinating office does not automatically become the responsible decision-maker.
+- Trace who requests, decides, executes, coordinates, receives and reports. Recoverable omissions can remain; supply an actor only when the material establishes it. A recoverable grammatical actor does not itself establish formal assignment or operating authority; a notified recipient is not, on that basis alone, a designated executor. A coordinating office does not automatically become the responsible decision-maker.
 - Preserve the force and scope of “应当、必须、可以、不得、原则上、除外”. Do not interchange obligation, permission and prohibition, remove a qualification, or turn an exception into a general rule. These checks are contextual analysis, not a new national modal-word grammar code.
 - Check the grouping of conditions, negation and quantifiers, including “且/或” and the scope of an exception. A clearer split must keep the same conditions attached to the same actor and action.
 - Check dates and deadlines across the document and attachments. Preserve calendar/workday units, time of day, triggering event and any stated inclusion rule. If “收到后五日内” lacks a supplied counting convention that matters to the answer, ask for it rather than invent a due date or holiday rule.

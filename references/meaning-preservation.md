@@ -3,30 +3,70 @@
 Use these shared safeguards in all modes. A light edit can keep the comparison in working context.
 For a substantial rewrite, keep a compact record of high-risk meanings. Reuse existing author or claim records.
 
+## Actors and separately delivered instructions
+
+<!-- faw-policy:actors:start -->
+For each consequential branch, verify the actor as well as the action: who holds, decides and acts? Repeat a role where a subject change or omission could point to the wrong actor. For instructions distributed separately, remove the other sections in the private review: each recipient’s note must identify the relevant decision authority, actor and applicability basis without relying on a neighboring note. Repeat only decision-relevant information. Keep the issuer, the disposition and the executor separate. A record that releases an item to a destination does not, by itself, name or authorize its executor. Attribute a recipient’s assignment to the record that actually establishes it. Keep a role-specific duty separate from a prohibition with wider scope; make clear who or what the prohibition covers. If source locators are needed, match each distinct action or prohibition to its exact applicable provision after grouping or moving text. Include the edition and effective date or time where those determine which rule applies; do not let one provision’s effective time appear to govern a different source. Do not imply that one cited provision supports a neighboring action from another.
+
+A grammatically recoverable subject alone does not establish formal assignment or operating authority.
+<!-- faw-policy:actors:end -->
+
+<!-- faw-policy:fidelity:start -->
+## Keep meaning and evidence accurate
+
+Draft: compose from appropriate knowledge and sources; correct the assistant's own answer errors. Keep a source's reported facts separate from independent observations or unmeasured conditions. Preserve exactly what each person or group is credited with; production or presentation does not establish design or authorship.
+Edit: preserve source meaning in expression-only work and give evidence corrections separately. Apply substantive changes only with task authorization. If only confirmed defects may change and there are none, return the text verbatim in the requested format.
+Audit: report support problems, proposals and inspected/unseen material; assessment gives no permission to rewrite the source. For an ambiguity that affects the result, locate it and say what the author must confirm. Where proposals are in scope, give a local interim wording based on confirmed facts that leaves the decision open. If none is safe, say what prevents it and leave the span pending. For an ambiguous deadline, preserve its established limits; check the exact instant under each schedule. Ask about the unresolved instant without granting or denying permission in either the proposed wording or the explanation.
+Quote exact source spans when locating findings. Use an unquoted paraphrase when compressing the source. When auditing parallel language versions of the same content, compare their quantities, scope and status as well as each version's support.
+After editing, compare both directions: revised assertions need a basis, and required source meanings need a place. Preserve conditions and attribution after reordering. Read the complete local replacement in place, including time, evidence status, exclusive scope where required, and author person and stance. Keep the actual action, each condition and its consequence in the usable replacement. A place or tool does not state an action, and a fact only in the diagnosis does not count as retained. In Audit, pair each unsupported claim with the proposed correction or what to withhold. When voice or reader impact matters, identify a guarantee or assurance as such before assessing its support; keep it distinct from nearby descriptive claims.
+
+When a material reference is unresolved, ask for that reference. For independent unknowns, ask for each answer, even in one question. Do not re-ask a referent already established by the source. Preserve any material fact the source states within its scope, including an explicit absence. Do not reduce it to what the source cannot prove, or infer an absence from silence.
+
+Keep agreed source limits and governing verification requirements. Distinguish fact, inference, assumption, recommendation and hypothetical example.
+
+In any scene, leave out an operational requirement that is irrelevant only when the task permits omission and the remaining wording does not mislead. If you restate it, including as background, preserve the actor, scope and conditions and whether the source permits, requires, forbids or makes the action unnecessary. A prohibition is stronger than lack of obligation: “must not retry” is not “need not retry.” Check these distinctions against the source in the delivered wording.
+
+Keep a requirement for approval tied to the activity the source names. When two related activities appear together, use the source's action and object or an unambiguous equivalent; a phrase such as “continue the work” may point to the wrong activity. A rollout approval condition does not by itself govern continuation or extension of a pilot. Keep the absence of an approval record distinct from a finding that approval was denied or never granted.
+
+For a scene deliverable based on supplied material, identify the facts and rules needed for the reader's task. In the existing review, compare the delivered wording back to their source: check the action and its object, who executes or decides, the time and status, and the force and conditions of any rule. Preserve an established schedule, a proposed change and a completed event as distinct, including when they appear together. Read a standalone handover without the prompt or other documents: name the executor in the card or clearly assign that role within it, and keep the decision maker distinct. A handover destination does not identify the executor. Check each row's executor, action and applicability condition against the source, including conditions implied by its row label. If the source gives no prerequisite, use a neutral action label such as “查询状态”; do not add a prerequisite to fill a status column. Include the required meaning within the confirmed format; keep this check private and proportionate.
+
+In Draft, Edit and Audit, verify material table-derived numbers against the applicable original table when available. Use the best available view within the source limits if the original cannot be inspected. Record the table inspected, its applicable sheet, date or version, and each source row and column; check the value, unit and category or inclusion rule. Before counting or merging records, check which rows describe the same record and which describe distinct records. Convert comparable units before computing. Use a tool to recompute material totals from verified inputs. Follow the governing rule for operands, precision and when to round; display rounding alone does not change the calculation basis.
+
+Keep a private trace of the source locators, inputs and result. Where a rule governs rounding or requires exact amounts, record the rule and its source, the decisive facts that make it apply and their source locators, and the actual order of operations. Include a separate record's locator when it establishes applicability. If rules conflict, record why one takes precedence for the affected records and where that priority is established. After the last edit, trace each material number, category and dependent conclusion from the prose back to the table, this rule evidence and the calculation. Verify that the recorded facts satisfy the rule's conditions, any claimed precedence is supported, and the calculation followed the required order. Mark unreadable or unconfirmed items pending. If the applicable rule or its precedence cannot be established, leave the dependent result or conclusion pending and keep independently verified findings. In expression-only edits, preserve the author's assertion in the edited copy and flag the evidence gap separately, without endorsing the assertion. Use the same review loop.
+
+When the task authorizes instructional development, expansion may add clearly labeled hypothetical teaching examples with invented participants or values. Do not fabricate source or research facts, data or author decisions. Expression-only editing does not gain authority to add a case.
+
+Verification respects the task's limits on operations and reporting. If the task prohibits adding statistics or derived figures, keep the supplied quantities without adding calculated rates, percentages, differences or intervals to the prose. A verification calculation does not authorize reporting its result. A supplied-sources-only instruction does not itself prohibit a requested calculation or supported inference.
+
+When a task or this policy requires tool calculation, actually execute it and inspect the successful call's inputs and output before delivery. A displayed formula or a correct mental answer is not evidence of tool execution. Match any claim about your own tool verification to that actual record; if the call did not complete, state the limit without claiming verification.
+<!-- faw-policy:fidelity:end -->
+
 ## New composition and source fidelity
 
-In a new answer, correct the assistant's own errors, including an error carried from earlier conversation.
-Do not preserve an incorrect assertion merely for continuity. Explain a material correction when the user needs it to understand the result.
-Distinguish established facts, interpretations, assumptions and recommendations. Keep verification appropriate to the task and its source limits.
+For mode authority and source fidelity, use [the common fidelity contract](#keep-meaning-and-evidence-accurate).
+The correction duty includes errors carried from earlier conversation.
+Explain a material correction when the user needs it to understand the result.
+Keep verification appropriate to the task and its source limits.
+For claim kinds and interpretation records, use [the evidence model](evidence-model.md#claim-record).
 
-In expression-only editing, the source remains the meaning target. Preserve its assertions and report proposed evidence corrections separately.
-Apply substantive corrections only when the task authorizes them. Do not add an unprovided premise to make the source argument appear complete.
-In an audit, assess support and propose corrections without treating that assessment as permission to rewrite the source.
+For expression-only work, apply [the common Edit rule](#keep-meaning-and-evidence-accurate).
+Do not add an unprovided premise to make the source argument appear complete.
 
 A clearly hypothetical teaching example can introduce invented participants or values to explain a concept.
 Requested fiction can introduce imagined events. Keep the fictional frame and supplied creative constraints clear.
 Do not present either as observed evidence, a real source or a completed execution. Hypothetical content does not authorize invented nonfiction claims.
+For hypothetical teaching additions during expansion, apply [the common fidelity contract](#keep-meaning-and-evidence-accurate).
 
 ## Shared safeguards
 
-- Invent no factual evidence, findings, references, mechanisms, methods or author decisions. Keep hypothetical and fictional content within its stated frame.
+- Invent no factual evidence, findings, references, mechanisms, methods or author decisions.
 - Keep actors, quantities, units, dates, negation, conditions, exceptions, scope and logical relations.
 - Preserve direct quotations, including internal punctuation. Do not silently shorten them or move punctuation.
 - Keep source identifiers, code, formulas and established terms unless their correction is requested.
 - Keep the author's research question and supplied judgment. A proposed reading is not established author intent.
 - Keep correlation, causation, sequence and parallel facts distinct. Bind credit to the documented action. “The volunteers built the set” leaves who designed it open; “the set was their idea” adds a different claim. Do not make that shift through a possessive, metaphor or introductory phrase.
 - Preserve commitment in both directions. Do not make possible actions completed or definite capacities conjectural.
-- Keep each distinct supplied substantive limit in expression editing. Combine only duplicate meanings with the same clear scope.
+For selecting and combining repeated limits, use [expression review](ai-pattern-library.md#diagnose-function-before-changing-words).
 
 ## Identify protected meanings
 
@@ -41,8 +81,8 @@ Record only fields needed for this task. Not every claim needs every field.
 | Relation and judgment | What links evidence to the claim, and what position does the author take? |
 | Protected wording | Which quotations, definitions, terms, code or formulas must remain exact? |
 
-In expression-only work, the original is the meaning target, even when its evidence is questionable.
-Report a supported evidence correction separately. Apply it only when the task includes evidence correction.
+When original evidence is questionable, use [the common Edit rule](#keep-meaning-and-evidence-accurate).
+Any separately proposed evidence correction needs a supporting basis.
 In drafting and evidence audits, distinguish source observations, author interpretations and agent proposals with the evidence model.
 
 ## Compare in both directions
@@ -63,7 +103,8 @@ Example: the supplied note says the team checked a timer and confirmed a reset a
 
 ## Interim wording in an audit
 
-Separate the confirmed clause from the unresolved one. Ask the author exactly what would settle the unresolved part. If two or more references can resolve differently, name each and ask for an answer for each: “Which team does ‘they’ refer to in the opening and in the caption, respectively?” A single shared question is enough when the source establishes that the references are linked. Do not ask about a recoverable reference or turn an unresolved assignment into an instruction. For alternative cutoff schedules, test before, at and after the boundary only where those cases affect action. If a separate instruction leaves the exact instant disputed, name the date or occasion and ask whether that instant is included under the affected schedule. Do not infer permission from the absence of a cutoff on that day or infer a ban where none is established. A clearly specified inclusive or exclusive cutoff needs no question. If proposals are in scope and the remaining statement is useful and faithful, propose it locally and label what remains pending; do not claim to have edited the source. For example, if a log confirms that both teams received notice but does not identify which requested a deferral, propose “Both teams received notice” for the confirmed part and ask who requested the deferral. Where the request itself is confirmed and matters, retain it separately without attribution. If separating the claims would change what is known, ask and defer the change.
+Use [the common Audit rule](#keep-meaning-and-evidence-accurate) for proposal authority and unresolved decisions.
+If two or more references can resolve differently, name each and ask for an answer for each: “Which team does ‘they’ refer to in the opening and in the caption, respectively?” A single shared question is enough when the source establishes that the references are linked. For alternative cutoff schedules, test before, at and after the boundary only where those cases affect action. If a separate instruction leaves the exact instant disputed, name the date or occasion and ask whether that instant is included under the affected schedule. Do not infer permission from the absence of a cutoff on that day or infer a ban where none is established. A clearly specified inclusive or exclusive cutoff needs no question. For example, if a log confirms that both teams received notice but does not identify which requested a deferral, propose “Both teams received notice” for the confirmed part and ask who requested the deferral. Where the request itself is confirmed and matters, retain it separately without attribution. If separating the claims would change what is known, ask and defer the change.
 
 ## Preserve the scope of qualifications
 

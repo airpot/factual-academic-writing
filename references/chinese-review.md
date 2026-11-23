@@ -1,6 +1,22 @@
 # Chinese Language Review
 
-Use this layer for Chinese prose together with [meaning preservation](meaning-preservation.md) and the shared four-level expression review. Apply modern Chinese grammar to all tasks. Use formal written Chinese for documents, with the register that the task needs. Apply official-document forms only to actual official documents.
+Use this layer for Chinese prose together with [meaning preservation](meaning-preservation.md) and the shared four-level expression review. Use formal written Chinese for documents, with the register that the task needs.
+
+<!-- faw-policy:chinese:start -->
+## Review Chinese precisely
+
+Use modern Chinese grammar and the task's register. For documents, use clear standard written Chinese; apply official-document forms only to actual official documents.
+Check necessary components and predicate relations, collocation and parallel items, modifier order/scope, sentence frames and clause relations, negation/conditions/quantifiers, reference/ellipsis/topic chains, and words/punctuation/numeral functions.
+
+Correct a confirmed defect in editable prose. Preserve a defensible disputed expression and give an optional alternative when useful. If a material meaning or rule is not established, locate the missing decision; do not invent an actor, cause, quantity, approval or completed action.
+Use an applicable inspected provision or explain the actual contextual grammatical conflict. In a requested diagnosis, identify the missing element or competing attachment and say whether the context makes the intended reading recoverable. Distinguish published standards, contextual analysis, author advice and style preference; official hosting does not make an article an institutional rule.
+
+Chinese allows topic-comment sentences, imperatives, recoverable omissions and conventional abstract subjects. Length, comma count or one trigger word cannot establish an error. Preserve intentional creative effects and stable terms.
+For a missing-subject claim, test whether the participant or event is recoverable from context; absence of an explicit noun alone does not prove a defect. Disputed “经…使…” and “通过…使…” openings need that contextual judgment. Check the diagnosis separately from the repair: a clearer alternative does not prove the original wrong.
+Judge punctuation by function, including genuine questions versus statements with interrogative words. Distinguish adjacent-numeral approximations from lists/ranges; retain quantity meaning and protected identifiers. Recommended publication conventions have scope and exceptions; do not normalize every numeral form or quotation mechanically.
+Locate material findings and give the basis and minimal repair, optional alternative or question when the task needs them. Keep checks private in prose-only delivery.
+Use the same meaning safeguards and review loop below, including false-correction checks. This Chinese layer adds no nested loop and certifies neither perfect grammar nor comprehension.
+<!-- faw-policy:chinese:end -->
 
 ## Decide the finding
 
@@ -14,13 +30,13 @@ Identify the task mode, editable text, protected spans, intended meaning and act
 
 No finding is necessary when the text works. A possible trigger is a reason to inspect context, not a verdict. A named institution, common correction list or model confidence does not establish an applicable rule.
 
-Before assigning Confirmed, identify the actual required relation that fails after reading the context. For an apparently missing subject, distinguish a missing written noun from a participant or event that cannot be recovered. In disputed causative openings such as “经…使…” or “通过…使…”, a recoverable actor/event can support a suggestion rather than a hard-error verdict. Do not treat either pattern as always wrong or always valid. A clearer alternative alone does not prove the original ungrammatical.
+Before assigning Confirmed, identify the actual required relation that fails after reading the context. In disputed causative openings such as “经…使…” or “通过…使…”, a recoverable actor/event can support a suggestion rather than a hard-error verdict. Do not treat either pattern as always wrong or always valid. When the task requires formal assignment or operating authority, establish it from the applicable record; grammatical recoverability alone does not provide it.
 
 Keep the distinction between correct audit output and unresolved source content. An accurate question about a missing actor can be a completed audit. It does not make the source unambiguous.
 
 For a material finding, retain its location or exact span, category, reason/basis and minimal repair, optional alternative or question. Use a private record unless the requested delivery needs those details. A short prose-only edit needs no visible table.
 
-Use the [same wording in different contexts](chinese-examples.md#16-recover-an-actor-only-when-the-context-assigns-one) to test a proposed correction: identify what the context supplies, what it contradicts and what it leaves undecided. Apply the same distinction to negation and quantity. For mixed text, decide separately which marks belong to the editable sentence and which belong to protected data or quotation.
+Use the [same wording in different contexts](chinese-examples.md#16-recover-an-actor-only-when-the-context-assigns-one) to test a proposed correction: identify what the context supplies, what it contradicts and what it leaves undecided. Apply the same distinction to negation and quantity. For mixed-text mark roles, use [punctuation review](punctuation-review.md#review-punctuation-by-function-and-form).
 
 ## Inspect the construction
 
@@ -42,9 +58,8 @@ Apply paragraph and whole-document checks after these construction checks. Trace
 
 These applications use the inspected source scope in [S03 and S04](chinese-sources.md#inspected-written-form-rules). They do not certify the complete standards.
 
-- P1. Judge a final mark by the actual speech act and sentence function. Interrogative words inside a statement do not alone require a question mark. Preserve a genuine question, including context-dependent rhetorical use; do not infer sentence function from length or one keyword.
-- P2. Judge a comma, enumeration comma, semicolon or colon by its syntactic and discourse function. Use enumeration commas for applicable short parallel elements, not all coordinated material. Semicolons are not restricted to every instance of one fixed clause pattern. A colon's explanatory scope must fit what follows. Keep the standard's qualifications; do not create a rule that every long sentence needs division.
-- P3. Check quoted material, brackets, omissions and work titles by what they represent. Source quotations are protected in expression-only work: report an apparent internal error separately. Do not silently move punctuation inside a protected quotation to make its form match a house preference.
+For P1-P3 punctuation applications and their qualifications, use [Chinese diagnostic applications](punctuation-review.md#chinese-diagnostic-applications). Continue here for N1-N3; both use the inspected S03/S04 source scope.
+
 - N1. For adjacent Chinese numerals used together to express an approximate amount, do not insert an enumeration comma between them. Distinguish that construction from an actual list, a range or separately named items. Keep the approximate meaning.
 - N2. Choose numeral forms by function, established name, genre and permitted local consistency. The numeral standard permits alternatives in specified settings. A preference for Arabic numerals does not make every Chinese numeral an error. Its scope excludes literary publications and reset ancient texts.
 - N3. Preserve quantity values, denominators, units, scales, ranges, dates and precision. Treat identifiers, versions, code and exact strings as protected data, not ordinary quantities to normalize. The identifier safeguard comes from task fidelity, not an invented standard clause.

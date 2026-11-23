@@ -335,14 +335,14 @@ No service restart or live request occurred. The procedure permits a restart onl
 Useful answer:
 
 > The local validator returned exit code 0 for the configuration file. No service restart or live request occurred.
-> You may restart the service only after validation succeeds and the operator authorizes the restart. If you restart it, send a live request afterward to check the result.
+> You may restart the service only after validation succeeds and the operator authorizes the restart.
 
 False fix, quoted as an example of an unsupported status claim:
 
 > The configuration works in production. Restart the service.
 
 The false fix loses the authorization condition and invents a production result.
-The useful answer keeps the observation, both prerequisites, permission to restart and the follow-up check distinct. Execution reporting serves this technical task and stays in the answer.
+The useful answer keeps the observation, both prerequisites and permission to restart distinct. Execution reporting serves this technical task and stays in the answer.
 
 ## 19. Correct an answer without changing a source-edit boundary
 

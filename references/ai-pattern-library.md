@@ -4,37 +4,60 @@ The historical filename is retained. AI-flavored prose means empty, repetitive o
 Use [meaning preservation](meaning-preservation.md) for common safeguards and post-rewrite comparison.
 Apply the shared clarity checks to all prose. Select the edit intents below only when the task includes editing.
 
+<!-- faw-policy:reader:start -->
+## Write for the task and reader
+
+Identify the user's question, context, reader knowledge and useful result. Infer routine choices; ask only about a decision that materially changes the answer.
+State the requested answer, judgment or next action where it is easy to find. Introduce an unfamiliar identifier and its role before using it.
+Select relevant detail in new composition. Preserve task-required facts and decision-changing conditions without reproducing every input sentence.
+Keep source-supplied lookup labels and locations needed for handover or verification. If a variable rule affects the next step, tell readers how to find the applicable value, or flag that the source does not say.
+Introduce the steps for an optional or recommended action with its condition. Preserve the option and the order of any prerequisite, verification and irreversible step.
+Group shared criteria once. Repeat a fact, explanation or caution only when it serves a distinct reader function.
+
+Check four levels:
+- Sentence: make the topic, predicate, references, modifiers, conditions and negation recoverable.
+- Sentence relations: supply warranted explanatory links. A connective cannot create a premise or causal relationship.
+- Paragraph: give each part a useful contribution; keep evidence, reasoning and distinct limits together.
+- Document: for substantial work, reconstruct the outline from actual content; check coverage, prerequisite order, connections and conclusions.
+
+Explain necessary concepts for the actual reader. Keep stable terms, quantities, attribution, commitment and protected quotations, code and schemas.
+Preserve natural Chinese topic progression and recoverable omissions. Clarify competing references when needed.
+Keep effective long sentences, useful repetition and intentional creative choices. Choose headings, steps or tables by function, without a universal manuscript layout or beginner register.
+After drafting, locate each requested answer or action. Test deletion of suspected repeats and verify that required meaning remains.
+For substantial explanations and consequential procedures or decisions, check privately within the same round: locate the answer, explain the conditions and consequences, and try the next action or judgment. For a procedure, try the priority exception, each independently failed prerequisite, and any supplied unknown state. Include the action for each supplied branch; if different failures lead to the same action, name that scope explicitly. Flag an unknown route instead of inventing one. Keep short checks brief. A model check does not establish human comprehension.
+<!-- faw-policy:reader:end -->
+
 ## Four clarity levels
+
+Use [the common four-level checks](#write-for-the-task-and-reader), with these diagnostic refinements:
 
 | Level | Editorial check |
 | --- | --- |
-| Sentence meaning | Recover the topic, main predicate, participants, reference, conditions and negation. Inspect unclear noun relations, modifier attachment and comparisons. Repair the located obstacle without changing the claim. |
-| Sentence relations | Identify what each substantive addition does: explain, support, exemplify, contrast, qualify, sequence or intentionally change the topic. Supply a warranted missing link. A connective cannot establish an absent premise or cause. |
-| Paragraph purpose | Identify the paragraph's contribution to the developing answer. Keep its evidence, explanation and distinct boundaries together. Combine duplicate functions without losing necessary reasoning or orientation. |
-| Whole-document structure | Reconstruct the order from the actual content. Check task coverage, prerequisite order, connections between parts and the warranted ending. Repair missing steps and disconnected sections. |
+| Sentence meaning | Inspect unclear noun relations, modifier attachment and comparisons. Repair the located obstacle without changing the claim. |
+| Sentence relations | Identify what each substantive addition does: explain, support, exemplify, contrast, qualify, sequence or intentionally change the topic. |
+| Paragraph purpose | Combine duplicate functions without losing necessary reasoning or orientation. |
+| Whole-document structure | Repair missing steps and disconnected sections. |
 
-Use reader knowledge and the requested genre to judge clarity. Explain necessary unfamiliar concepts before relying on them.
+Use reader knowledge and the requested genre to judge clarity.
 Do not impose a beginner register, one sentence length or a fixed paragraph pattern on every task.
 For Chinese, preserve natural topic progression and recoverable omissions. Restore a noun when context establishes its referent. If competing referents remain plausible, locate the ambiguity and ask or give conditional alternatives when the distinction matters.
 Use [Chinese review](chinese-review.md) for source-backed written forms and contextual grammar decisions.
 Distinguish a confirmed defect from an optional improvement or a decision the source does not establish.
-Keep stable terms instead of substituting synonyms for variation. Preserve effective long sentences, necessary repetition and intentional artistic effects.
+Keep stable terms instead of substituting synonyms for variation.
 An editorial check can identify a reading obstacle. It does not establish human comprehension without actual human evidence.
+Use [the common reader contract](#write-for-the-task-and-reader) with these local clarity checks.
 
 ## Select relevant information
 
-For new composition, select relevant detail before expanding it. Do not carry every input sentence into the answer merely because it was supplied.
-Keep every fact the task requires and every condition that changes the result. Expression-only editing still preserves all required source meanings.
+For new composition, select relevant detail before expanding it.
+Use [the common reader contract](#write-for-the-task-and-reader) for relevant detail and [the common fidelity contract](meaning-preservation.md#keep-meaning-and-evidence-accurate) for expression-only work.
 
 ### Make results and actions easy to find
 
 Give the requested decision or next action in a direct sentence, step or table cell. Do not bury it inside background, repeated warnings or status explanations.
-Introduce a batch identifier, person or other unfamiliar label with its role before asking the reader to track it.
 A status detail at the end does not repair an identifier that had no context earlier. Add the necessary orientation without inventing what the identifier means.
 Group shared criteria once, then compare cases against them. A table can carry values and eligibility without a paragraph repeating every row.
 Attach a condition or limit to the claim it changes. Do not restate the same boundary as a separate negative, conclusion and closing summary.
-Keep distinct exceptions and decision-changing limits; remove duplicated explanation, not required meaning.
-After drafting, locate each requested answer or action in the text. Then test deletion of suspected repeats and check whether any required fact or reasoning is lost.
 Reader failure to find an action is a clarity finding even when the words occur somewhere. Literal inclusion alone does not establish useful communication.
 
 ## Select the edit intent
@@ -46,7 +69,7 @@ Use the actual request, reader and source to select the intent. These choices ar
 | --- | --- | --- |
 | Polish expression | Correct or clarify wording that needs work. Keep effective phrasing. | Grammar and references are clear, with no unsolicited expansion or change of argument. |
 | Compress | Combine duplicated meanings and remove empty scaffolding within the requested scope. | The text meets the requested size, with required meanings, distinct limits and inferential connections retained. |
-| Expand | Develop supplied observations, definitions or inferential connections for the identified reader. | New substantive assertions have a material basis. Added length advances the explanation without invented cases, data or author decisions. |
+| Expand | Develop supplied observations, definitions or inferential connections for the identified reader. | New substantive assertions have a material basis. Added length advances the explanation. Use [the common fidelity contract](meaning-preservation.md#keep-meaning-and-evidence-accurate) for source facts and task-authorized hypothetical teaching additions. |
 | Change register | Explain terms or adjust presentation for the requested reader and genre. | Essential unfamiliar terms have brief, accurate explanations. Quantities, terms, commitment and author judgment remain accurate. |
 | Reorganize | Change order or paragraph boundaries to clarify the argument. | Conditions, attribution and quotations remain attached to the claims they govern. Transitions express actual relations. |
 

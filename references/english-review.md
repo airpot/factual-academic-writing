@@ -2,16 +2,26 @@
 
 Use this reference for English prose and editable English passages in mixed-language work. Apply it inside the existing review loop.
 
+<!-- faw-policy:english:start -->
+## Review English precisely
+
+For English prose and editable English in mixed text, check agreement, articles and countability, modifier attachment, coordination and tense in context. Correct confirmed defects within the authorized mode. Keep valid dialect, disciplinary and register choices unless the task specifies a convention. If a repair would choose an unknown actor, time, referent or scope, identify the decision instead. Preserve attribution, conditions, negation, exact quotations and other protected spans.
+<!-- faw-policy:english:end -->
+
+## Diagnose before repairing
+
 Locate the exact wording and test it against the sentence, nearby context and any established destination convention. Classify it before acting:
 
 - **Confirmed defect:** identify the conflicting words or relations and make the smallest faithful repair in Draft or Edit. In Audit, locate the defect and propose the repair.
 - **Sound or defensible choice:** retain it unless the requested edit or an established convention warrants a change. A smoother alternative does not establish an error.
 - **Unresolved meaning or convention:** show the plausible readings or choices and ask only if the difference matters. Keep the wording or give conditional alternatives until the decision is supplied.
 
-For a clause whose intended restriction scope is unknown, locate the clause and explain which group each reading covers. Do not diagnose a missing comma on that basis alone. When the text independently establishes a medial supplement and resumes the main clause without a closing comma, locate the missing boundary as a confirmed defect. See [punctuation review](punctuation-review.md#english-prose).
+For a clause whose intended restriction scope is unknown, locate the clause and explain which group each reading covers. See [punctuation review](punctuation-review.md#english-prose).
 
 All examples below are synthetic. The stated context determines the decision.
 When a modifier can attach to two nouns but the source identifies its target, name that target explicitly. If the source does not decide, do not choose an attachment by rewriting.
+
+## Worked sentence decisions
 
 | Check | Confirmed defect and repair | Sound wording to retain | Unresolved decision |
 | --- | --- | --- | --- |
@@ -21,6 +31,8 @@ When a modifier can attach to two nouns but the source identifies its target, na
 | Coordination: check what each item shares and whether it fits the governing words. | “The volunteers agreed to sort the cards and filing the envelopes.” Change “filing” to “file” if both actions were agreed to. | “The volunteers sorted the cards and were thanked by the curator.” The coordinated predicates can differ in voice. | “The guide covers damaged boxes and labels.” Does “damaged” apply only to boxes, or to labels too? Clarify the coverage before rewriting. |
 | Tense and aspect: map events to time anchors and distinguish a completed procedure from a standing fact or an instruction. | “Yesterday the crew weighed the panels and records the results.” If both actions occurred yesterday, use “recorded.” | “The crew weighed the panels yesterday; the north panel still weighs 12 kg.” The clauses refer to different times. | “The vents remain closed during drying.” Is this a standing procedure or a description of what happened in one completed trial? Confirm before changing the tense or casting it as an instruction. |
 | Genre and regional usage: distinguish grammatical fit from the destination's conventions. | “The theatre programme list two performances.” Change “list” to “lists”; keep “theatre programme” in a British English document. | “Mix until smooth.” The understood subject is appropriate in recipe instructions. “The colour changed” and “The color changed” can each fit their respective conventions. | A shared brochure alternates “colour” and “color” in editable copy, with no destination variety specified. If a single form is required, confirm the house choice; inconsistency alone does not establish which form to choose. |
+
+## Repair and deliver
 
 In Edit, keep the argument and evidence intact. Compare the revision with the source in both directions: preserve actors, quantities, conditions, negation, attribution, and the strength of claims. For example, changing “may reduce glare” to “reduces glare” asserts more than the source. Report a substantive concern separately unless the task authorizes a change.
 

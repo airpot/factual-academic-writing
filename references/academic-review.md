@@ -4,18 +4,16 @@ Read the parts relevant to the task. Use [meaning preservation](meaning-preserva
 
 ## Structure across prose tasks
 
-Start from the user's question, intended readers and useful result. Select each part's purpose before its wording.
+Select each part's purpose before its wording.
 For explanations, place necessary concepts before dependent claims. For procedures, establish conditions before actions and results.
 For analysis, connect observations to the reasoning and decision they support. For narrative, check event order, perspective and intended reader knowledge.
 These are task choices, not mandatory section layouts.
+Use [the common reader contract](ai-pattern-library.md#write-for-the-task-and-reader) for task selection and findability.
 
 For substantial prose, reconstruct a private outline from the actual paragraph content after drafting.
 Identify each paragraph's topic, purpose and new contribution. Read the whole paragraph before assigning that purpose.
 Check whether the order fulfills the request, whether prerequisites are available and whether the ending follows from the text.
 Repair missing steps, disconnected parts and duplicated functions before polishing connectors.
-Check whether the requested answer or action is easy to locate. Introduce unfamiliar identifiers before using them in instructions or conclusions.
-Select facts by their role in the requested result; do not reproduce all material as a new-answer completeness ritual.
-Group shared criteria and execution limits where they govern the result. Preserve distinct meaning without repeating the same warning across paragraphs.
 Preserve useful repetition, independently readable section boundaries and intentional artistic structure.
 A short answer needs no formal outline. Use headings, lists, tables or summaries only when they help the task.
 
@@ -86,6 +84,7 @@ Do not manufacture agreement, novelty or a combined sample estimate.
 Use the movements that fit the actual manuscript. They are communicative functions, not mandatory sentence slots.
 For an introduction, relevant prior work can lead to a specific unresolved question without claiming that nobody studied the topic.
 For results, organize observations around the question. Follow the destination's conventions for interpretation.
+For a Results-only task that forbids new statistics, report the supplied outcomes and scope without adding descriptive or inferential quantities; apply [the reporting-scope safeguard](meaning-preservation.md#keep-meaning-and-evidence-accurate).
 For discussion, explain what findings mean. Reuse a result when it supports a new inference, rather than repeat the entire results list.
 For a conclusion, give the warranted answer. Add future work only when supplied or explicitly proposed.
 Textual interpretation can be supported without being uniquely proven or requiring an experimental test.

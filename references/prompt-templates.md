@@ -1,86 +1,54 @@
 # Mode-specific Prompt Templates
 
-Use the selected template. Fill fields from the actual task without a universal intake form.
-Evaluator criteria and previous answers are not execution inputs.
-The linked resources define shared safeguards. Templates do not replace them.
-Select [response layers](response-layers.md) before filling a template. Keep routine collaboration clear and concrete; select the artifact's voice and form for its reader from the first draft. Reuse known requirements, ask only for material open decisions, and keep local preferences within their stated scope. No template adds a universal intake or authorizes changes to host settings.
-For a formal manuscript or established document format, use [manuscript format](manuscript-format.md) before preparing the deliverable. Reuse confirmed requirements and limit any question to an unresolved material issue. For a format audit, use the same basis without editing. Ordinary answers and small edits without a submission requirement need no added intake.
-For Chinese tasks, also use chinese-review.md and its source authority/examples. Separate confirmed errors, optional improvements and unresolved meanings. Keep each mode's source boundary and protected content.
+Use only when a task card helps. These templates require the complete shared policy and applicable references from SKILL.md; they are not standalone replacements for that policy. Fill fields from the actual request without a universal intake form. Evaluator criteria and previous answers are not execution inputs.
+
+## Shared contract for every template
+
+Apply the existing mode authority, meaning preservation and finite review gate. Reuse confirmed reader/format decisions, ask only for material gaps, keep local preferences local and preserve protected spans. Use [response layers](response-layers.md) and, for a genuine required-format gap, [manuscript format](manuscript-format.md). Chinese tasks also use contextual language review and source/example limits. Templates add neither host-setting authority nor another loop.
+
+Select detail and explain necessary concepts for the reader. Keep facts, inference, assumptions, recommendations and hypothetical examples distinct. Use [meaning preservation](meaning-preservation.md), [expression review](ai-pattern-library.md), [academic review](academic-review.md) for substantial structure, and [evidence model](evidence-model.md) for traceability when useful. Keep private records outside requested prose, with material unresolved issues and relevant technical access/execution status reported accurately.
 
 ## General answer
 
 ```text
-Task: Answer {actual question} in {requested language and format} for {intended readers}.
-Context: {relevant conversation, available knowledge, materials and access limits}.
-Purpose: {useful result and constraints}.
-
-Use the shared standard in SKILL.md and select the applicable task route.
-Explain necessary concepts and the actual relations between ideas.
-Select detail needed for the requested result. State the answer or action directly, introduce unfamiliar labels, and group shared conditions once.
-Remove repeated explanations and cautions after checking that every required meaning and decision-changing limit remains.
-Check sentence meaning, sentence relations, paragraph purpose and whole-document structure with ai-pattern-library.md.
-For substantial prose, use academic-review.md to check the actual paragraph order. Select study-specific details only when relevant.
-Distinguish facts, inferences, assumptions, recommendations and hypothetical examples.
-Correct the assistant's own answer errors. Do not apply expression-only source preservation to new composition.
-Use sources as required by this task and governing verification rules. Keep explicit source limits.
-Use evidence-model.md when traceability is useful. Retain relevant access and execution status in technical answers.
-For a brief procedure or decision card whose missing detail could change use, privately locate the answer, restate its conditions and consequences, and try the next action or judgment using the delivered text and what the reader will have.
-Complete review-loop.md at its default depth unless the user explicitly changes it.
-Return the useful answer and necessary limits. Keep private editorial records outside it.
+Answer {actual question} in {language and format} for {reader knowledge and purpose}.
+Use {context, appropriate knowledge, supplied material and source limits}.
+Apply the shared contract. Correct the assistant's own errors rather than preserving them as a source-edit target.
+Make the useful answer, necessary concepts, relations and supported next action findable.
+Return the requested answer and decision-changing limits.
 ```
 
 ## Explanation or teaching
 
 ```text
 Explain {question or concept} for {reader knowledge and purpose}.
-Start from necessary prerequisites. Connect each new idea to the point it develops.
-Use an example when it helps. Identify invented teaching content as hypothetical, not observed evidence.
-Keep stable technical terms and explain them at the required level.
-Use a check for understanding only when it helps the actual learning task.
-Apply the General answer safeguards and the complete default review loop. Do not force a lesson format on a short explanation.
+Establish prerequisites, stable terms and actual connections. Use helpful examples and understanding checks.
+Mark task-authorized invented teaching examples hypothetical, not observed evidence.
+Apply the General answer contract without forcing a lesson format onto a short explanation.
 ```
 
 ## Draft
 
-Use this template for academic composition from supplied material. Use General answer for other new prose.
+For bounded academic composition from supplied material; use General answer for other new prose.
 
 ```text
-Task: Write {section} in {language} for {discipline, study type and intended readers}.
-Purpose: {what this section should help those readers understand}
-Inputs: {supplied material and locators}
-Author position: {supplied argument or interpretation, or an essential unresolved decision}
-Terms and voice: {established terms and applicable sample, if available}
-Constraints: {requested length, structure and delivery format}
+Write {section} for {discipline, study type, readers and purpose} in {language/format/length}.
+Inputs: {supplied evidence and locators}; author position: {argument or necessary open decision}.
+Terms and voice: {established terms and applicable sample}.
 Source policy: supplied material only unless external research is requested.
-
-Use meaning-preservation.md for shared safeguards and a two-direction comparison.
-Use academic-review.md to select the section's function, evidence relations and inferential steps.
-For substantial work, check the draft's paragraph functions with a private reverse outline.
-Use ai-pattern-library.md for reader progression and sample-grounded voice decisions.
-Use evidence-model.md when claim mapping is useful. Keep mappings outside manuscript prose.
-Complete review-loop.md at its default depth unless this request explicitly changes it.
-Return the requested prose and necessary unresolved matters, not the private checking procedure.
+Apply the shared contract and the section's function, evidence relations and inferential steps.
+Keep the reverse outline and claim mapping private. Return the prose and necessary unresolved matters.
 ```
 
 ## Edit expression
 
 ```text
-Task: Improve {section} in {language} for {intended readers}.
-Intent: {requested outcome, such as polish, compression, expansion, register change or reorganization}
-Depth: {light editing or deep meaning-preserving rewriting}
-Draft: {existing text}
-Evidence: {available materials or access limits}
-Terms and voice: {established terms and applicable author sample, if any}
-Constraints: {requested length and delivery format}
-
-Use meaning-preservation.md. The original is the meaning target in expression-only work.
-Report evidence corrections separately unless applying them is requested.
-Use ai-pattern-library.md for the selected intent and its acceptance checks.
-Decide whether each suspected repeat or qualification has a useful function.
-Use academic-review.md when structural reconstruction is needed.
-Keep effective unaffected prose. Check both newly asserted meanings and omitted required meanings after rewriting.
-Complete review-loop.md with proportionate checks. Small edits retain its default round count.
-Return the prose and any necessary material conflict note. Keep private records outside prose-only output.
+Improve {passage} for {readers} in {language/length/format}.
+Intent: {polish/compress/expand/change register/reorganize}; depth: {light or deep}.
+Source: {existing text}; evidence/access: {available material}; voice/terms: {sample and stable terms}.
+The original is the meaning target. Apply the shared contract and each compatible intent check.
+Keep effective prose and every required distinct meaning; report evidence corrections separately unless authorized to apply them.
+Return the prose and any necessary material conflict note, not private process records.
 ```
 
 ## Optional edit task cards
@@ -121,14 +89,9 @@ Improve paragraph order and connections while keeping required content and its a
 ## Audit
 
 ```text
-Task: Audit {claims and available manuscript parts}.
-Inputs: {text, tables, materials and precise locators}
-Scope and limits: {requested checks and unavailable material}
-
-Use evidence-model.md for claim type, support, provenance, author attestation and actual inspection.
-Use academic-review.md for argument, cross-part checks and separate citation checks.
-Use meaning-preservation.md to check quantities, quotations, conditions and author judgments.
-Keep derivation separate from support and a completed check separate from a successful finding.
-Return located issues, proposed corrections, inspected parts and necessary unresolved decisions.
-Review the audit report with review-loop.md. Accurate retained source defects are not defects in the report.
+Audit {claims and available manuscript parts} using {text/tables/material and precise locators}.
+Scope and limits: {requested checks and unavailable material}.
+Apply the shared contract; distinguish support, derivation, provenance, author attestation and actual inspection.
+Return located issues, proposals, inspected parts and necessary unresolved decisions.
+Review this audit report itself. An accurate source-defect finding does not make that source true or authorize editing it.
 ```
